@@ -1,0 +1,244 @@
+title: '&8» &dTränke'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: POTION_NIGHT_VISION
+        buy-price: 60.0
+        sell-price: false
+        shop-name: '&5Trank der Nachtsicht (8:00)'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '11':
+        type: SHOP
+        id: POTION_INVISIBILITY
+        buy-price: 80.0
+        sell-price: false
+        shop-name: '&5Trank der Unsichtbarkeit (8:00)'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '12':
+        type: SHOP
+        id: POTION_LEAPING
+        buy-price: 70.0
+        sell-price: false
+        shop-name: '&5Trank der Sprungkraft II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '13':
+        type: SHOP
+        id: POTION_FIRE_RESISTANCE
+        buy-price: 70.0
+        sell-price: false
+        shop-name: '&5Trank der Feuerresistenz (8:00)'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '14':
+        type: SHOP
+        id: POTION_SWIFTNESS
+        buy-price: 60.0
+        sell-price: false
+        shop-name: '&5Trank der Schnelligkeit II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '15':
+        type: SHOP
+        id: POTION_SLOWNESS
+        buy-price: 50.0
+        sell-price: false
+        shop-name: '&5Trank der Verlangsamung'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '16':
+        type: SHOP
+        id: POTION_WATER_BREATHING
+        buy-price: 60.0
+        sell-price: false
+        shop-name: '&5Trank der Unterwasseratmung (8:00)'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '19':
+        type: SHOP
+        id: POTION_HEALING
+        buy-price: 70.0
+        sell-price: false
+        shop-name: '&5Trank der Heilung II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '20':
+        type: SHOP
+        id: POTION_HARMING
+        buy-price: 70.0
+        sell-price: false
+        shop-name: '&5Trank des Schadens II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '21':
+        type: SHOP
+        id: POTION_POISON
+        buy-price: 60.0
+        sell-price: false
+        shop-name: '&5Trank des Giftes'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '22':
+        type: SHOP
+        id: POTION_REGENERATION
+        buy-price: 100.0
+        sell-price: false
+        shop-name: '&5Trank der Regeneration II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '23':
+        type: SHOP
+        id: POTION_STRENGTH
+        buy-price: 100.0
+        sell-price: false
+        shop-name: '&5Trank der Stärke II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '24':
+        type: SHOP
+        id: POTION_WEAKNESS
+        buy-price: 50.0
+        sell-price: false
+        shop-name: '&5Trank der Schwäche (4:00)'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&8Zombie-Villager Heilung'
+      '25':
+        type: SHOP
+        id: POTION_SLOW_FALLING
+        buy-price: 80.0
+        sell-price: false
+        shop-name: '&5Trank des Sanften Falls (4:00)'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '28':
+        type: SHOP
+        id: POTION_TURTLE_MASTER
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&5Trank des Schildkrötenmeisters'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '29':
+        type: SHOP
+        id: POTION_WIND_CHARGED
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&5Windgeladener Trank'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&81.21+ Effekt'
+      '30':
+        type: SHOP
+        id: POTION_WEAVING
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&5Webender Trank'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&81.21+ Effekt'
+      '31':
+        type: SHOP
+        id: POTION_OOZING
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&5Schleimender Trank'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&81.21+ Effekt'
+      '32':
+        type: SHOP
+        id: POTION_INFESTED
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&5Befallener Trank'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&81.21+ Effekt'
+      '37':
+        type: SHOP
+        id: SPLASH_POTION_HEALING
+        buy-price: 90.0
+        sell-price: false
+        shop-name: '&cWurftrank der Heilung II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '38':
+        type: SHOP
+        id: SPLASH_POTION_HARMING
+        buy-price: 90.0
+        sell-price: false
+        shop-name: '&cWurftrank des Schadens II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '39':
+        type: SHOP
+        id: SPLASH_POTION_REGENERATION
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&cWurftrank der Regeneration II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '40':
+        type: SHOP
+        id: SPLASH_POTION_FIRE_RESISTANCE
+        buy-price: 90.0
+        sell-price: false
+        shop-name: '&cWurftrank der Feuerresistenz'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '41':
+        type: SHOP
+        id: SPLASH_POTION_WEAKNESS
+        buy-price: 70.0
+        sell-price: false
+        shop-name: '&cWurftrank der Schwäche'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '42':
+        type: SHOP
+        id: SPLASH_POTION_STRENGTH
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&cWurftrank der Stärke II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+  Page1:
+    items:
+      '10':
+        type: SHOP
+        id: LINGERING_POTION_HEALING
+        buy-price: 140.0
+        sell-price: false
+        shop-name: '&6Verweiltrank der Heilung II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '11':
+        type: SHOP
+        id: LINGERING_POTION_HARMING
+        buy-price: 140.0
+        sell-price: false
+        shop-name: '&6Verweiltrank des Schadens II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '12':
+        type: SHOP
+        id: LINGERING_POTION_POISON
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&6Verweiltrank des Giftes'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '15':
+        type: SHOP
+        id: EXPERIENCE_BOTTLE
+        buy-price: 50.0
+        sell-price: false
+        shop-name: '&aErfahrungsfläschchen'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'

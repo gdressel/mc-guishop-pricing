@@ -1,0 +1,335 @@
+title: '&8» &c[Redstone & Technik]'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: REDSTONE
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&cRedstone-Staub'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: REDSTONE_BLOCK
+        buy-price: 54.0
+        sell-price: 10.8
+        shop-name: '&cRedstone-Block'
+        shop-lore:
+        - '&8Server-Richtwert: max. 800/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: REDSTONE_ORE
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&cRedstone-Erz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: DEEPSLATE_REDSTONE_ORE
+        buy-price: 50.0
+        sell-price: 10.0
+        shop-name: '&8Tiefenschiefer-Redstone-Erz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 250/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: REDSTONE_TORCH
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&cRedstone-Fackel'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '15':
+        type: SHOP
+        id: REPEATER
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&cRedstone-Verstärker'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '16':
+        type: SHOP
+        id: COMPARATOR
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&cRedstone-Komparator'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '19':
+        type: SHOP
+        id: TARGET
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&7Zielblock'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '20':
+        type: SHOP
+        id: OBSERVER
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&7Beobachter'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '21':
+        type: SHOP
+        id: CRAFTER
+        buy-price: 150.0
+        sell-price: 30.0
+        shop-name: '&6Crafter'
+        shop-lore:
+        - '&8Server-Richtwert: max. 150/Tag verkaufen'
+      '22':
+        type: SHOP
+        id: COPPER_BULB
+        buy-price: 45.0
+        sell-price: 9.0
+        shop-name: '&6Kupferlampe'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '23':
+        type: SHOP
+        id: DAYLIGHT_DETECTOR
+        buy-price: 35.0
+        sell-price: 7.0
+        shop-name: '&eTageslichtsensor'
+        shop-lore:
+        - '&8Server-Richtwert: max. 350/Tag verkaufen'
+      '24':
+        type: SHOP
+        id: SCULK_SENSOR
+        buy-price: 120.0
+        sell-price: 25.0
+        shop-name: '&3Sculk-Sensor'
+        shop-lore:
+        - '&8Server-Richtwert: max. 100/Tag verkaufen'
+      '25':
+        type: SHOP
+        id: CALIBRATED_SCULK_SENSOR
+        buy-price: 180.0
+        sell-price: 36.0
+        shop-name: '&3Kalibrierter Sculk-Sensor'
+        shop-lore:
+        - '&8Server-Richtwert: max. 80/Tag verkaufen'
+      '28':
+        type: SHOP
+        id: LIGHTNING_ROD
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&6Blitzableiter'
+        shop-lore:
+        - '&8Server-Richtwert: max. 600/Tag verkaufen'
+      '29':
+        type: SHOP
+        id: PISTON
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&7Kolben'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '30':
+        type: SHOP
+        id: STICKY_PISTON
+        buy-price: 50.0
+        sell-price: 10.0
+        shop-name: '&2Klebriger Kolben'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '31':
+        type: SHOP
+        id: DISPENSER
+        buy-price: 35.0
+        sell-price: 7.0
+        shop-name: '&7Werfer'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '32':
+        type: SHOP
+        id: DROPPER
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&7Spender'
+        shop-lore:
+        - '&8Server-Richtwert: max. 600/Tag verkaufen'
+      '33':
+        type: SHOP
+        id: HOPPER
+        buy-price: 120.0
+        sell-price: 25.0
+        shop-name: '&8Trichter'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '34':
+        type: SHOP
+        id: LEVER
+        buy-price: 3.0
+        sell-price: 0.6
+        shop-name: '&7Hebel'
+        shop-lore:
+        - '&8Server-Richtwert: max. 3000/Tag verkaufen'
+      '37':
+        type: SHOP
+        id: STONE_BUTTON
+        buy-price: 3.0
+        sell-price: 0.6
+        shop-name: '&7Steinknopf'
+        shop-lore:
+        - '&8Server-Richtwert: max. 3000/Tag verkaufen'
+      '38':
+        type: SHOP
+        id: OAK_BUTTON
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&6Eichenholzknopf'
+        shop-lore:
+        - '&8Server-Richtwert: max. 3000/Tag verkaufen'
+      '39':
+        type: SHOP
+        id: TRIPWIRE_HOOK
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&7Haken'
+        shop-lore:
+        - '&8Server-Richtwert: max. 600/Tag verkaufen'
+      '40':
+        type: SHOP
+        id: TRAPPED_CHEST
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&6Redstone-Truhe'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '41':
+        type: SHOP
+        id: NOTE_BLOCK
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&dNotenblock'
+        shop-lore:
+        - '&8Server-Richtwert: max. 600/Tag verkaufen'
+      '42':
+        type: SHOP
+        id: JUKEBOX
+        buy-price: 350.0
+        sell-price: 70.0
+        shop-name: '&6Plattenspieler'
+        shop-lore:
+        - '&8Server-Richtwert: max. 100/Tag verkaufen'
+      '43':
+        type: SHOP
+        id: TNT
+        buy-price: 80.0
+        sell-price: 16.0
+        shop-name: '&cTNT'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+  Page1:
+    items:
+      '10':
+        type: SHOP
+        id: IRON_DOOR
+        buy-price: 50.0
+        sell-price: 10.0
+        shop-name: '&fEisentür'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: IRON_TRAPDOOR
+        buy-price: 80.0
+        sell-price: 16.0
+        shop-name: '&fEisenfalltür'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: RAIL
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&7Schiene'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: POWERED_RAIL
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&6Antriebsschiene'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: DETECTOR_RAIL
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&7Sensorschiene'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '15':
+        type: SHOP
+        id: ACTIVATOR_RAIL
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&cAktivierungsschiene'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '16':
+        type: SHOP
+        id: MINECART
+        buy-price: 100.0
+        sell-price: 20.0
+        shop-name: '&7Lore'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '19':
+        type: SHOP
+        id: CHEST_MINECART
+        buy-price: 120.0
+        sell-price: 24.0
+        shop-name: '&6Güterlore'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '20':
+        type: SHOP
+        id: HOPPER_MINECART
+        buy-price: 220.0
+        sell-price: 44.0
+        shop-name: '&8Trichterlore'
+        shop-lore:
+        - '&8Server-Richtwert: max. 200/Tag verkaufen'
+      '21':
+        type: SHOP
+        id: TNT_MINECART
+        buy-price: 180.0
+        sell-price: 36.0
+        shop-name: '&cTNT-Lore'
+        shop-lore:
+        - '&8Server-Richtwert: max. 200/Tag verkaufen'
+      '22':
+        type: SHOP
+        id: REDSTONE_LAMP
+        buy-price: 45.0
+        sell-price: 9.0
+        shop-name: '&eRedstone-Lampe'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '23':
+        type: SHOP
+        id: LANTERN
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&6Laterne'
+        shop-lore:
+        - '&8Server-Richtwert: max. 700/Tag verkaufen'
+      '24':
+        type: SHOP
+        id: SOUL_LANTERN
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&bSeelenlaterne'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'

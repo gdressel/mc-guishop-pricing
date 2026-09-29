@@ -1,6 +1,6 @@
 # mc-guishop-pricing
 
-A complete, balanced [GUIShop](https://www.spigotmc.org/resources/guishop.6515/) configuration pack for Minecraft Survival servers (Minecraft 1.26.2, GUIShop 15.4+).
+A complete, balanced [GUIShop](https://github.com/pablo67340/GUIShop) configuration pack for Minecraft Survival servers (Minecraft 1.26.2, GUIShop 9.4.4+).
 
 ## What is this?
 
@@ -10,14 +10,14 @@ Prices and limits are researched and balanced rather than guessed:
 
 - Buy/sell ratios kept within a 3:1–5:1 range
 - Daily sell limits on easily farmable items to prevent inflation
-- `buy: -1` / `sell: -1` restrictions on items that shouldn't be tradeable both ways (e.g. spawners can't be bought, enchanted gear/potions/tools can't be sold)
+- `buy-price: false` / `sell-price: false` restrictions on items that shouldn't be tradeable both ways (e.g. spawners can't be bought, enchanted gear/potions/tools can't be sold)
 - Pricing based on the official [Minecraft Wiki](https://minecraft.wiki/), survival economy guides, and aggregated community server data (see [`RESEARCH_SOURCES.md`](./RESEARCH_SOURCES.md))
 
 ## Structure
 
 | File / Folder | Purpose |
 |---|---|
-| `shops.yml` | Main shop menu referencing all 15 category shops |
+| `menu.yml` | Main shop menu referencing all 15 category shops via `target-shop` |
 | `shops/*.yml` | Individual category shop configs (15 files, 581 items) |
 | `ITEM_MAPPING.md` | Full catalog of all items, grouped by category and subgroup |
 | `RESEARCH_SOURCES.md` | Price research methodology and sources |
@@ -28,7 +28,7 @@ Prices and limits are researched and balanced rather than guessed:
 
 ## Usage
 
-1. Copy `shops.yml` and the `shops/` folder into your server's `plugins/GUIShop/` directory.
+1. Copy `menu.yml` and the `shops/` folder into your server's `plugins/GUIShop/` directory.
 2. Reload or restart GUIShop (or the server).
 3. Open the shop in-game, e.g. `/shop` or `/shop open blocks`.
 
@@ -36,14 +36,14 @@ Prices and limits are researched and balanced rather than guessed:
 
 The pack is meant to be adapted to your own server's economy:
 
-- Read [`RULES.md`](./RULES.md) first — it defines the balancing rules (buy/sell ratio, farmability tiers, the `-1` rules, stack sizes) that every price follows.
+- Read [`RULES.md`](./RULES.md) first — it defines the balancing rules (buy/sell ratio, farmability tiers, the `buy-price`/`sell-price: false` rules) that every price follows.
 - [`ITEM_MAPPING.md`](./ITEM_MAPPING.md) and [`RESEARCH_SOURCES.md`](./RESEARCH_SOURCES.md) document *why* each item ended up in its category and at its price — use them as a reference before changing values.
 - The processes in [`PROCESSES/`](./PROCESSES/) describe how to redo item selection or price research (e.g. for a new Minecraft version).
 - Any change (prices, categories, rules) should get an entry in [`CHANGELOG.md`](./CHANGELOG.md) — see the documentation policy in `RULES.md`.
 
 ## Compatibility
 
-Built and validated against **Minecraft 1.26.2** and **GUIShop 15.4+**. Item IDs may need adjustment for other Minecraft or GUIShop versions.
+Built and validated against **Minecraft 1.26.2** and **GUIShop 9.4.4+**. Item IDs may need adjustment for other Minecraft or GUIShop versions.
 
 ## License
 

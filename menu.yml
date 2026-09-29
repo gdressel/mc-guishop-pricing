@@ -1,0 +1,129 @@
+Menu:
+  pages:
+    Page0:
+      items:
+        '10':
+          id: STONE_BRICKS
+          name: '&aBaublöcke'
+          lore:
+          - '&7Steine, Hölzer, Glas & Beton'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: blocks
+        '11':
+          id: DIAMOND
+          name: '&bMineralien & Erze'
+          lore:
+          - '&7Erze, Barren & Edelsteine'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: minerals
+        '12':
+          id: WHEAT
+          name: '&eLandwirtschaft & Nahrung'
+          lore:
+          - '&7Saaten, Feldfrüchte & Essen'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: farming
+        '13':
+          id: BONE
+          name: '&cMonster- & Tier-Drops'
+          lore:
+          - '&7Loot von Mobs & Bossen'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: mobdrops
+        '14':
+          id: REDSTONE
+          name: '&4Redstone & Technik'
+          lore:
+          - '&7Schaltungen, Schienen & Crafter'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: redstone
+        '15':
+          id: PRISMARINE
+          name: '&3Ozean & Meeresschätze'
+          lore:
+          - '&7Prismarin, Korallen & Schwämme'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: ocean
+        '16':
+          id: NETHERRACK
+          name: '&5Nether & Das End'
+          lore:
+          - '&7Dimensions-Blöcke & Drops'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: nether_end
+        '19':
+          id: POPPY
+          name: '&dDekorationen'
+          lore:
+          - '&7Farbstoffe, Blumen & Banner'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: decorations
+        '20':
+          id: DIAMOND_PICKAXE
+          name: '&6Werkzeuge & Waffen'
+          lore:
+          - '&7Spitzhacken, Schwerter & Streitkolben'
+          - '&cVerkauf deaktiviert (sell: -1)'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: tools
+        '21':
+          id: DIAMOND_CHESTPLATE
+          name: '&9Rüstungen'
+          lore:
+          - '&7Rüstungssets & Schilde'
+          - '&cVerkauf deaktiviert (sell: -1)'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: armor
+        '22':
+          id: ENCHANTED_BOOK
+          name: '&5Verzauberungen'
+          lore:
+          - '&7Verzauberte Zauberbücher'
+          - '&cVerkauf deaktiviert (sell: -1)'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: enchantments
+        '23':
+          id: POTION
+          name: '&dTränke & Elixiere'
+          lore:
+          - '&7Normale & Wurftränke'
+          - '&cVerkauf deaktiviert (sell: -1)'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: potions
+        '24':
+          id: SPAWNER
+          name: '&eMob-Spawner'
+          lore:
+          - '&7Verkauf von Spawnern'
+          - '&cKauf deaktiviert (buy: -1)'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: spawners
+        '25':
+          id: NETHER_STAR
+          name: '&6Spezial- & Server-Items'
+          lore:
+          - '&7Währungen & Eventbelohnungen'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: custom_items
+        '31':
+          id: ENDER_PEARL
+          name: '&fSonstiges & Transport'
+          lore:
+          - '&7Enderperlen, Boote & Werkzeuge'
+          - ' '
+          - '&e▶ Klicke zum Öffnen'
+          target-shop: misc

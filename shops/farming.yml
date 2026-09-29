@@ -1,0 +1,397 @@
+title: '&8» &2Landwirtschaft'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: WHEAT_SEEDS
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&eWeizensamen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: PUMPKIN_SEEDS
+        buy-price: 3.0
+        sell-price: 0.6
+        shop-name: '&6Kürbiskerne'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: MELON_SEEDS
+        buy-price: 3.0
+        sell-price: 0.6
+        shop-name: '&aMelonenkerne'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: BEETROOT_SEEDS
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&4Rote-Bete-Samen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: TORCHFLOWER_SEEDS
+        buy-price: 60.0
+        sell-price: 12.0
+        shop-name: '&6Fackelliliensamen'
+      '15':
+        type: SHOP
+        id: PITCHER_POD
+        buy-price: 60.0
+        sell-price: 12.0
+        shop-name: '&2Kannenpflanzenkapsel'
+      '16':
+        type: SHOP
+        id: COCOA_BEANS
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&6Kakaobohnen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '19':
+        type: SHOP
+        id: WHEAT
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&eWeizen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '20':
+        type: SHOP
+        id: CARROT
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&6Karotte'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '21':
+        type: SHOP
+        id: POTATO
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&6Kartoffel'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '22':
+        type: SHOP
+        id: BEETROOT
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&4Rote Bete'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '23':
+        type: SHOP
+        id: PUMPKIN
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&6Kürbis'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '24':
+        type: SHOP
+        id: MELON
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&aMelone'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '25':
+        type: SHOP
+        id: MELON_SLICE
+        buy-price: 0.5
+        sell-price: 0.1
+        shop-name: '&aMelonenscheibe'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '28':
+        type: SHOP
+        id: SUGAR_CANE
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&aZuckerrohr'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '29':
+        type: SHOP
+        id: CACTUS
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&2Kaktus'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '30':
+        type: SHOP
+        id: BAMBOO
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&aBambus'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '31':
+        type: SHOP
+        id: KELP
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&2Seetang'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '32':
+        type: SHOP
+        id: SWEET_BERRIES
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&cSüßbeeren'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '33':
+        type: SHOP
+        id: GLOW_BERRIES
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&6Leuchtbeeren'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '34':
+        type: SHOP
+        id: APPLE
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&cApfel'
+      '37':
+        type: SHOP
+        id: GOLDEN_APPLE
+        buy-price: 120.0
+        sell-price: 25.0
+        shop-name: '&6Goldener Apfel'
+      '38':
+        type: SHOP
+        id: ENCHANTED_GOLDEN_APPLE
+        buy-price: 10000.0
+        sell-price: 2000.0
+        shop-name: '&6Verzauberter Goldapfel'
+        shop-lore:
+        - '&7Extrem selten - nur Dungeon-Loot!'
+      '39':
+        type: SHOP
+        id: BREAD
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&eBrot'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '40':
+        type: SHOP
+        id: BEEF
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&cRohes Rindfleisch'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '41':
+        type: SHOP
+        id: COOKED_BEEF
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&6Gebratenes Rindfleisch'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '42':
+        type: SHOP
+        id: PORKCHOP
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&dRohes Schweinefleisch'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '43':
+        type: SHOP
+        id: COOKED_PORKCHOP
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&6Gebratenes Schweinefleisch'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+  Page1:
+    items:
+      '10':
+        type: SHOP
+        id: MUTTON
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&cRohes Hammelfleisch'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: COOKED_MUTTON
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&6Gebratenes Hammelfleisch'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: CHICKEN
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&fRohes Hühnchen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: COOKED_CHICKEN
+        buy-price: 7.0
+        sell-price: 1.4
+        shop-name: '&6Gebratenes Hühnchen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: COOKED_COD
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&bGebratener Kabeljau'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '15':
+        type: SHOP
+        id: COOKED_SALMON
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&cGebratener Lachs'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '16':
+        type: SHOP
+        id: GOLDEN_CARROT
+        buy-price: 35.0
+        sell-price: 7.0
+        shop-name: '&6Goldene Karotte'
+      '19':
+        type: SHOP
+        id: BAKED_POTATO
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&6Ofenkartoffel'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '20':
+        type: SHOP
+        id: HONEY_BOTTLE
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&6Honigflasche'
+      '21':
+        type: SHOP
+        id: CAKE
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&dKuchen'
+      '22':
+        type: SHOP
+        id: PUMPKIN_PIE
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&6Kürbiskuchen'
+      '23':
+        type: SHOP
+        id: BROWN_MUSHROOM
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&6Brauner Pilz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '24':
+        type: SHOP
+        id: RED_MUSHROOM
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&cRoter Pilz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '25':
+        type: SHOP
+        id: LILY_PAD
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&2Seerosenblatt'
+      '28':
+        type: SHOP
+        id: OAK_SAPLING
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&2Eichensetzling'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '29':
+        type: SHOP
+        id: SPRUCE_SAPLING
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&2Fichtensetzling'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '30':
+        type: SHOP
+        id: BIRCH_SAPLING
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&aBirkensetzling'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '31':
+        type: SHOP
+        id: JUNGLE_SAPLING
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&2Tropensetzling'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '32':
+        type: SHOP
+        id: ACACIA_SAPLING
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&6Akaziensetzling'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '33':
+        type: SHOP
+        id: DARK_OAK_SAPLING
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&8Schwarzeichensetzling'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '34':
+        type: SHOP
+        id: CHERRY_SAPLING
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&dKirschblütensetzling'
+      '37':
+        type: SHOP
+        id: MANGROVE_PROPAGULE
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&4Mangrovenkeimling'
+      '38':
+        type: SHOP
+        id: AZALEA
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&2Azalee'
+      '39':
+        type: SHOP
+        id: FLOWERING_AZALEA
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&dBlühende Azalee'

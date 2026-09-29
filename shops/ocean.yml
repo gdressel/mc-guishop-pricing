@@ -1,0 +1,139 @@
+title: '&8» &3Ozean & Unterwasser'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: SPONGE
+        buy-price: 400.0
+        sell-price: 80.0
+        shop-name: '&eSchwamm'
+      '11':
+        type: SHOP
+        id: WET_SPONGE
+        buy-price: 350.0
+        sell-price: 70.0
+        shop-name: '&2Nasser Schwamm'
+      '12':
+        type: SHOP
+        id: TUBE_CORAL_BLOCK
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&bRöhrenkorallenblock'
+      '13':
+        type: SHOP
+        id: BRAIN_CORAL_BLOCK
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&dHirnkorallenblock'
+      '14':
+        type: SHOP
+        id: BUBBLE_CORAL_BLOCK
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&5Blasenkorallenblock'
+      '15':
+        type: SHOP
+        id: FIRE_CORAL_BLOCK
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&cFeuerkorallenblock'
+      '16':
+        type: SHOP
+        id: HORN_CORAL_BLOCK
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&6Geweihkorallenblock'
+      '19':
+        type: SHOP
+        id: TUBE_CORAL
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&bRöhrenkoralle'
+      '20':
+        type: SHOP
+        id: BRAIN_CORAL
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&dHirnkoralle'
+      '21':
+        type: SHOP
+        id: BUBBLE_CORAL
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&5Blasenkoralle'
+      '22':
+        type: SHOP
+        id: FIRE_CORAL
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&cFeuerkoralle'
+      '23':
+        type: SHOP
+        id: HORN_CORAL
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&6Geweihkoralle'
+      '24':
+        type: SHOP
+        id: PRISMARINE
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&3Prismarin'
+      '25':
+        type: SHOP
+        id: PRISMARINE_BRICKS
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&3Prismarinziegel'
+      '28':
+        type: SHOP
+        id: DARK_PRISMARINE
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&1Dunkler Prismarin'
+      '29':
+        type: SHOP
+        id: PRISMARINE_SHARD
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&bPrismarinscherbe'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '30':
+        type: SHOP
+        id: PRISMARINE_CRYSTALS
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&bPrismarinkristalle'
+      '31':
+        type: SHOP
+        id: SEA_LANTERN
+        buy-price: 60.0
+        sell-price: 12.0
+        shop-name: '&bSeelaterne'
+      '32':
+        type: SHOP
+        id: CONDUIT
+        buy-price: 1500.0
+        sell-price: 300.0
+        shop-name: '&3Aquisator'
+      '33':
+        type: SHOP
+        id: HEART_OF_THE_SEA
+        buy-price: 1200.0
+        sell-price: 250.0
+        shop-name: '&bHerz des Meeres'
+      '34':
+        type: SHOP
+        id: NAUTILUS_SHELL
+        buy-price: 150.0
+        sell-price: 30.0
+        shop-name: '&fNautilus-Schale'
+      '37':
+        type: SHOP
+        id: TURTLE_EGG
+        buy-price: 100.0
+        sell-price: 20.0
+        shop-name: '&aSchildkrötenei'

@@ -1,0 +1,30 @@
+title: '&8» &6Server-Items'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: SERVER_TOKEN
+        buy-price: 500.0
+        sell-price: 100.0
+        shop-name: '&6Server-Münze / Token'
+        shop-lore:
+        - '&7Event-Währung / Questbelohnung'
+      '11':
+        type: SHOP
+        id: VOTE_CRATE_KEY
+        buy-price: 250.0
+        sell-price: false
+        shop-name: '&eVote-Kisten-Schlüssel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&8Nur Kaufen oder durch Voting'
+      '12':
+        type: SHOP
+        id: COMMUNITY_BADGE
+        buy-price: 1000.0
+        sell-price: 200.0
+        shop-name: '&dCommunity-Abzeichen'
+        shop-lore:
+        - '&7Kosmetisches Rang-Item'

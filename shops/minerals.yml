@@ -1,0 +1,289 @@
+title: '&8» &2Mineralien & Metalle'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: COAL_ORE
+        buy-price: 12.0
+        sell-price: 2.5
+        shop-name: '&8Steinkohle-Erz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: DEEPSLATE_COAL_ORE
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&8Tiefenschiefer-Kohleerz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 250/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: IRON_ORE
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&7Eisenerz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: DEEPSLATE_IRON_ORE
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&7Tiefenschiefer-Eisenerz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: COPPER_ORE
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&cKupfererz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 800/Tag verkaufen'
+      '15':
+        type: SHOP
+        id: DEEPSLATE_COPPER_ORE
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&cTiefenschiefer-Kupfererz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '16':
+        type: SHOP
+        id: GOLD_ORE
+        buy-price: 35.0
+        sell-price: 7.0
+        shop-name: '&6Golderz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '19':
+        type: SHOP
+        id: DEEPSLATE_GOLD_ORE
+        buy-price: 45.0
+        sell-price: 9.0
+        shop-name: '&6Tiefenschiefer-Golderz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 250/Tag verkaufen'
+      '20':
+        type: SHOP
+        id: LAPIS_ORE
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&9Lapislazulierz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 250/Tag verkaufen'
+      '21':
+        type: SHOP
+        id: DEEPSLATE_LAPIS_ORE
+        buy-price: 55.0
+        sell-price: 11.0
+        shop-name: '&9Tiefenschiefer-Lapiserz'
+        shop-lore:
+        - '&8Server-Richtwert: max. 150/Tag verkaufen'
+      '22':
+        type: SHOP
+        id: DIAMOND_ORE
+        buy-price: 350.0
+        sell-price: 80.0
+        shop-name: '&bDiamanterz'
+      '23':
+        type: SHOP
+        id: DEEPSLATE_DIAMOND_ORE
+        buy-price: 400.0
+        sell-price: 90.0
+        shop-name: '&bTiefenschiefer-Diamanterz'
+      '24':
+        type: SHOP
+        id: EMERALD_ORE
+        buy-price: 500.0
+        sell-price: 100.0
+        shop-name: '&2Smaragderz'
+      '25':
+        type: SHOP
+        id: DEEPSLATE_EMERALD_ORE
+        buy-price: 1500.0
+        sell-price: 300.0
+        shop-name: '&2Tiefenschiefer-Smaragderz'
+      '28':
+        type: SHOP
+        id: ANCIENT_DEBRIS
+        buy-price: 1200.0
+        sell-price: 250.0
+        shop-name: '&4Antiker Schrott'
+      '29':
+        type: SHOP
+        id: RAW_IRON
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&7Roheisen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 800/Tag verkaufen'
+      '30':
+        type: SHOP
+        id: RAW_COPPER
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&cRohkupfer'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1200/Tag verkaufen'
+      '31':
+        type: SHOP
+        id: RAW_GOLD
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&6Rohgold'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '32':
+        type: SHOP
+        id: RAW_IRON_BLOCK
+        buy-price: 135.0
+        sell-price: 27.0
+        shop-name: '&7Roheisenblock'
+      '33':
+        type: SHOP
+        id: RAW_COPPER_BLOCK
+        buy-price: 54.0
+        sell-price: 10.8
+        shop-name: '&cRohkupferblock'
+      '34':
+        type: SHOP
+        id: RAW_GOLD_BLOCK
+        buy-price: 225.0
+        sell-price: 45.0
+        shop-name: '&6Rohgoldblock'
+  Page1:
+    items:
+      '10':
+        type: SHOP
+        id: COAL
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&8Kohle'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: CHARCOAL
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&8Holzkohle'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1200/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: IRON_INGOT
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&7Eisenbarren'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: COPPER_INGOT
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&cKupferbarren'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1200/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: GOLD_INGOT
+        buy-price: 45.0
+        sell-price: 9.0
+        shop-name: '&6Goldbarren'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '15':
+        type: SHOP
+        id: NETHERITE_SCRAP
+        buy-price: 1400.0
+        sell-price: 300.0
+        shop-name: '&4Netheritschrott'
+      '16':
+        type: SHOP
+        id: NETHERITE_INGOT
+        buy-price: 6000.0
+        sell-price: 1250.0
+        shop-name: '&4Netheritbarren'
+      '19':
+        type: SHOP
+        id: IRON_BLOCK
+        buy-price: 225.0
+        sell-price: 45.0
+        shop-name: '&7Eisenblock'
+      '20':
+        type: SHOP
+        id: COPPER_BLOCK
+        buy-price: 90.0
+        sell-price: 18.0
+        shop-name: '&cKupferblock'
+      '21':
+        type: SHOP
+        id: GOLD_BLOCK
+        buy-price: 405.0
+        sell-price: 81.0
+        shop-name: '&6Goldblock'
+      '22':
+        type: SHOP
+        id: NETHERITE_BLOCK
+        buy-price: 54000.0
+        sell-price: 11000.0
+        shop-name: '&4Netheritblock'
+      '23':
+        type: SHOP
+        id: DIAMOND
+        buy-price: 300.0
+        sell-price: 75.0
+        shop-name: '&bDiamant'
+      '24':
+        type: SHOP
+        id: EMERALD
+        buy-price: 150.0
+        sell-price: 30.0
+        shop-name: '&2Smaragd'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '25':
+        type: SHOP
+        id: LAPIS_LAZULI
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&9Lapislazuli'
+        shop-lore:
+        - '&8Server-Richtwert: max. 300/Tag verkaufen'
+      '28':
+        type: SHOP
+        id: AMETHYST_SHARD
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&5Amethystscherbe'
+        shop-lore:
+        - '&8Server-Richtwert: max. 400/Tag verkaufen'
+      '29':
+        type: SHOP
+        id: DIAMOND_BLOCK
+        buy-price: 2700.0
+        sell-price: 675.0
+        shop-name: '&bDiamantblock'
+      '30':
+        type: SHOP
+        id: EMERALD_BLOCK
+        buy-price: 1350.0
+        sell-price: 270.0
+        shop-name: '&2Smaragdblock'
+      '31':
+        type: SHOP
+        id: LAPIS_BLOCK
+        buy-price: 135.0
+        sell-price: 27.0
+        shop-name: '&9Lapisblock'
+      '32':
+        type: SHOP
+        id: AMETHYST_BLOCK
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&5Amethystblock'

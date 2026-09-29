@@ -1,0 +1,143 @@
+title: '&8» &4Mob-Spawner'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: SPAWNER
+        buy-price: false
+        sell-price: 25000.0
+        shop-name: '&cStandard Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+      '11':
+        type: SHOP
+        id: SPAWNER
+        mob-type: ZOMBIE
+        buy-price: false
+        sell-price: 25000.0
+        shop-name: '&cZombie-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Dungeon-Fund'
+      '12':
+        type: SHOP
+        id: SPAWNER
+        mob-type: SKELETON
+        buy-price: false
+        sell-price: 30000.0
+        shop-name: '&cSkelett-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Knochen-/Pfeilquelle'
+      '13':
+        type: SHOP
+        id: SPAWNER
+        mob-type: SPIDER
+        buy-price: false
+        sell-price: 25000.0
+        shop-name: '&cSpinnen-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Fadenquelle'
+      '14':
+        type: SHOP
+        id: SPAWNER
+        mob-type: CAVE_SPIDER
+        buy-price: false
+        sell-price: 28000.0
+        shop-name: '&cHöhlenspinnen-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Minenschacht-Fund'
+      '15':
+        type: SHOP
+        id: SPAWNER
+        mob-type: CREEPER
+        buy-price: false
+        sell-price: 50000.0
+        shop-name: '&cCreeper-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Sehr wertvoll'
+      '16':
+        type: SHOP
+        id: SPAWNER
+        mob-type: BLAZE
+        buy-price: false
+        sell-price: 40000.0
+        shop-name: '&cLohen-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Netherfestung'
+      '19':
+        type: SHOP
+        id: SPAWNER
+        mob-type: SILVERFISH
+        buy-price: false
+        sell-price: 15000.0
+        shop-name: '&cSilberfisch-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Festung / Endportal'
+      '20':
+        type: SHOP
+        id: SPAWNER
+        mob-type: MAGMA_CUBE
+        buy-price: false
+        sell-price: 35000.0
+        shop-name: '&cMagmawürfel-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Bastions-Fund'
+      '21':
+        type: SHOP
+        id: SPAWNER
+        mob-type: PIG
+        buy-price: false
+        sell-price: 20000.0
+        shop-name: '&cSchweine-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Friedlicher Spawner'
+      '22':
+        type: SHOP
+        id: SPAWNER
+        mob-type: COW
+        buy-price: false
+        sell-price: 25000.0
+        shop-name: '&cKuh-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Leder & Fleisch'
+      '23':
+        type: SHOP
+        id: SPAWNER
+        mob-type: SHEEP
+        buy-price: false
+        sell-price: 20000.0
+        shop-name: '&cSchaf-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Wollquelle'
+      '24':
+        type: SHOP
+        id: SPAWNER
+        mob-type: CHICKEN
+        buy-price: false
+        sell-price: 18000.0
+        shop-name: '&cHühner-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Geflügelquelle'
+      '25':
+        type: SHOP
+        id: SPAWNER
+        mob-type: IRON_GOLEM
+        buy-price: false
+        sell-price: 100000.0
+        shop-name: '&4Eisengolem-Spawner'
+        shop-lore:
+        - '&7Kann nicht gekauft werden!'
+        - '&8Höchste Stufe'

@@ -1,0 +1,147 @@
+title: '&8» &7Sonstiges'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: ENDER_PEARL
+        buy-price: 50.0
+        sell-price: 10.0
+        shop-name: '&5Enderperle'
+      '11':
+        type: SHOP
+        id: EYE_OF_ENDER
+        buy-price: 80.0
+        sell-price: 16.0
+        shop-name: '&2Enderauge'
+      '12':
+        type: SHOP
+        id: COMPASS
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&fKompass'
+      '13':
+        type: SHOP
+        id: RECOVERY_COMPASS
+        buy-price: 500.0
+        sell-price: 100.0
+        shop-name: '&dBergungskompass'
+      '14':
+        type: SHOP
+        id: CLOCK
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&6Uhr'
+      '15':
+        type: SHOP
+        id: SPYGLASS
+        buy-price: 50.0
+        sell-price: 10.0
+        shop-name: '&bFernrohr'
+      '16':
+        type: SHOP
+        id: FIREWORK_ROCKET
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&eFeuerwerksrakete'
+      '19':
+        type: SHOP
+        id: FIREWORK_STAR
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&eFeuerwerksstern'
+      '20':
+        type: SHOP
+        id: BUNDLE
+        buy-price: 60.0
+        sell-price: 12.0
+        shop-name: '&6Beutel'
+      '22':
+        type: SHOP
+        id: CARROT_ON_A_STICK
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&6Karottenrute'
+      '23':
+        type: SHOP
+        id: WARPED_FUNGUS_ON_A_STICK
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&3Wirrpilzrute'
+      '24':
+        type: SHOP
+        id: OAK_BOAT
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&6Eichenholzboot'
+      '25':
+        type: SHOP
+        id: SPRUCE_BOAT
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&8Fichtenholzboot'
+      '28':
+        type: SHOP
+        id: BIRCH_BOAT
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&fBirkenholzboot'
+      '29':
+        type: SHOP
+        id: JUNGLE_BOAT
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&2Tropenholzboot'
+      '30':
+        type: SHOP
+        id: ACACIA_BOAT
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&6Akazienholzboot'
+      '31':
+        type: SHOP
+        id: DARK_OAK_BOAT
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&8Schwarzeichenboot'
+      '32':
+        type: SHOP
+        id: MANGROVE_BOAT
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&4Mangrovenboot'
+      '33':
+        type: SHOP
+        id: CHERRY_BOAT
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&dKirschblütenboot'
+      '34':
+        type: SHOP
+        id: BAMBOO_RAFT
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&aBambusfloß'
+      '37':
+        type: SHOP
+        id: BELL
+        buy-price: 600.0
+        sell-price: 120.0
+        shop-name: '&6Glocke'
+        shop-lore:
+        - '&7Dorfgong (Nicht craftbar)'
+      '38':
+        type: SHOP
+        id: BOOK_AND_QUILL
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&fBuch und Feder'
+      '39':
+        type: SHOP
+        id: OMINOUS_BOTTLE
+        buy-price: 250.0
+        sell-price: 50.0
+        shop-name: '&5Unheilvolle Flasche'
+        shop-lore:
+        - '&8Raid-Auslöser (1.21+)'

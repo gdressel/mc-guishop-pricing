@@ -1,0 +1,314 @@
+title: '&8» &2Werkzeuge & Waffen'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: WOODEN_PICKAXE
+        buy-price: 20.0
+        sell-price: false
+        shop-name: '&6Holzspitzhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '11':
+        type: SHOP
+        id: STONE_PICKAXE
+        buy-price: 40.0
+        sell-price: false
+        shop-name: '&7Steinspitzhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '12':
+        type: SHOP
+        id: IRON_PICKAXE
+        buy-price: 150.0
+        sell-price: false
+        shop-name: '&fEisenspitzhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '13':
+        type: SHOP
+        id: GOLDEN_PICKAXE
+        buy-price: 200.0
+        sell-price: false
+        shop-name: '&6Goldspitzhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '14':
+        type: SHOP
+        id: DIAMOND_PICKAXE
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&bDiamantspitzhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '15':
+        type: SHOP
+        id: NETHERITE_PICKAXE
+        buy-price: 7500.0
+        sell-price: false
+        shop-name: '&8Netheritspitzhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '16':
+        type: SHOP
+        id: WOODEN_AXE
+        buy-price: 20.0
+        sell-price: false
+        shop-name: '&6Holzaxt'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '19':
+        type: SHOP
+        id: STONE_AXE
+        buy-price: 40.0
+        sell-price: false
+        shop-name: '&7Steinaxt'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '20':
+        type: SHOP
+        id: IRON_AXE
+        buy-price: 150.0
+        sell-price: false
+        shop-name: '&fEisenaxt'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '21':
+        type: SHOP
+        id: GOLDEN_AXE
+        buy-price: 200.0
+        sell-price: false
+        shop-name: '&6Goldaxt'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '22':
+        type: SHOP
+        id: DIAMOND_AXE
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&bDiamantaxt'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '23':
+        type: SHOP
+        id: NETHERITE_AXE
+        buy-price: 7500.0
+        sell-price: false
+        shop-name: '&8Netheritaxt'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '24':
+        type: SHOP
+        id: WOODEN_SWORD
+        buy-price: 15.0
+        sell-price: false
+        shop-name: '&6Holzschwert'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '25':
+        type: SHOP
+        id: STONE_SWORD
+        buy-price: 30.0
+        sell-price: false
+        shop-name: '&7Steinschwert'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '28':
+        type: SHOP
+        id: IRON_SWORD
+        buy-price: 100.0
+        sell-price: false
+        shop-name: '&fEisenschwert'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '29':
+        type: SHOP
+        id: GOLDEN_SWORD
+        buy-price: 150.0
+        sell-price: false
+        shop-name: '&6Goldschwert'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '30':
+        type: SHOP
+        id: DIAMOND_SWORD
+        buy-price: 700.0
+        sell-price: false
+        shop-name: '&bDiamantschwert'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '31':
+        type: SHOP
+        id: NETHERITE_SWORD
+        buy-price: 7000.0
+        sell-price: false
+        shop-name: '&8Netheritschwert'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '32':
+        type: SHOP
+        id: MACE
+        buy-price: 8000.0
+        sell-price: false
+        shop-name: '&4Streitkolben'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Benötigt Schweren Kern + Breeze-Rute'
+      '33':
+        type: SHOP
+        id: TRIDENT
+        buy-price: 2500.0
+        sell-price: false
+        shop-name: '&3Dreizack'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Ertrunkenen-Drop'
+      '34':
+        type: SHOP
+        id: BOW
+        buy-price: 80.0
+        sell-price: false
+        shop-name: '&eBogen'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '37':
+        type: SHOP
+        id: CROSSBOW
+        buy-price: 150.0
+        sell-price: false
+        shop-name: '&eArmbrust'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '38':
+        type: SHOP
+        id: WOODEN_SHOVEL
+        buy-price: 10.0
+        sell-price: false
+        shop-name: '&6Holzschaufel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '39':
+        type: SHOP
+        id: STONE_SHOVEL
+        buy-price: 20.0
+        sell-price: false
+        shop-name: '&7Steinschaufel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '40':
+        type: SHOP
+        id: IRON_SHOVEL
+        buy-price: 60.0
+        sell-price: false
+        shop-name: '&fEisenschaufel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '41':
+        type: SHOP
+        id: GOLDEN_SHOVEL
+        buy-price: 80.0
+        sell-price: false
+        shop-name: '&6Goldschaufel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '42':
+        type: SHOP
+        id: DIAMOND_SHOVEL
+        buy-price: 350.0
+        sell-price: false
+        shop-name: '&bDiamantschaufel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '43':
+        type: SHOP
+        id: NETHERITE_SHOVEL
+        buy-price: 6500.0
+        sell-price: false
+        shop-name: '&8Netheritschaufel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+  Page1:
+    items:
+      '10':
+        type: SHOP
+        id: WOODEN_HOE
+        buy-price: 15.0
+        sell-price: false
+        shop-name: '&6Holzhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '11':
+        type: SHOP
+        id: STONE_HOE
+        buy-price: 30.0
+        sell-price: false
+        shop-name: '&7Steinhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '12':
+        type: SHOP
+        id: IRON_HOE
+        buy-price: 100.0
+        sell-price: false
+        shop-name: '&fEisenhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '13':
+        type: SHOP
+        id: GOLDEN_HOE
+        buy-price: 150.0
+        sell-price: false
+        shop-name: '&6Goldhacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '14':
+        type: SHOP
+        id: DIAMOND_HOE
+        buy-price: 700.0
+        sell-price: false
+        shop-name: '&bDiamanthacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '15':
+        type: SHOP
+        id: NETHERITE_HOE
+        buy-price: 7000.0
+        sell-price: false
+        shop-name: '&8Netherithacke'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '16':
+        type: SHOP
+        id: FISHING_ROD
+        buy-price: 40.0
+        sell-price: false
+        shop-name: '&eAngel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '19':
+        type: SHOP
+        id: SHEARS
+        buy-price: 50.0
+        sell-price: false
+        shop-name: '&fSchere'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '20':
+        type: SHOP
+        id: FLINT_AND_STEEL
+        buy-price: 40.0
+        sell-price: false
+        shop-name: '&7Feuerzeug'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '21':
+        type: SHOP
+        id: BRUSH
+        buy-price: 60.0
+        sell-price: false
+        shop-name: '&6Pinsel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Archäologie-Werkzeug'

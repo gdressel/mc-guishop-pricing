@@ -1,0 +1,234 @@
+title: '&8» &2Rüstungen'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: LEATHER_HELMET
+        buy-price: 80.0
+        sell-price: false
+        shop-name: '&6Lederkappe'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '11':
+        type: SHOP
+        id: CHAINMAIL_HELMET
+        buy-price: 300.0
+        sell-price: false
+        shop-name: '&7Kettenhaube'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Nicht craftbar'
+      '12':
+        type: SHOP
+        id: IRON_HELMET
+        buy-price: 250.0
+        sell-price: false
+        shop-name: '&fEisenhelm'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '13':
+        type: SHOP
+        id: GOLDEN_HELMET
+        buy-price: 350.0
+        sell-price: false
+        shop-name: '&6Goldhelm'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Piglin-Neutralität'
+      '14':
+        type: SHOP
+        id: DIAMOND_HELMET
+        buy-price: 1500.0
+        sell-price: false
+        shop-name: '&bDiamanthelm'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '15':
+        type: SHOP
+        id: NETHERITE_HELMET
+        buy-price: 8000.0
+        sell-price: false
+        shop-name: '&8Netherithelm'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Höchster Schutz'
+      '16':
+        type: SHOP
+        id: TURTLE_HELMET
+        buy-price: 600.0
+        sell-price: false
+        shop-name: '&2Schildkrötenpanzer'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Wasseratmungs-Bonus'
+      '19':
+        type: SHOP
+        id: LEATHER_CHESTPLATE
+        buy-price: 120.0
+        sell-price: false
+        shop-name: '&6Lederharnisch'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '20':
+        type: SHOP
+        id: CHAINMAIL_CHESTPLATE
+        buy-price: 500.0
+        sell-price: false
+        shop-name: '&7Kettenhemd'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Nicht craftbar'
+      '21':
+        type: SHOP
+        id: IRON_CHESTPLATE
+        buy-price: 400.0
+        sell-price: false
+        shop-name: '&fEisenbrustplatte'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '22':
+        type: SHOP
+        id: GOLDEN_CHESTPLATE
+        buy-price: 500.0
+        sell-price: false
+        shop-name: '&6Goldbrustplatte'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '23':
+        type: SHOP
+        id: DIAMOND_CHESTPLATE
+        buy-price: 2400.0
+        sell-price: false
+        shop-name: '&bDiamantbrustplatte'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '24':
+        type: SHOP
+        id: NETHERITE_CHESTPLATE
+        buy-price: 9500.0
+        sell-price: false
+        shop-name: '&8Netheritbrustplatte'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Höchster Schutz'
+      '25':
+        type: SHOP
+        id: WOLF_ARMOR
+        buy-price: 300.0
+        sell-price: false
+        shop-name: '&cWolfsrüstung'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Aus Gürteltier-Schuppen'
+      '28':
+        type: SHOP
+        id: LEATHER_LEGGINGS
+        buy-price: 100.0
+        sell-price: false
+        shop-name: '&6Lederhose'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '29':
+        type: SHOP
+        id: CHAINMAIL_LEGGINGS
+        buy-price: 400.0
+        sell-price: false
+        shop-name: '&7Kettenbeinschutz'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Nicht craftbar'
+      '30':
+        type: SHOP
+        id: IRON_LEGGINGS
+        buy-price: 350.0
+        sell-price: false
+        shop-name: '&fEisenbeinschutz'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '31':
+        type: SHOP
+        id: GOLDEN_LEGGINGS
+        buy-price: 450.0
+        sell-price: false
+        shop-name: '&6Goldbeinschutz'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '32':
+        type: SHOP
+        id: DIAMOND_LEGGINGS
+        buy-price: 2100.0
+        sell-price: false
+        shop-name: '&bDiamantbeinschutz'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '33':
+        type: SHOP
+        id: NETHERITE_LEGGINGS
+        buy-price: 9000.0
+        sell-price: false
+        shop-name: '&8Netheritbeinschutz'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Höchster Schutz'
+      '34':
+        type: SHOP
+        id: LEATHER_BOOTS
+        buy-price: 70.0
+        sell-price: false
+        shop-name: '&6Lederstiefel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Pulverschnee-Schutz'
+      '37':
+        type: SHOP
+        id: CHAINMAIL_BOOTS
+        buy-price: 250.0
+        sell-price: false
+        shop-name: '&7Kettenstiefel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Nicht craftbar'
+      '38':
+        type: SHOP
+        id: IRON_BOOTS
+        buy-price: 200.0
+        sell-price: false
+        shop-name: '&fEisenstiefel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '39':
+        type: SHOP
+        id: GOLDEN_BOOTS
+        buy-price: 300.0
+        sell-price: false
+        shop-name: '&6Goldstiefel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '40':
+        type: SHOP
+        id: DIAMOND_BOOTS
+        buy-price: 1200.0
+        sell-price: false
+        shop-name: '&bDiamantstiefel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '41':
+        type: SHOP
+        id: NETHERITE_BOOTS
+        buy-price: 7500.0
+        sell-price: false
+        shop-name: '&8Netheritstiefel'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Höchster Schutz'
+      '42':
+        type: SHOP
+        id: SHIELD
+        buy-price: 80.0
+        sell-price: false
+        shop-name: '&eSchild'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&7Blockiert Angriffe'

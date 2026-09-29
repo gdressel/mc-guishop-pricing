@@ -1,0 +1,331 @@
+title: '&8» &5Verzauberungen'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: SHARPNESS_5_BOOK
+        buy-price: 1200.0
+        sell-price: false
+        shop-name: '&cBuch: Schärfe V'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '11':
+        type: SHOP
+        id: SMITE_5_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&cBuch: Bann V'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '12':
+        type: SHOP
+        id: BANE_OF_ARTHROPODS_5_BOOK
+        buy-price: 500.0
+        sell-price: false
+        shop-name: '&cBuch: Nemesis der Gliederfüßer V'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '13':
+        type: SHOP
+        id: KNOCKBACK_2_BOOK
+        buy-price: 600.0
+        sell-price: false
+        shop-name: '&cBuch: Rückstoß II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '14':
+        type: SHOP
+        id: FIRE_ASPECT_2_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&cBuch: Verbrennung II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '15':
+        type: SHOP
+        id: LOOTING_3_BOOK
+        buy-price: 1800.0
+        sell-price: false
+        shop-name: '&cBuch: Plünderung III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '16':
+        type: SHOP
+        id: SWEEPING_EDGE_3_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&cBuch: Schwungkraft III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '19':
+        type: SHOP
+        id: POWER_5_BOOK
+        buy-price: 1200.0
+        sell-price: false
+        shop-name: '&cBuch: Stärke V'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '20':
+        type: SHOP
+        id: PUNCH_2_BOOK
+        buy-price: 600.0
+        sell-price: false
+        shop-name: '&cBuch: Schlag II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '21':
+        type: SHOP
+        id: FLAME_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&cBuch: Flamme'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '22':
+        type: SHOP
+        id: INFINITY_BOOK
+        buy-price: 1500.0
+        sell-price: false
+        shop-name: '&cBuch: Unendlichkeit'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '23':
+        type: SHOP
+        id: MULTISHOT_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&cBuch: Dreifachschuss'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '24':
+        type: SHOP
+        id: QUICK_CHARGE_3_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&cBuch: Schnelles Laden III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '25':
+        type: SHOP
+        id: PIERCING_4_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&cBuch: Durchschuss IV'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '28':
+        type: SHOP
+        id: IMPALING_5_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&cBuch: Harpune V'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '29':
+        type: SHOP
+        id: RIPTIDE_3_BOOK
+        buy-price: 1500.0
+        sell-price: false
+        shop-name: '&cBuch: Sog III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '30':
+        type: SHOP
+        id: LOYALTY_3_BOOK
+        buy-price: 1200.0
+        sell-price: false
+        shop-name: '&cBuch: Treue III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '31':
+        type: SHOP
+        id: CHANNELING_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&cBuch: Entladung'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '32':
+        type: SHOP
+        id: DENSITY_5_BOOK
+        buy-price: 2000.0
+        sell-price: false
+        shop-name: '&4Buch: Dichte V'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&8Mace-Verzauberung (1.21+)'
+      '33':
+        type: SHOP
+        id: BREACH_4_BOOK
+        buy-price: 2000.0
+        sell-price: false
+        shop-name: '&4Buch: Rüstungsbruch IV'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&8Mace-Verzauberung (1.21+)'
+      '34':
+        type: SHOP
+        id: WIND_BURST_3_BOOK
+        buy-price: 3500.0
+        sell-price: false
+        shop-name: '&4Buch: Windstoß III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&8Mace-Ominous Belohnung'
+      '37':
+        type: SHOP
+        id: PROTECTION_4_BOOK
+        buy-price: 1500.0
+        sell-price: false
+        shop-name: '&9Buch: Schutz IV'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '38':
+        type: SHOP
+        id: FIRE_PROTECTION_4_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&9Buch: Feuerschutz IV'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '39':
+        type: SHOP
+        id: FEATHER_FALLING_4_BOOK
+        buy-price: 1200.0
+        sell-price: false
+        shop-name: '&9Buch: Federfall IV'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '40':
+        type: SHOP
+        id: BLAST_PROTECTION_4_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&9Buch: Explosionsschutz IV'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '41':
+        type: SHOP
+        id: PROJECTILE_PROTECTION_4_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&9Buch: Schuss-Sicherheit IV'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '42':
+        type: SHOP
+        id: RESPIRATION_3_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&9Buch: Atmung III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '43':
+        type: SHOP
+        id: AQUA_AFFINITY_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&9Buch: Wasseraffinität'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+  Page1:
+    items:
+      '10':
+        type: SHOP
+        id: THORNS_3_BOOK
+        buy-price: 1200.0
+        sell-price: false
+        shop-name: '&9Buch: Dornen III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '11':
+        type: SHOP
+        id: DEPTH_STRIDER_3_BOOK
+        buy-price: 1200.0
+        sell-price: false
+        shop-name: '&9Buch: Wasserläufer III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '12':
+        type: SHOP
+        id: FROST_WALKER_2_BOOK
+        buy-price: 1000.0
+        sell-price: false
+        shop-name: '&9Buch: Eisläufer II'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '13':
+        type: SHOP
+        id: SOUL_SPEED_3_BOOK
+        buy-price: 1500.0
+        sell-price: false
+        shop-name: '&9Buch: Seelentempo III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '14':
+        type: SHOP
+        id: SWIFT_SNEAK_3_BOOK
+        buy-price: 2500.0
+        sell-price: false
+        shop-name: '&8Buch: Huschen III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+        - '&8Ancient City Exklusiv'
+      '15':
+        type: SHOP
+        id: EFFICIENCY_5_BOOK
+        buy-price: 1500.0
+        sell-price: false
+        shop-name: '&6Buch: Effizienz V'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '16':
+        type: SHOP
+        id: SILK_TOUCH_BOOK
+        buy-price: 2000.0
+        sell-price: false
+        shop-name: '&6Buch: Behutsamkeit'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '19':
+        type: SHOP
+        id: FORTUNE_3_BOOK
+        buy-price: 2000.0
+        sell-price: false
+        shop-name: '&6Buch: Glück III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '20':
+        type: SHOP
+        id: LUCK_OF_THE_SEA_3_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&bBuch: Glück des Meeres III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '21':
+        type: SHOP
+        id: LURE_3_BOOK
+        buy-price: 800.0
+        sell-price: false
+        shop-name: '&bBuch: Köder III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '22':
+        type: SHOP
+        id: UNBREAKING_3_BOOK
+        buy-price: 1500.0
+        sell-price: false
+        shop-name: '&dBuch: Haltbarkeit III'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'
+      '23':
+        type: SHOP
+        id: MENDING_BOOK
+        buy-price: 3000.0
+        sell-price: false
+        shop-name: '&dBuch: Reparatur'
+        shop-lore:
+        - '&7Kann nicht verkauft werden!'

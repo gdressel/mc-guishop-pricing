@@ -1,0 +1,327 @@
+title: '&8» &2Dekorationen'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: WHITE_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&fWeißer Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: ORANGE_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&6Orangener Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: MAGENTA_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&dMagenta Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: LIGHT_BLUE_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&bHellblauer Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: YELLOW_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&eGelber Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '15':
+        type: SHOP
+        id: LIME_DYE
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&aHellgrüner Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '16':
+        type: SHOP
+        id: PINK_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&dRosa Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '19':
+        type: SHOP
+        id: GRAY_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&7Grauer Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '20':
+        type: SHOP
+        id: LIGHT_GRAY_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&7Hellgrauer Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '21':
+        type: SHOP
+        id: CYAN_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&3Türkiser Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '22':
+        type: SHOP
+        id: PURPLE_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&5Violetter Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '23':
+        type: SHOP
+        id: BLUE_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&9Blauer Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '24':
+        type: SHOP
+        id: BROWN_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&6Brauner Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '25':
+        type: SHOP
+        id: GREEN_DYE
+        buy-price: 5.0
+        sell-price: 1.0
+        shop-name: '&2Grüner Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '28':
+        type: SHOP
+        id: RED_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&cRoter Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '29':
+        type: SHOP
+        id: BLACK_DYE
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&8Schwarzer Farbstoff'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '30':
+        type: SHOP
+        id: DANDELION
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&eLöwenzahn'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '31':
+        type: SHOP
+        id: POPPY
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&cMohn'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '32':
+        type: SHOP
+        id: BLUE_ORCHID
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&bBlaue Orchidee'
+      '33':
+        type: SHOP
+        id: ALLIUM
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&dSternlauch'
+      '34':
+        type: SHOP
+        id: AZURE_BLUET
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&fPorzellansternchen'
+      '37':
+        type: SHOP
+        id: RED_TULIP
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&cRote Tulpe'
+      '38':
+        type: SHOP
+        id: ORANGE_TULIP
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&6Orangene Tulpe'
+      '39':
+        type: SHOP
+        id: WHITE_TULIP
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&fWeiße Tulpe'
+      '40':
+        type: SHOP
+        id: PINK_TULIP
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&dRosa Tulpe'
+      '41':
+        type: SHOP
+        id: OXEYE_DAISY
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&fMargerite'
+      '42':
+        type: SHOP
+        id: CORNFLOWER
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&9Kornblume'
+      '43':
+        type: SHOP
+        id: LILY_OF_THE_VALLEY
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&fMaiglöckchen'
+  Page1:
+    items:
+      '10':
+        type: SHOP
+        id: WITHER_ROSE
+        buy-price: 80.0
+        sell-price: 16.0
+        shop-name: '&8Wither-Rose'
+      '11':
+        type: SHOP
+        id: TORCHFLOWER
+        buy-price: 80.0
+        sell-price: 16.0
+        shop-name: '&6Fackellilie'
+      '12':
+        type: SHOP
+        id: PITCHER_PLANT
+        buy-price: 80.0
+        sell-price: 16.0
+        shop-name: '&2Kannenpflanze'
+      '13':
+        type: SHOP
+        id: SUNFLOWER
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&eSonnenblume'
+      '14':
+        type: SHOP
+        id: LILAC
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&dFlieder'
+      '15':
+        type: SHOP
+        id: ROSE_BUSH
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&cRosenstrauch'
+      '16':
+        type: SHOP
+        id: PEONY
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&dPfingstrose'
+      '19':
+        type: SHOP
+        id: WHITE_BANNER
+        buy-price: 30.0
+        sell-price: 6.0
+        shop-name: '&fWeißes Banner'
+      '20':
+        type: SHOP
+        id: BLACK_BANNER
+        buy-price: 35.0
+        sell-price: 7.0
+        shop-name: '&8Schwarzes Banner'
+      '21':
+        type: SHOP
+        id: RED_BANNER
+        buy-price: 35.0
+        sell-price: 7.0
+        shop-name: '&cRotes Banner'
+      '22':
+        type: SHOP
+        id: BLUE_BANNER
+        buy-price: 35.0
+        sell-price: 7.0
+        shop-name: '&9Blaues Banner'
+      '23':
+        type: SHOP
+        id: FLOWER_POT
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&6Blumentopf'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '24':
+        type: SHOP
+        id: DECORATED_POT
+        buy-price: 50.0
+        sell-price: 10.0
+        shop-name: '&6Verzierter Krug'
+      '25':
+        type: SHOP
+        id: ANGLER_POTTERY_SHERD
+        buy-price: 150.0
+        sell-price: 30.0
+        shop-name: '&7Angler-Tonscherbe'
+      '28':
+        type: SHOP
+        id: ARCHER_POTTERY_SHERD
+        buy-price: 150.0
+        sell-price: 30.0
+        shop-name: '&7Bogenschützen-Scherbe'
+      '29':
+        type: SHOP
+        id: MINER_POTTERY_SHERD
+        buy-price: 150.0
+        sell-price: 30.0
+        shop-name: '&7Minenarbeiter-Scherbe'
+      '30':
+        type: SHOP
+        id: SKULL_POTTERY_SHERD
+        buy-price: 150.0
+        sell-price: 30.0
+        shop-name: '&7Totenkopf-Scherbe'
+      '31':
+        type: SHOP
+        id: FLOW_POTTERY_SHERD
+        buy-price: 200.0
+        sell-price: 40.0
+        shop-name: '&bWind-Tonscherbe'
+      '32':
+        type: SHOP
+        id: GUSTER_POTTERY_SHERD
+        buy-price: 200.0
+        sell-price: 40.0
+        shop-name: '&bWirbel-Tonscherbe'

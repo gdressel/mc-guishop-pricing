@@ -10,27 +10,26 @@
 - **Standard:** `Buy:Sell` **muss zwischen 3:1 und 5:1 liegen**.
 - **Ziel:** Spieler können durch Verkauf Geld verdienen, aber nicht den gesamten Shop aufkaufen.
 - **Formel:** `Ratio = Buy / Sell` → **3 ≤ Ratio ≤ 5**
-- **Ausnahme:** Items mit `buy: -1` oder `sell: -1` (siehe unten).
+- **Ausnahme:** Items mit `buy-price: false` oder `sell-price: false` (siehe unten).
 
 ### 2. Farmbare Items (Anti-Inflations-System)
 - **Extrem farmbar** (Farmbarkeit ≥ 0.7):
   - **Sell-Preis:** `0.1` bis `0.5`
-  - **Tägliches Limit:** `daily-limit-sell: 1000–5000` (je nach Item)
+  - **Tägliches Limit (Richtwert, keine Plugin-Funktion):** 1000–5000/Tag, dokumentiert als Hinweistext in `shop-lore` (GUIShop selbst erzwingt kein Limit)
   - **Beispiele:** COBBLESTONE, DIRT, SAND, PUMPKIN, MELON, IRON_INGOT, GUNPOWDER, BONE, BAMBOO
 - **Nicht farmbar/Selten** (Farmbarkeit ≤ 0.3):
   - **Hohe Verkaufspreise**, **sehr hohe Kaufpreise**
   - **Kein tägliches Limit**
   - **Beispiele:** DIAMOND, NETHERITE_INGOT, DRAGON_EGG, SHULKER_SHELL, NETHER_STAR
 
-### 3. Handlungs-Restriktionen (`-1`-Regel)
-| Regel          | Anwendung                                                                 | Beispiele                          |
-|----------------|---------------------------------------------------------------------------|------------------------------------|
-| `buy: -1`      | Item **kann nicht gekauft** werden (muss erspielt werden).               | DRAGON_EGG, HEAVY_CORE, SPAWNER    |
-| `sell: -1`     | Item **kann nicht verkauft** werden (Missbrauchsschutz).                 | Alle verzauberten Items, Werkzeuge, Rüstungen |
+### 3. Handlungs-Restriktionen (`false`-Regel)
+| Regel               | Anwendung                                                                 | Beispiele                          |
+|---------------------|---------------------------------------------------------------------------|------------------------------------|
+| `buy-price: false`  | Item **kann nicht gekauft** werden (muss erspielt werden).               | DRAGON_EGG, HEAVY_CORE, SPAWNER    |
+| `sell-price: false` | Item **kann nicht verkauft** werden (Missbrauchsschutz).                 | Alle verzauberten Items, Werkzeuge, Rüstungen |
 
 ### 4. Stack-Größen
-- **Nur für Blöcke/Erze:** `buy-stack: 64`, `sell-stack: 64`
-- **Alle anderen Items:** Einzelkauf/Verkauf (keine Stack-Definition).
+GUIShop kennt kein separates `buy-stack`/`sell-stack`-Feld. Käufe/Verkäufe laufen einzeln oder über die eingebaute Mengenauswahl im Shop-GUI (Spieler wählt die Menge selbst) — es gibt dafür keine Konfiguration pro Item.
 
 ---
 
@@ -50,36 +49,36 @@
 
 ## 📊 **Farmbarkeit-Kategorien & Preis-Spannen**
 
-| **Farmbarkeit** | **Beispiele**                          | **Sell-Preis** | **Buy-Preis** | **Ratio** | **Tägliches Limit** | **Stacks**               |
-|-----------------|----------------------------------------|----------------|---------------|-----------|--------------------|---------------------------|
-| 0.9–1.0         | COBBLESTONE, DIRT, SAND, GRAVEL        | 0.1–0.5        | 2.0–4.0       | 4:1–5:1   | 1000–5000          | `buy-stack: 64`, `sell-stack: 64` |
-| 0.7–0.8         | IRON_INGOT, GUNPOWDER, BONE, STRING    | 1.0–5.0        | 10.0–30.0     | 3:1–5:1   | 500–2000           | `buy-stack: 64`, `sell-stack: 64` |
-| 0.3–0.6         | GOLD_INGOT, EMERALD, BLAZE_ROD         | 5.0–20.0       | 20.0–100.0    | 3:1–5:1   | 100–500            | `buy-stack: 64`, `sell-stack: 64` |
-| 0.0–0.2         | DIAMOND, NETHERITE_INGOT, ENDER_PEARL  | 50.0–200.0     | 300.0–1000.0  | 3:1–5:1   | Kein Limit        | Einzelkauf               |
-| 0.0             | DRAGON_EGG, SPAWNER, HEAVY_CORE        | 1000.0–25000.0 | -1            | -         | Kein Limit        | Einzelkauf               |
+| **Farmbarkeit** | **Beispiele**                          | **Sell-Preis** | **Buy-Preis** | **Ratio** | **Tägliches Limit (Lore-Hinweis)** |
+|-----------------|----------------------------------------|----------------|---------------|-----------|--------------------|
+| 0.9–1.0         | COBBLESTONE, DIRT, SAND, GRAVEL        | 0.1–0.5        | 2.0–4.0       | 4:1–5:1   | 1000–5000          |
+| 0.7–0.8         | IRON_INGOT, GUNPOWDER, BONE, STRING    | 1.0–5.0        | 10.0–30.0     | 3:1–5:1   | 500–2000           |
+| 0.3–0.6         | GOLD_INGOT, EMERALD, BLAZE_ROD         | 5.0–20.0       | 20.0–100.0    | 3:1–5:1   | 100–500            |
+| 0.0–0.2         | DIAMOND, NETHERITE_INGOT, ENDER_PEARL  | 50.0–200.0     | 300.0–1000.0  | 3:1–5:1   | Kein Limit        |
+| 0.0             | DRAGON_EGG, SPAWNER, HEAVY_CORE        | 1000.0–25000.0 | false         | -         | Kein Limit        |
 
 ---
 
 ## ⚠️ **Spezielle Regeln für Item-Typen**
 
 ### Werkzeuge & Waffen (`tools.yml`)
-- **Sell:** **Immer `-1`** (kein Verkauf, um Enchant-Missbrauch zu verhindern).
+- **Sell:** **Immer `sell-price: false`** (kein Verkauf, um Enchant-Missbrauch zu verhindern).
 - **Buy:** individuell (z. B. `WOODEN_PICKAXE: 50.0`, `DIAMOND_AXE: 1000.0`).
 
 ### Rüstungen (`armor.yml`)
-- **Sell:** **Immer `-1`** (kein Verkauf).
+- **Sell:** **Immer `sell-price: false`** (kein Verkauf).
 - **Buy:** individuell (z. B. `LEATHER_HELMET: 80.0`, `NETHERITE_CHESTPLATE: 8000.0`).
 
 ### Verzauberungsbücher (`enchantments.yml`)
-- **Sell:** **Immer `-1`** (kein Verkauf).
+- **Sell:** **Immer `sell-price: false`** (kein Verkauf).
 - **Buy:** nach Seltenheit (z. B. `EFFICIENCY_1: 100.0`, `MENDING: 2000.0`).
 
 ### Tränke (`potions.yml`)
-- **Sell:** **Immer `-1`** (kein Verkauf, außer Admin-Shop).
+- **Sell:** **Immer `sell-price: false`** (kein Verkauf, außer Admin-Shop).
 - **Buy:** nach Typ (z. B. `POTION_OF_STRENGTH: 50.0`, `SPLASH_POTION_OF_HARMING: 200.0`).
 
 ### Mob-Spawner (`spawners.yml`)
-- **Buy:** **Immer `-1`** (kann nicht gekauft werden).
+- **Buy:** **Immer `buy-price: false`** (kann nicht gekauft werden).
 - **Sell:** hoch (z. B. `SPAWNER: 25000.0`, `CREEPER_SPAWNER: 50000.0`).
 
 ---

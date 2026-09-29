@@ -1,0 +1,177 @@
+title: '&8» &2Mob-Drops'
+rows: 6
+pages:
+  Page0:
+    items:
+      '10':
+        type: SHOP
+        id: ROTTEN_FLESH
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&2Verrottetes Fleisch'
+        shop-lore:
+        - '&8Server-Richtwert: max. 3000/Tag verkaufen'
+      '11':
+        type: SHOP
+        id: BONE
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&fKnochen'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '12':
+        type: SHOP
+        id: STRING
+        buy-price: 6.0
+        sell-price: 1.2
+        shop-name: '&fFaden'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1000/Tag verkaufen'
+      '13':
+        type: SHOP
+        id: SPIDER_EYE
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&4Spinnenauge'
+        shop-lore:
+        - '&8Server-Richtwert: max. 800/Tag verkaufen'
+      '14':
+        type: SHOP
+        id: GUNPOWDER
+        buy-price: 20.0
+        sell-price: 4.0
+        shop-name: '&8Schwarzpulver'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '15':
+        type: SHOP
+        id: SLIME_BALL
+        buy-price: 25.0
+        sell-price: 5.0
+        shop-name: '&aSchleimball'
+        shop-lore:
+        - '&8Server-Richtwert: max. 500/Tag verkaufen'
+      '16':
+        type: SHOP
+        id: PHANTOM_MEMBRANE
+        buy-price: 50.0
+        sell-price: 10.0
+        shop-name: '&7Phantomhaut'
+      '19':
+        type: SHOP
+        id: BREEZE_ROD
+        buy-price: 120.0
+        sell-price: 25.0
+        shop-name: '&bBreeze-Rute'
+      '21':
+        type: SHOP
+        id: FEATHER
+        buy-price: 4.0
+        sell-price: 0.8
+        shop-name: '&fFeder'
+        shop-lore:
+        - '&8Server-Richtwert: max. 1500/Tag verkaufen'
+      '22':
+        type: SHOP
+        id: LEATHER
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&6Leder'
+        shop-lore:
+        - '&8Server-Richtwert: max. 800/Tag verkaufen'
+      '23':
+        type: SHOP
+        id: EGG
+        buy-price: 2.0
+        sell-price: 0.4
+        shop-name: '&fEi'
+        shop-lore:
+        - '&8Server-Richtwert: max. 2000/Tag verkaufen'
+      '24':
+        type: SHOP
+        id: INK_SAC
+        buy-price: 8.0
+        sell-price: 1.6
+        shop-name: '&0Tintenbeutel'
+        shop-lore:
+        - '&8Server-Richtwert: max. 800/Tag verkaufen'
+      '25':
+        type: SHOP
+        id: GLOW_INK_SAC
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&bLeuchttintenbeutel'
+      '28':
+        type: SHOP
+        id: RABBIT_FOOT
+        buy-price: 80.0
+        sell-price: 16.0
+        shop-name: '&6Hasenpfote'
+      '29':
+        type: SHOP
+        id: RABBIT_HIDE
+        buy-price: 10.0
+        sell-price: 2.0
+        shop-name: '&6Kaninchenfell'
+      '30':
+        type: SHOP
+        id: HONEYCOMB
+        buy-price: 12.0
+        sell-price: 2.4
+        shop-name: '&eHonigwabe'
+        shop-lore:
+        - '&8Server-Richtwert: max. 800/Tag verkaufen'
+      '31':
+        type: SHOP
+        id: TURTLE_SCUTE
+        buy-price: 60.0
+        sell-price: 12.0
+        shop-name: '&aSchildkröten-Hornschild'
+      '32':
+        type: SHOP
+        id: ARMADILLO_SCUTE
+        buy-price: 40.0
+        sell-price: 8.0
+        shop-name: '&6Gürteltier-Hornschild'
+      '34':
+        type: SHOP
+        id: NETHER_STAR
+        buy-price: 5000.0
+        sell-price: 1200.0
+        shop-name: '&dNetherstern'
+      '37':
+        type: SHOP
+        id: DRAGON_BREATH
+        buy-price: 300.0
+        sell-price: 60.0
+        shop-name: '&5Drachenatem'
+      '38':
+        type: SHOP
+        id: DRAGON_HEAD
+        buy-price: 4000.0
+        sell-price: 800.0
+        shop-name: '&0Drachenkopf'
+      '40':
+        type: SHOP
+        id: TOTEM_OF_UNDYING
+        buy-price: 1500.0
+        sell-price: 300.0
+        shop-name: '&eTotem der Unsterblichkeit'
+      '41':
+        type: SHOP
+        id: SADDLE
+        buy-price: 250.0
+        sell-price: 50.0
+        shop-name: '&6Sattel'
+      '42':
+        type: SHOP
+        id: LEAD
+        buy-price: 15.0
+        sell-price: 3.0
+        shop-name: '&fLeine'
+      '43':
+        type: SHOP
+        id: NAME_TAG
+        buy-price: 400.0
+        sell-price: 80.0
+        shop-name: '&fNamensschild'
