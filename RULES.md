@@ -121,12 +121,13 @@ Um die Ökonomie vor gezielter Meinungsmache, Spam oder Preisabsprachen in Foren
 1. **Minecraft Wiki als unmanipulierbare Primärbasis (Gewichtung 50%):**
    - Jede Preisentscheidung basiert primär auf den verifizierten Spieldaten des Minecraft Wikis:
      - **Natürliche Seltenheit & Drop-Wahrscheinlichkeit**
-     - **Erforderliches Spielerniveau (Progression Tier 1–4)**
+     - **Farm-Mechaniken & Erneuerbarkeit** (siehe Farmbarkeits-Kriterien oben)
      - **Ressourcenaufwand im Crafting-Baum**
      - **Gefahrenpotenzial bei der Beschaffung** (z. B. Overworld Oberfläche vs. Netherfestung / Ancient City).
+   - **Hinweis:** Die "Progression Tier 1–4"-Einteilung (siehe `RESEARCH_SOURCES.md` Abschnitt 3) ist ein **eigenes Projektschema**, keine offizielle Wiki-Klassifikation — das Wiki selbst kennt nur ein rein kosmetisches Seltenheitssystem (Common/Uncommon/Rare/Epic) ohne Preisbezug.
 2. **Ausschluss von Einzelmeinungen:**
    - Beiträge einzelner Nutzer oder kleiner Interessengruppen in Foren werden **nicht** isoliert als Recherchewert gewertet.
-   - Nur statistisch aggregierte Datensätze aus langjährigen Servernetzwerken (z. B. Mineseed) oder verifizierten Erhebungen finden Eingang.
+   - Nur belastbare, real verifizierte Quellen finden Eingang (siehe `RESEARCH_SOURCES.md` Abschnitt 1 für die aktuelle, geprüfte Quellenliste inkl. Mineseed Official Price Guide).
 3. **Ausreißer-Bereinigung:**
    - Weicht ein externer Preisvorschlag um mehr als 50% vom Wiki-basierten Progressionskorridor ab, wird er automatisch als Spekulation/Spam verworfen.
 4. **Schutzmauer durch Buy:Sell-Ratio:**
