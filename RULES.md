@@ -17,10 +17,21 @@
   - **Sell-Preis:** `0.1` bis `0.5`
   - **Tägliches Limit (Richtwert, keine Plugin-Funktion):** 1000–5000/Tag, dokumentiert als Hinweistext in `shop-lore` (GUIShop selbst erzwingt kein Limit)
   - **Beispiele:** COBBLESTONE, DIRT, SAND, PUMPKIN, MELON, IRON_INGOT, GUNPOWDER, BONE, BAMBOO
-- **Nicht farmbar/Selten** (Farmbarkeit ≤ 0.3):
+- **Nicht farmbar/Unikat** (Farmbarkeit ≤ 0.2):
   - **Hohe Verkaufspreise**, **sehr hohe Kaufpreise**
   - **Kein tägliches Limit**
-  - **Beispiele:** DIAMOND, NETHERITE_INGOT, DRAGON_EGG, SHULKER_SHELL, NETHER_STAR
+  - **Beispiele:** DIAMOND, NETHERITE_INGOT, ANCIENT_DEBRIS, DRAGON_EGG
+  - **Kriterium:** Ressource ist an ein endliches Weltvorkommen gebunden (Erzabbau, einmaliger Boss-Drop) — es existiert **keine** wiederholbare In-Game-Mechanik, die die Ressource neu erzeugt.
+- **Aufwändig, aber erneuerbar** (Farmbarkeit 0.3–0.4):
+  - Ressource ist über eine bekannte, wiederholbare Endgame-Mechanik (Boss-Zyklus, Duplikation, Raid) unbegrenzt oft beschaffbar — der limitierende Faktor ist der Spieleraufwand pro Zyklus, nicht die Weltgenerierung.
+  - **Hohe Verkaufspreise**, **hohe bis sehr hohe Kaufpreise** (Aufwand rechtfertigt den Preis, nicht Nicht-Erneuerbarkeit)
+  - **Kein tägliches Limit nötig** (der Aufwand pro Einheit limitiert die Menge bereits faktisch)
+  - **Beispiele:**
+    - `NETHER_STAR` — Wither lässt sich beliebig oft beschwören/töten (Wither-Skelett-Schädel-Farm + Wither-Kill-Setup, ~90+/h in optimierten AFK-Farmen)
+    - `SHULKER_SHELL` — Duplikationsmechanik seit 1.17: ein aus einer End City geborgener Shulker reicht als Startpunkt für eine unbegrenzte Farm
+    - `TOTEM_OF_UNDYING` — garantierter Evoker-Drop, über Dorf-Raid-Farmen (Bad-Omen-Trigger) beliebig oft wiederholbar
+    - `WITHER_SKELETON_SKULL` — Nether-Fortress-Farm, AFK-fähig (5–360+/h je nach Bauqualität)
+  - **Nicht zu verwechseln mit "Nicht farmbar/Unikat":** Diese Items sind kein Einzelvorkommen wie DIAMOND, sondern nur durch Spielaufwand (nicht durch Weltgenerierung) begrenzt.
 
 ### 3. Handlungs-Restriktionen (`false`-Regel)
 | Regel               | Anwendung                                                                 | Beispiele                          |
@@ -53,8 +64,9 @@ GUIShop kennt kein separates `buy-stack`/`sell-stack`-Feld. Käufe/Verkäufe lau
 |-----------------|----------------------------------------|----------------|---------------|-----------|--------------------|
 | 0.9–1.0         | COBBLESTONE, DIRT, SAND, GRAVEL        | 0.1–0.5        | 2.0–4.0       | 4:1–5:1   | 1000–5000          |
 | 0.7–0.8         | IRON_INGOT, GUNPOWDER, BONE, STRING    | 1.0–5.0        | 10.0–30.0     | 3:1–5:1   | 500–2000           |
-| 0.3–0.6         | GOLD_INGOT, EMERALD, BLAZE_ROD         | 5.0–20.0       | 20.0–100.0    | 3:1–5:1   | 100–500            |
-| 0.0–0.2         | DIAMOND, NETHERITE_INGOT, ENDER_PEARL  | 50.0–200.0     | 300.0–1000.0  | 3:1–5:1   | Kein Limit        |
+| 0.3–0.6         | GOLD_INGOT, EMERALD, BLAZE_ROD, ENDER_PEARL | 5.0–20.0  | 20.0–100.0    | 3:1–5:1   | 100–500            |
+| 0.3–0.4 (aufwändig, aber erneuerbar) | NETHER_STAR, SHULKER_SHELL, TOTEM_OF_UNDYING, WITHER_SKELETON_SKULL | 100.0–1250.0 | 450.0–6000.0 | 3:1–5:1 | Kein Limit (Aufwand limitiert bereits) |
+| 0.0–0.2         | DIAMOND, NETHERITE_INGOT, ANCIENT_DEBRIS | 75.0–1250.0 | 300.0–6000.0  | 3:1–5:1   | Kein Limit        |
 | 0.0             | DRAGON_EGG, SPAWNER, HEAVY_CORE        | 1000.0–25000.0 | false         | -         | Kein Limit        |
 
 ---

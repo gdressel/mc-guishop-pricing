@@ -7,6 +7,12 @@ Das Format orientiert sich an [Keep a Changelog](https://keepachangelog.com/de/1
 ---
 
 ## [Unreleased]
+### Fixed
+- **Farmbarkeits-Fehleinschätzung korrigiert:** `RULES.md` stufte `ENDER_PEARL`, `NETHER_STAR`, `SHULKER_SHELL`, `TOTEM_OF_UNDYING` und `WITHER_SKELETON_SKULL` fälschlich in dieselbe "kaum farmbar"-Klasse (0.0–0.2) wie echte Weltgenerierungs-Unikate (DIAMOND, NETHERITE_INGOT) ein. Gegen das Minecraft Wiki geprüft: Alle fünf Items sind über bekannte AFK-fähige Farm-Mechaniken (Enderman-Farm, Wither-Zyklus, Shulker-Duplikation, Raid-Farm, Fortress-Farm) unbegrenzt erneuerbar, nur mit höherem Aufwand als Standard-Mob-Loot.
+  - Neue Zwischenkategorie "Aufwändig, aber erneuerbar" (Farmbarkeit 0.3–0.4) in `RULES.md` eingeführt.
+  - `ITEM_MAPPING.md`: Farmbarkeitswerte korrigiert — `ENDER_PEARL` 0.4→0.6, `NETHER_STAR` 0.1→0.35, `SHULKER_SHELL` 0.3→0.35, `TOTEM_OF_UNDYING` 0.4→0.35, `WITHER_SKELETON_SKULL` 0.2→0.35.
+  - Keine Preisänderungen nötig — bestehende Buy/Sell-Werte in `shops/misc.yml`, `shops/mobdrops.yml`, `shops/nether_end.yml` passen bereits in die korrigierten Preisbänder.
+  - Details und Quellen: siehe `RESEARCH_SOURCES.md` Abschnitt 6b.
 
 ## [1.1.0] - 2026-09-29
 ### Changed

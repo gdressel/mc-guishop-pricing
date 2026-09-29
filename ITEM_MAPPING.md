@@ -301,10 +301,10 @@
 | `HONEYCOMB` | Honigwabe | passive_mobs | 0.7 | 12.0 | 2.4 | Bienenstock mit Schere |
 | `TURTLE_SCUTE` | Schildkröten-Hornschild | passive_mobs | 0.3 | 60.0 | 12.0 | Auswachsen junger Schildkröten |
 | `ARMADILLO_SCUTE` | Gürteltier-Hornschild | passive_mobs | 0.4 | 40.0 | 8.0 | Wolfsrüstungsbau |
-| `NETHER_STAR` | Netherstern | bosses | 0.1 | 5000.0 | 1200.0 | Wither-Bossloot |
+| `NETHER_STAR` | Netherstern | bosses | 0.35 | 5000.0 | 1200.0 | Wither beliebig oft beschwörbar (Skelett-Schädel-Farm), aufwändig aber erneuerbar |
 | `DRAGON_BREATH` | Drachenatem | bosses | 0.1 | 300.0 | 60.0 | Flasche im Enderdrachen-Kampf |
 | `DRAGON_HEAD` | Drachenkopf | bosses | 0.05 | 4000.0 | 800.0 | Endschiffe |
-| `TOTEM_OF_UNDYING` | Totem der Unsterblichkeit | utility | 0.4 | 1500.0 | 300.0 | Raid-Farmbar / Evoker |
+| `TOTEM_OF_UNDYING` | Totem der Unsterblichkeit | utility | 0.35 | 1500.0 | 300.0 | Garantierter Evoker-Drop, Dorf-Raid-Farm beliebig wiederholbar, aufwändig aber erneuerbar |
 | `SADDLE` | Sattel | utility | 0.3 | 250.0 | 50.0 | Dungeons / Raids / Angeln |
 | `LEAD` | Leine | utility | 0.6 | 15.0 | 3.0 | Schleimball + 4 Fäden |
 | `NAME_TAG` | Namensschild | utility | 0.3 | 400.0 | 80.0 | Dungeons / Angeln / Villager |
@@ -421,7 +421,7 @@
 | `BLAZE_POWDER` | Lohenstaub | nether_items | 0.6 | 20.0 | 4.0 | Braustoff / Enderaugen |
 | `GHAST_TEAR` | Ghast-Träne | nether_items | 0.4 | 120.0 | 25.0 | Regenerations-Tränke |
 | `MAGMA_CREAM` | Magmacreme | nether_items | 0.7 | 15.0 | 3.0 | Feuerresistenz-Tränke |
-| `WITHER_SKELETON_SKULL` | Witherskelettschädel | nether_items | 0.2 | 800.0 | 180.0 | Selten (Plünderung III) |
+| `WITHER_SKELETON_SKULL` | Witherskelettschädel | nether_items | 0.35 | 800.0 | 180.0 | Fortress-AFK-Farm möglich (Plünderung III erhöht Dropchance), aufwändig aber erneuerbar |
 | `END_STONE` | Endstein | end_blocks | 0.7 | 4.0 | 0.8 | Abbau in den End-Inseln |
 | `END_STONE_BRICKS` | Endsteinziegel | end_blocks | 0.7 | 5.0 | 1.0 | Ziegelvariante |
 | `PURPUR_BLOCK` | Purpurblock | end_blocks | 0.7 | 8.0 | 1.6 | Geplatzte Chorusfrucht |
@@ -429,7 +429,7 @@
 | `END_ROD` | Endstab | end_blocks | 0.6 | 25.0 | 5.0 | Lichtquelle |
 | `CHORUS_FRUIT` | Chorusfrucht | end_items | 0.7 | 5.0 | 1.0 | Teleportationsnahrung |
 | `POPPED_CHORUS_FRUIT` | Geplatzte Chorusfrucht | end_items | 0.7 | 6.0 | 1.2 | Gebrannt |
-| `SHULKER_SHELL` | Shulker-Schale | end_items | 0.3 | 450.0 | 100.0 | Shulker-Kistenbau |
+| `SHULKER_SHELL` | Shulker-Schale | end_items | 0.35 | 450.0 | 100.0 | Duplikationsmechanik seit 1.17: aus einem geborgenen Shulker unbegrenzt farmbar, aufwändig aber erneuerbar (nicht mit DIAMOND-Klasse verwechseln) |
 | `ELYTRA` | Elytren | end_items | 0.05 | 8000.0 | 1600.0 | Seltenes Endschiff-Fluggerät |
 | `DRAGON_EGG` | Drachenei | end_items | 0.0 | -1 | 15000.0 | buy: -1 (Unikat, nur erspielbar) |
 | `HEAVY_CORE` | Schwerer Kern | end_items | 0.05 | -1 | 5000.0 | buy: -1 (Mace-Kern, Trial Chamber) |
@@ -702,7 +702,7 @@
 
 | Material | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `ENDER_PEARL` | Enderperle | utility | 0.4 | 50.0 | 10.0 | Teleportations-Item (Ratio 5:1) |
+| `ENDER_PEARL` | Enderperle | utility | 0.6 | 50.0 | 10.0 | Enderman-Farm im End (AFK-fähig, 3000-6000/h) — deutlich besser farmbar als bisher eingestuft (Ratio 5:1) |
 | `EYE_OF_ENDER` | Enderauge | utility | 0.3 | 80.0 | 16.0 | Festungsfinder |
 | `COMPASS` | Kompass | utility | 0.5 | 40.0 | 8.0 | Orientierung |
 | `RECOVERY_COMPASS` | Bergungskompass | utility | 0.1 | 500.0 | 100.0 | Zeigt letzten Todespunkt |

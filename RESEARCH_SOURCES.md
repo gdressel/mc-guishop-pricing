@@ -141,6 +141,30 @@ Für alle Items mit hoher Farmbarkeit ($\ge 0.7$) wurden folgende tägliche Verk
 
 ---
 
+## 6b. 🔍 Farmbarkeits-Revision (2026-09-29)
+
+Bei einer Diskussion zur Behauptung "DIAMOND und ENDER_PEARL sind einfach zu farmen" wurde die gesamte Farmbarkeits-Klassifikation gegen das Minecraft Wiki (Ebene 1, Gewichtung 50 %) sowie praxiserprobte Community-Farm-Designs geprüft. Ergebnis: Die ursprüngliche Beispielliste für Farmbarkeit `0.0–0.2` in `RULES.md` vermischte zwei mechanisch unterschiedliche Fälle:
+
+| **Item** | **Alte Einstufung** | **Neue Einstufung** | **Begründung (Wiki-Abgleich)** |
+|:---|:---:|:---:|:---|
+| `ENDER_PEARL` | 0.4 (RULES.md: Beispiel für ≤0.3) | **0.6** | Enderman-Farmen im End (Endermite-Lure/Kürbis-Methode) sind vollständig AFK-fähig und erneuerbar: 3000–6000 Perlen/h. Mechanisch identisch mit anderen Mob-Loot-Farmen (GUNPOWDER, BONE), die bereits bei 0.7–0.8 eingestuft sind. |
+| `NETHER_STAR` | 0.1 | **0.35** | Wither ist beliebig oft beschwörbar (3 Wither-Skelett-Schädel + 4 Seelensand), Skull-Farmen liefern bis zu 360 Schädel/h. Kein Einzelvorkommen wie Diamant — nur der Spieleraufwand limitiert den Ertrag. |
+| `SHULKER_SHELL` | 0.3 | **0.35** | Shulker-Duplikationsmechanik (seit 1.17): ein aus einer End City geborgener Shulker reicht als Startpunkt einer unbegrenzten Farm. |
+| `TOTEM_OF_UNDYING` | 0.4 | **0.35** | Garantierter Evoker-Drop; Dorf-Raid-Farm (Bad-Omen-Trigger) beliebig oft wiederholbar. |
+| `WITHER_SKELETON_SKULL` | 0.2 | **0.35** | Nether-Fortress-AFK-Farm, 5–360+ Schädel/h je nach Bauqualität. |
+
+**Unverändert bestätigt (echte Unikate/nicht-erneuerbar):**
+- `DIAMOND` (0.2), `NETHERITE_INGOT` (0.1), `ANCIENT_DEBRIS` (0.1): An endliches Erzvorkommen der Weltgenerierung gebunden, keine In-Game-Mechanik erzeugt neue Vorkommen.
+- `DRAGON_EGG` (0.0): Nur 1× pro Welt in Java Edition, Dragon-Respawn erzeugt kein neues Ei.
+
+**Neue Zwischenkategorie eingeführt:** "Aufwändig, aber erneuerbar" (Farmbarkeit 0.3–0.4) für Items, die über eine bekannte, wiederholbare Endgame-Mechanik (Boss-Zyklus, Duplikation, Raid) unbegrenzt beschaffbar sind — der limitierende Faktor ist Spieleraufwand pro Zyklus, nicht Weltgenerierung. Siehe `RULES.md` Abschnitt 2.
+
+**Preis-Auswirkung:** Keine. Alle betroffenen Shop-Configs (`shops/misc.yml`, `shops/mobdrops.yml`, `shops/nether_end.yml`) hatten bereits Preise, die in die korrigierten Bänder passen — die Fehleinschätzung betraf ausschließlich die Dokumentation der Farmbarkeit, nicht die tatsächlich konfigurierten Buy/Sell-Werte.
+
+**Quellen:** [minecraft.wiki/w/Tutorial:Shulker_farming](https://minecraft.wiki/w/Tutorial:Shulker_farming), [minecraft.wiki/w/Tutorials/Wither_skeleton_farming](https://minecraft.wiki/w/Tutorials/Wither_skeleton_farming), [minecraft.wiki/w/Talk:Diamond](https://minecraft.wiki/w/Talk:Diamond), Craftdex Enderman-Farm-Guide, Sportskeeda Raid-Farming-Guide.
+
+---
+
 ## 7. ✅ Validierung von Phase 2
 
 - [x] **Unmanipulierbare Primärquelle:** Offizielles `minecraft.wiki` als Fundament für Spielerniveau (Tier 1–4), Seltenheit und Aufwand genutzt.
