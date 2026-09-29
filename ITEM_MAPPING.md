@@ -13,8 +13,8 @@
 2. **Farmbarkeit:** Wertebereich von `0.0` (absolut unzugänglich für automatische Farmen / Unikate) bis `1.0` (vollautomatisch mit minimalem Aufwand generierbar).
 3. **Wirtschaftsregeln:**
    - Standard Buy:Sell-Ratio zwischen `3:1` und `5:1`.
-   - `sell: -1`: Items mit variabler Haltbarkeit/Enchantments (Missbrauchsschutz für Werkzeuge, Rüstung, Tränke, Zauberbücher).
-   - `buy: -1`: Extrem seltene Boss-Drops oder Spawner (können nur erspielt und verkauft werden).
+   - `sell: false`: Items mit variabler Haltbarkeit/Enchantments (Missbrauchsschutz für Werkzeuge, Rüstung, Tränke, Zauberbücher).
+   - `buy: false`: Extrem seltene Boss-Drops oder Spawner (können nur erspielt und verkauft werden).
    - `daily-limit-sell`: Vorgesehen für Items mit Farmbarkeit $\ge 0.7$ (Greift in Phase 3 bei der YAML-Erzeugung).
 4. **Stack-Größen:** Stacks (`64`) gelten primär für Massenblöcke und Erze/Barren; Werkzeuge, Rüstungen und Spezialitems werden einzeln gehandelt.
 
@@ -431,10 +431,10 @@
 | `POPPED_CHORUS_FRUIT` | Geplatzte Chorusfrucht | end_items | 0.7 | 6.0 | 1.2 | Gebrannt |
 | `SHULKER_SHELL` | Shulker-Schale | end_items | 0.35 | 450.0 | 100.0 | Duplikationsmechanik seit 1.17: aus einem geborgenen Shulker unbegrenzt farmbar, aufwändig aber erneuerbar (nicht mit DIAMOND-Klasse verwechseln) |
 | `ELYTRA` | Elytren | end_items | 0.05 | 8000.0 | 1600.0 | Seltenes Endschiff-Fluggerät |
-| `DRAGON_EGG` | Drachenei | end_items | 0.0 | -1 | 15000.0 | buy: -1 (Unikat, nur erspielbar) |
-| `HEAVY_CORE` | Schwerer Kern | end_items | 0.05 | -1 | 5000.0 | buy: -1 (Mace-Kern, Trial Chamber) |
-| `TRIAL_KEY` | Prüfungsschlüssel | end_items | 0.2 | -1 | 500.0 | buy: -1 (Belohnungsauslöser) |
-| `OMINOUS_TRIAL_KEY` | Unheilvoller Prüfungsschlüssel | end_items | 0.1 | -1 | 1200.0 | buy: -1 (High-Tier Belohnung) |
+| `DRAGON_EGG` | Drachenei | end_items | 0.0 | false | 15000.0 | buy: false (Unikat, nur erspielbar) |
+| `HEAVY_CORE` | Schwerer Kern | end_items | 0.05 | false | 5000.0 | buy: false (Mace-Kern, Trial Chamber) |
+| `TRIAL_KEY` | Prüfungsschlüssel | end_items | 0.2 | false | 500.0 | buy: false (Belohnungsauslöser) |
+| `OMINOUS_TRIAL_KEY` | Unheilvoller Prüfungsschlüssel | end_items | 0.1 | false | 1200.0 | buy: false (High-Tier Belohnung) |
 
 ---
 
@@ -495,194 +495,194 @@
 
 ### 9. tools.yml
 *Subgruppen: `pickaxes`, `axes`, `swords`, `shovels`, `hoe`*
-*Regel: Alle Werkzeuge besitzen `sell: -1` zum Schutz vor Haltbarkeits- & Verzauberungsmissbrauch.*
+*Regel: Alle Werkzeuge besitzen `sell: false` zum Schutz vor Haltbarkeits- & Verzauberungsmissbrauch.*
 
 | Material | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `WOODEN_PICKAXE` | Holzspitzhacke | pickaxes | 0.0 | 20.0 | -1 | sell: -1 |
-| `STONE_PICKAXE` | Steinspitzhacke | pickaxes | 0.0 | 40.0 | -1 | sell: -1 |
-| `IRON_PICKAXE` | Eisenspitzhacke | pickaxes | 0.0 | 150.0 | -1 | sell: -1 |
-| `GOLDEN_PICKAXE` | Goldspitzhacke | pickaxes | 0.0 | 200.0 | -1 | sell: -1 |
-| `DIAMOND_PICKAXE` | Diamantspitzhacke | pickaxes | 0.0 | 1000.0 | -1 | sell: -1 |
-| `NETHERITE_PICKAXE` | Netheritspitzhacke | pickaxes | 0.0 | 7500.0 | -1 | sell: -1 |
-| `WOODEN_AXE` | Holzaxt | axes | 0.0 | 20.0 | -1 | sell: -1 |
-| `STONE_AXE` | Steinaxt | axes | 0.0 | 40.0 | -1 | sell: -1 |
-| `IRON_AXE` | Eisenaxt | axes | 0.0 | 150.0 | -1 | sell: -1 |
-| `GOLDEN_AXE` | Goldaxt | axes | 0.0 | 200.0 | -1 | sell: -1 |
-| `DIAMOND_AXE` | Diamantaxt | axes | 0.0 | 1000.0 | -1 | sell: -1 |
-| `NETHERITE_AXE` | Netheritaxt | axes | 0.0 | 7500.0 | -1 | sell: -1 |
-| `WOODEN_SWORD` | Holzschwert | swords | 0.0 | 15.0 | -1 | sell: -1 |
-| `STONE_SWORD` | Steinschwert | swords | 0.0 | 30.0 | -1 | sell: -1 |
-| `IRON_SWORD` | Eisenschwert | swords | 0.0 | 100.0 | -1 | sell: -1 |
-| `GOLDEN_SWORD` | Goldschwert | swords | 0.0 | 150.0 | -1 | sell: -1 |
-| `DIAMOND_SWORD` | Diamantschwert | swords | 0.0 | 700.0 | -1 | sell: -1 |
-| `NETHERITE_SWORD` | Netheritschwert | swords | 0.0 | 7000.0 | -1 | sell: -1 |
-| `MACE` | Streitkolben | swords | 0.0 | 8000.0 | -1 | Schwerer Kern + Breeze-Rute |
-| `TRIDENT` | Dreizack | swords | 0.0 | 2500.0 | -1 | Ertrunkenen-Drop |
-| `WOODEN_SHOVEL` | Holzschaufel | shovels | 0.0 | 10.0 | -1 | sell: -1 |
-| `STONE_SHOVEL` | Steinschaufel | shovels | 0.0 | 20.0 | -1 | sell: -1 |
-| `IRON_SHOVEL` | Eisenschaufel | shovels | 0.0 | 60.0 | -1 | sell: -1 |
-| `GOLDEN_SHOVEL` | Goldschaufel | shovels | 0.0 | 80.0 | -1 | sell: -1 |
-| `DIAMOND_SHOVEL` | Diamantschaufel | shovels | 0.0 | 350.0 | -1 | sell: -1 |
-| `NETHERITE_SHOVEL` | Netheritschaufel | shovels | 0.0 | 6500.0 | -1 | sell: -1 |
-| `WOODEN_HOE` | Holzhacke | hoe | 0.0 | 15.0 | -1 | sell: -1 |
-| `STONE_HOE` | Steinhacke | hoe | 0.0 | 30.0 | -1 | sell: -1 |
-| `IRON_HOE` | Eisenhacke | hoe | 0.0 | 100.0 | -1 | sell: -1 |
-| `GOLDEN_HOE` | Goldhacke | hoe | 0.0 | 150.0 | -1 | sell: -1 |
-| `DIAMOND_HOE` | Diamanthacke | hoe | 0.0 | 700.0 | -1 | sell: -1 |
-| `NETHERITE_HOE` | Netherithacke | hoe | 0.0 | 7000.0 | -1 | sell: -1 |
-| `BOW` | Bogen | swords | 0.0 | 80.0 | -1 | Fernkampfwaffe |
-| `CROSSBOW` | Armbrust | swords | 0.0 | 150.0 | -1 | Fernkampfwaffe |
-| `FISHING_ROD` | Angel | hoe | 0.0 | 40.0 | -1 | Werkzeug |
-| `SHEARS` | Schere | hoe | 0.0 | 50.0 | -1 | 2 Eisenbarren |
-| `FLINT_AND_STEEL` | Feuerzeug | hoe | 0.0 | 40.0 | -1 | Eisen + Feuerstein |
-| `BRUSH` | Pinsel | hoe | 0.0 | 60.0 | -1 | Archäologie-Pinsel |
+| `WOODEN_PICKAXE` | Holzspitzhacke | pickaxes | 0.0 | 20.0 | false | sell: false |
+| `STONE_PICKAXE` | Steinspitzhacke | pickaxes | 0.0 | 40.0 | false | sell: false |
+| `IRON_PICKAXE` | Eisenspitzhacke | pickaxes | 0.0 | 150.0 | false | sell: false |
+| `GOLDEN_PICKAXE` | Goldspitzhacke | pickaxes | 0.0 | 200.0 | false | sell: false |
+| `DIAMOND_PICKAXE` | Diamantspitzhacke | pickaxes | 0.0 | 1000.0 | false | sell: false |
+| `NETHERITE_PICKAXE` | Netheritspitzhacke | pickaxes | 0.0 | 7500.0 | false | sell: false |
+| `WOODEN_AXE` | Holzaxt | axes | 0.0 | 20.0 | false | sell: false |
+| `STONE_AXE` | Steinaxt | axes | 0.0 | 40.0 | false | sell: false |
+| `IRON_AXE` | Eisenaxt | axes | 0.0 | 150.0 | false | sell: false |
+| `GOLDEN_AXE` | Goldaxt | axes | 0.0 | 200.0 | false | sell: false |
+| `DIAMOND_AXE` | Diamantaxt | axes | 0.0 | 1000.0 | false | sell: false |
+| `NETHERITE_AXE` | Netheritaxt | axes | 0.0 | 7500.0 | false | sell: false |
+| `WOODEN_SWORD` | Holzschwert | swords | 0.0 | 15.0 | false | sell: false |
+| `STONE_SWORD` | Steinschwert | swords | 0.0 | 30.0 | false | sell: false |
+| `IRON_SWORD` | Eisenschwert | swords | 0.0 | 100.0 | false | sell: false |
+| `GOLDEN_SWORD` | Goldschwert | swords | 0.0 | 150.0 | false | sell: false |
+| `DIAMOND_SWORD` | Diamantschwert | swords | 0.0 | 700.0 | false | sell: false |
+| `NETHERITE_SWORD` | Netheritschwert | swords | 0.0 | 7000.0 | false | sell: false |
+| `MACE` | Streitkolben | swords | 0.0 | 8000.0 | false | Schwerer Kern + Breeze-Rute |
+| `TRIDENT` | Dreizack | swords | 0.0 | 2500.0 | false | Ertrunkenen-Drop |
+| `WOODEN_SHOVEL` | Holzschaufel | shovels | 0.0 | 10.0 | false | sell: false |
+| `STONE_SHOVEL` | Steinschaufel | shovels | 0.0 | 20.0 | false | sell: false |
+| `IRON_SHOVEL` | Eisenschaufel | shovels | 0.0 | 60.0 | false | sell: false |
+| `GOLDEN_SHOVEL` | Goldschaufel | shovels | 0.0 | 80.0 | false | sell: false |
+| `DIAMOND_SHOVEL` | Diamantschaufel | shovels | 0.0 | 350.0 | false | sell: false |
+| `NETHERITE_SHOVEL` | Netheritschaufel | shovels | 0.0 | 6500.0 | false | sell: false |
+| `WOODEN_HOE` | Holzhacke | hoe | 0.0 | 15.0 | false | sell: false |
+| `STONE_HOE` | Steinhacke | hoe | 0.0 | 30.0 | false | sell: false |
+| `IRON_HOE` | Eisenhacke | hoe | 0.0 | 100.0 | false | sell: false |
+| `GOLDEN_HOE` | Goldhacke | hoe | 0.0 | 150.0 | false | sell: false |
+| `DIAMOND_HOE` | Diamanthacke | hoe | 0.0 | 700.0 | false | sell: false |
+| `NETHERITE_HOE` | Netherithacke | hoe | 0.0 | 7000.0 | false | sell: false |
+| `BOW` | Bogen | swords | 0.0 | 80.0 | false | Fernkampfwaffe |
+| `CROSSBOW` | Armbrust | swords | 0.0 | 150.0 | false | Fernkampfwaffe |
+| `FISHING_ROD` | Angel | hoe | 0.0 | 40.0 | false | Werkzeug |
+| `SHEARS` | Schere | hoe | 0.0 | 50.0 | false | 2 Eisenbarren |
+| `FLINT_AND_STEEL` | Feuerzeug | hoe | 0.0 | 40.0 | false | Eisen + Feuerstein |
+| `BRUSH` | Pinsel | hoe | 0.0 | 60.0 | false | Archäologie-Pinsel |
 
 ---
 
 ### 10. armor.yml
 *Subgruppen: `helmets`, `chestplates`, `leggings`, `boots`*
-*Regel: Alle Rüstungsteile besitzen `sell: -1`.*
+*Regel: Alle Rüstungsteile besitzen `sell: false`.*
 
 | Material | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `LEATHER_HELMET` | Lederkappe | helmets | 0.0 | 80.0 | -1 | sell: -1 |
-| `CHAINMAIL_HELMET` | Kettenhaube | helmets | 0.0 | 300.0 | -1 | Nicht craftbar |
-| `IRON_HELMET` | Eisenhelm | helmets | 0.0 | 250.0 | -1 | sell: -1 |
-| `GOLDEN_HELMET` | Goldhelm | helmets | 0.0 | 350.0 | -1 | Piglin-Neutralität |
-| `DIAMOND_HELMET` | Diamanthelm | helmets | 0.0 | 1500.0 | -1 | sell: -1 |
-| `NETHERITE_HELMET` | Netherithelm | helmets | 0.0 | 8000.0 | -1 | Höchster Schutz |
-| `TURTLE_HELMET` | Schildkrötenpanzer | helmets | 0.0 | 600.0 | -1 | Wasseratmungs-Bonus |
-| `LEATHER_CHESTPLATE` | Lederharnisch | chestplates | 0.0 | 120.0 | -1 | sell: -1 |
-| `CHAINMAIL_CHESTPLATE` | Kettenhemd | chestplates | 0.0 | 500.0 | -1 | Nicht craftbar |
-| `IRON_CHESTPLATE` | Eisenbrustplatte | chestplates | 0.0 | 400.0 | -1 | sell: -1 |
-| `GOLDEN_CHESTPLATE` | Goldbrustplatte | chestplates | 0.0 | 500.0 | -1 | sell: -1 |
-| `DIAMOND_CHESTPLATE` | Diamantbrustplatte | chestplates | 0.0 | 2400.0 | -1 | sell: -1 |
-| `NETHERITE_CHESTPLATE` | Netheritbrustplatte | chestplates | 0.0 | 9500.0 | -1 | Höchster Schutz |
-| `LEATHER_LEGGINGS` | Lederhose | leggings | 0.0 | 100.0 | -1 | sell: -1 |
-| `CHAINMAIL_LEGGINGS` | Kettenbeinschutz | leggings | 0.0 | 400.0 | -1 | Nicht craftbar |
-| `IRON_LEGGINGS` | Eisenbeinschutz | leggings | 0.0 | 350.0 | -1 | sell: -1 |
-| `GOLDEN_LEGGINGS` | Goldbeinschutz | leggings | 0.0 | 450.0 | -1 | sell: -1 |
-| `DIAMOND_LEGGINGS` | Diamantbeinschutz | leggings | 0.0 | 2100.0 | -1 | sell: -1 |
-| `NETHERITE_LEGGINGS` | Netheritbeinschutz | leggings | 0.0 | 9000.0 | -1 | Höchster Schutz |
-| `LEATHER_BOOTS` | Lederstiefel | boots | 0.0 | 70.0 | -1 | Pulverschnee-Schutz |
-| `CHAINMAIL_BOOTS` | Kettenstiefel | boots | 0.0 | 250.0 | -1 | Nicht craftbar |
-| `IRON_BOOTS` | Eisenstiefel | boots | 0.0 | 200.0 | -1 | sell: -1 |
-| `GOLDEN_BOOTS` | Goldstiefel | boots | 0.0 | 300.0 | -1 | sell: -1 |
-| `DIAMOND_BOOTS` | Diamantstiefel | boots | 0.0 | 1200.0 | -1 | sell: -1 |
-| `NETHERITE_BOOTS` | Netheritstiefel | boots | 0.0 | 7500.0 | -1 | Höchster Schutz |
-| `SHIELD` | Schild | boots | 0.0 | 80.0 | -1 | Blockiert Angriffe |
-| `WOLF_ARMOR` | Wolfsrüstung | chestplates | 0.0 | 300.0 | -1 | Aus Gürteltier-Schuppen |
+| `LEATHER_HELMET` | Lederkappe | helmets | 0.0 | 80.0 | false | sell: false |
+| `CHAINMAIL_HELMET` | Kettenhaube | helmets | 0.0 | 300.0 | false | Nicht craftbar |
+| `IRON_HELMET` | Eisenhelm | helmets | 0.0 | 250.0 | false | sell: false |
+| `GOLDEN_HELMET` | Goldhelm | helmets | 0.0 | 350.0 | false | Piglin-Neutralität |
+| `DIAMOND_HELMET` | Diamanthelm | helmets | 0.0 | 1500.0 | false | sell: false |
+| `NETHERITE_HELMET` | Netherithelm | helmets | 0.0 | 8000.0 | false | Höchster Schutz |
+| `TURTLE_HELMET` | Schildkrötenpanzer | helmets | 0.0 | 600.0 | false | Wasseratmungs-Bonus |
+| `LEATHER_CHESTPLATE` | Lederharnisch | chestplates | 0.0 | 120.0 | false | sell: false |
+| `CHAINMAIL_CHESTPLATE` | Kettenhemd | chestplates | 0.0 | 500.0 | false | Nicht craftbar |
+| `IRON_CHESTPLATE` | Eisenbrustplatte | chestplates | 0.0 | 400.0 | false | sell: false |
+| `GOLDEN_CHESTPLATE` | Goldbrustplatte | chestplates | 0.0 | 500.0 | false | sell: false |
+| `DIAMOND_CHESTPLATE` | Diamantbrustplatte | chestplates | 0.0 | 2400.0 | false | sell: false |
+| `NETHERITE_CHESTPLATE` | Netheritbrustplatte | chestplates | 0.0 | 9500.0 | false | Höchster Schutz |
+| `LEATHER_LEGGINGS` | Lederhose | leggings | 0.0 | 100.0 | false | sell: false |
+| `CHAINMAIL_LEGGINGS` | Kettenbeinschutz | leggings | 0.0 | 400.0 | false | Nicht craftbar |
+| `IRON_LEGGINGS` | Eisenbeinschutz | leggings | 0.0 | 350.0 | false | sell: false |
+| `GOLDEN_LEGGINGS` | Goldbeinschutz | leggings | 0.0 | 450.0 | false | sell: false |
+| `DIAMOND_LEGGINGS` | Diamantbeinschutz | leggings | 0.0 | 2100.0 | false | sell: false |
+| `NETHERITE_LEGGINGS` | Netheritbeinschutz | leggings | 0.0 | 9000.0 | false | Höchster Schutz |
+| `LEATHER_BOOTS` | Lederstiefel | boots | 0.0 | 70.0 | false | Pulverschnee-Schutz |
+| `CHAINMAIL_BOOTS` | Kettenstiefel | boots | 0.0 | 250.0 | false | Nicht craftbar |
+| `IRON_BOOTS` | Eisenstiefel | boots | 0.0 | 200.0 | false | sell: false |
+| `GOLDEN_BOOTS` | Goldstiefel | boots | 0.0 | 300.0 | false | sell: false |
+| `DIAMOND_BOOTS` | Diamantstiefel | boots | 0.0 | 1200.0 | false | sell: false |
+| `NETHERITE_BOOTS` | Netheritstiefel | boots | 0.0 | 7500.0 | false | Höchster Schutz |
+| `SHIELD` | Schild | boots | 0.0 | 80.0 | false | Blockiert Angriffe |
+| `WOLF_ARMOR` | Wolfsrüstung | chestplates | 0.0 | 300.0 | false | Aus Gürteltier-Schuppen |
 
 ---
 
 ### 11. enchantments.yml
 *Subgruppen: `weapons`, `armor`, `tools`, `fishing`, `misc`*
-*Regel: Alle Verzauberungsbücher besitzen `sell: -1`.*
+*Regel: Alle Verzauberungsbücher besitzen `sell: false`.*
 
 | Material / Buch-Kennung | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `SHARPNESS_5_BOOK` | Buch: Schärfe V | weapons | 0.0 | 1200.0 | -1 | Nahkampfschaden |
-| `SMITE_5_BOOK` | Buch: Bann V | weapons | 0.0 | 800.0 | -1 | Untotenschaden |
-| `BANE_OF_ARTHROPODS_5_BOOK` | Buch: Nemesis der Gliederfüßer V | weapons | 0.0 | 500.0 | -1 | Spinnenschaden |
-| `KNOCKBACK_2_BOOK` | Buch: Rückstoß II | weapons | 0.0 | 600.0 | -1 | Zurückstoßen |
-| `FIRE_ASPECT_2_BOOK` | Buch: Verbrennung II | weapons | 0.0 | 1000.0 | -1 | Feuerschaden |
-| `LOOTING_3_BOOK` | Buch: Plünderung III | weapons | 0.0 | 1800.0 | -1 | Mehr Mob-Drops |
-| `SWEEPING_EDGE_3_BOOK` | Buch: Schwungkraft III | weapons | 0.0 | 1000.0 | -1 | Flächenschaden |
-| `POWER_5_BOOK` | Buch: Stärke V | weapons | 0.0 | 1200.0 | -1 | Bogenschaden |
-| `PUNCH_2_BOOK` | Buch: Schlag II | weapons | 0.0 | 600.0 | -1 | Bogen-Rückstoß |
-| `FLAME_BOOK` | Buch: Flamme | weapons | 0.0 | 800.0 | -1 | Feuerpfeile |
-| `INFINITY_BOOK` | Buch: Unendlichkeit | weapons | 0.0 | 1500.0 | -1 | Unendliche Pfeile |
-| `MULTISHOT_BOOK` | Buch: Dreifachschuss | weapons | 0.0 | 800.0 | -1 | Armbrust |
-| `QUICK_CHARGE_3_BOOK` | Buch: Schnelles Laden III | weapons | 0.0 | 1000.0 | -1 | Armbrust |
-| `PIERCING_4_BOOK` | Buch: Durchschuss IV | weapons | 0.0 | 1000.0 | -1 | Armbrust |
-| `IMPALING_5_BOOK` | Buch: Harpune V | weapons | 0.0 | 1000.0 | -1 | Dreizack |
-| `RIPTIDE_3_BOOK` | Buch: Sog III | weapons | 0.0 | 1500.0 | -1 | Dreizack-Flug im Regen |
-| `LOYALTY_3_BOOK` | Buch: Treue III | weapons | 0.0 | 1200.0 | -1 | Rückkehrender Dreizack |
-| `CHANNELING_BOOK` | Buch: Entladung | weapons | 0.0 | 1000.0 | -1 | Blitzeinschlag bei Gewitter |
-| `DENSITY_5_BOOK` | Buch: Dichte V | weapons | 0.0 | 2000.0 | -1 | Mace-Verzauberung (1.21+) |
-| `BREACH_4_BOOK` | Buch: Rüstungsbruch IV | weapons | 0.0 | 2000.0 | -1 | Mace-Verzauberung (1.21+) |
-| `WIND_BURST_3_BOOK` | Buch: Windstoß III | weapons | 0.0 | 3500.0 | -1 | Mace-Ominous Belohnung |
-| `PROTECTION_4_BOOK` | Buch: Schutz IV | armor | 0.0 | 1500.0 | -1 | Universeller Rüstungsschutz |
-| `FIRE_PROTECTION_4_BOOK` | Buch: Feuerschutz IV | armor | 0.0 | 800.0 | -1 | Hitzeschutz |
-| `FEATHER_FALLING_4_BOOK` | Buch: Federfall IV | armor | 0.0 | 1200.0 | -1 | Fallschadensreduktion |
-| `BLAST_PROTECTION_4_BOOK` | Buch: Explosionsschutz IV | armor | 0.0 | 800.0 | -1 | Explosionsabwehr |
-| `PROJECTILE_PROTECTION_4_BOOK` | Buch: Schuss-Sicherheit IV | armor | 0.0 | 800.0 | -1 | Projektilschutz |
-| `RESPIRATION_3_BOOK` | Buch: Atmung III | armor | 0.0 | 1000.0 | -1 | Verlängerte Unterwasseratmung |
-| `AQUA_AFFINITY_BOOK` | Buch: Wasseraffinität | armor | 0.0 | 800.0 | -1 | Normales Abbauen im Wasser |
-| `THORNS_3_BOOK` | Buch: Dornen III | armor | 0.0 | 1200.0 | -1 | Gegenangriff auf Angreifer |
-| `DEPTH_STRIDER_3_BOOK` | Buch: Wasserläufer III | armor | 0.0 | 1200.0 | -1 | Schnelles Schwimmen |
-| `FROST_WALKER_2_BOOK` | Buch: Eisläufer II | armor | 0.0 | 1000.0 | -1 | Eisbildung auf Wasser |
-| `SOUL_SPEED_3_BOOK` | Buch: Seelentempo III | armor | 0.0 | 1500.0 | -1 | Schnelligkeit auf Seelensand |
-| `SWIFT_SNEAK_3_BOOK` | Buch: Huschen III | armor | 0.0 | 2500.0 | -1 | Ancient City Exklusiv |
-| `EFFICIENCY_5_BOOK` | Buch: Effizienz V | tools | 0.0 | 1500.0 | -1 | Schnelleres Abbauen |
-| `SILK_TOUCH_BOOK` | Buch: Behutsamkeit | tools | 0.0 | 2000.0 | -1 | Erhält Originalblock |
-| `FORTUNE_3_BOOK` | Buch: Glück III | tools | 0.0 | 2000.0 | -1 | Höhere Dropmengen |
-| `LUCK_OF_THE_SEA_3_BOOK` | Buch: Glück des Meeres III | fishing | 0.0 | 800.0 | -1 | Bessere Angelbeute |
-| `LURE_3_BOOK` | Buch: Köder III | fishing | 0.0 | 800.0 | -1 | Schnellere Bisse |
-| `UNBREAKING_3_BOOK` | Buch: Haltbarkeit III | misc | 0.0 | 1500.0 | -1 | Längere Lebensdauer |
-| `MENDING_BOOK` | Buch: Reparatur | misc | 0.0 | 3000.0 | -1 | Beliebteste Verzauberung |
+| `SHARPNESS_5_BOOK` | Buch: Schärfe V | weapons | 0.0 | 1200.0 | false | Nahkampfschaden |
+| `SMITE_5_BOOK` | Buch: Bann V | weapons | 0.0 | 800.0 | false | Untotenschaden |
+| `BANE_OF_ARTHROPODS_5_BOOK` | Buch: Nemesis der Gliederfüßer V | weapons | 0.0 | 500.0 | false | Spinnenschaden |
+| `KNOCKBACK_2_BOOK` | Buch: Rückstoß II | weapons | 0.0 | 600.0 | false | Zurückstoßen |
+| `FIRE_ASPECT_2_BOOK` | Buch: Verbrennung II | weapons | 0.0 | 1000.0 | false | Feuerschaden |
+| `LOOTING_3_BOOK` | Buch: Plünderung III | weapons | 0.0 | 1800.0 | false | Mehr Mob-Drops |
+| `SWEEPING_EDGE_3_BOOK` | Buch: Schwungkraft III | weapons | 0.0 | 1000.0 | false | Flächenschaden |
+| `POWER_5_BOOK` | Buch: Stärke V | weapons | 0.0 | 1200.0 | false | Bogenschaden |
+| `PUNCH_2_BOOK` | Buch: Schlag II | weapons | 0.0 | 600.0 | false | Bogen-Rückstoß |
+| `FLAME_BOOK` | Buch: Flamme | weapons | 0.0 | 800.0 | false | Feuerpfeile |
+| `INFINITY_BOOK` | Buch: Unendlichkeit | weapons | 0.0 | 1500.0 | false | Unendliche Pfeile |
+| `MULTISHOT_BOOK` | Buch: Dreifachschuss | weapons | 0.0 | 800.0 | false | Armbrust |
+| `QUICK_CHARGE_3_BOOK` | Buch: Schnelles Laden III | weapons | 0.0 | 1000.0 | false | Armbrust |
+| `PIERCING_4_BOOK` | Buch: Durchschuss IV | weapons | 0.0 | 1000.0 | false | Armbrust |
+| `IMPALING_5_BOOK` | Buch: Harpune V | weapons | 0.0 | 1000.0 | false | Dreizack |
+| `RIPTIDE_3_BOOK` | Buch: Sog III | weapons | 0.0 | 1500.0 | false | Dreizack-Flug im Regen |
+| `LOYALTY_3_BOOK` | Buch: Treue III | weapons | 0.0 | 1200.0 | false | Rückkehrender Dreizack |
+| `CHANNELING_BOOK` | Buch: Entladung | weapons | 0.0 | 1000.0 | false | Blitzeinschlag bei Gewitter |
+| `DENSITY_5_BOOK` | Buch: Dichte V | weapons | 0.0 | 2000.0 | false | Mace-Verzauberung (1.21+) |
+| `BREACH_4_BOOK` | Buch: Rüstungsbruch IV | weapons | 0.0 | 2000.0 | false | Mace-Verzauberung (1.21+) |
+| `WIND_BURST_3_BOOK` | Buch: Windstoß III | weapons | 0.0 | 3500.0 | false | Mace-Ominous Belohnung |
+| `PROTECTION_4_BOOK` | Buch: Schutz IV | armor | 0.0 | 1500.0 | false | Universeller Rüstungsschutz |
+| `FIRE_PROTECTION_4_BOOK` | Buch: Feuerschutz IV | armor | 0.0 | 800.0 | false | Hitzeschutz |
+| `FEATHER_FALLING_4_BOOK` | Buch: Federfall IV | armor | 0.0 | 1200.0 | false | Fallschadensreduktion |
+| `BLAST_PROTECTION_4_BOOK` | Buch: Explosionsschutz IV | armor | 0.0 | 800.0 | false | Explosionsabwehr |
+| `PROJECTILE_PROTECTION_4_BOOK` | Buch: Schuss-Sicherheit IV | armor | 0.0 | 800.0 | false | Projektilschutz |
+| `RESPIRATION_3_BOOK` | Buch: Atmung III | armor | 0.0 | 1000.0 | false | Verlängerte Unterwasseratmung |
+| `AQUA_AFFINITY_BOOK` | Buch: Wasseraffinität | armor | 0.0 | 800.0 | false | Normales Abbauen im Wasser |
+| `THORNS_3_BOOK` | Buch: Dornen III | armor | 0.0 | 1200.0 | false | Gegenangriff auf Angreifer |
+| `DEPTH_STRIDER_3_BOOK` | Buch: Wasserläufer III | armor | 0.0 | 1200.0 | false | Schnelles Schwimmen |
+| `FROST_WALKER_2_BOOK` | Buch: Eisläufer II | armor | 0.0 | 1000.0 | false | Eisbildung auf Wasser |
+| `SOUL_SPEED_3_BOOK` | Buch: Seelentempo III | armor | 0.0 | 1500.0 | false | Schnelligkeit auf Seelensand |
+| `SWIFT_SNEAK_3_BOOK` | Buch: Huschen III | armor | 0.0 | 2500.0 | false | Ancient City Exklusiv |
+| `EFFICIENCY_5_BOOK` | Buch: Effizienz V | tools | 0.0 | 1500.0 | false | Schnelleres Abbauen |
+| `SILK_TOUCH_BOOK` | Buch: Behutsamkeit | tools | 0.0 | 2000.0 | false | Erhält Originalblock |
+| `FORTUNE_3_BOOK` | Buch: Glück III | tools | 0.0 | 2000.0 | false | Höhere Dropmengen |
+| `LUCK_OF_THE_SEA_3_BOOK` | Buch: Glück des Meeres III | fishing | 0.0 | 800.0 | false | Bessere Angelbeute |
+| `LURE_3_BOOK` | Buch: Köder III | fishing | 0.0 | 800.0 | false | Schnellere Bisse |
+| `UNBREAKING_3_BOOK` | Buch: Haltbarkeit III | misc | 0.0 | 1500.0 | false | Längere Lebensdauer |
+| `MENDING_BOOK` | Buch: Reparatur | misc | 0.0 | 3000.0 | false | Beliebteste Verzauberung |
 
 ---
 
 ### 12. potions.yml
 *Subgruppen: `regular`, `splash`, `lingering`, `custom`*
-*Regel: Alle Tränke besitzen `sell: -1`.*
+*Regel: Alle Tränke besitzen `sell: false`.*
 
 | Material / Kennung | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `POTION_NIGHT_VISION` | Trank der Nachtsicht (8:00) | regular | 0.0 | 60.0 | -1 | sell: -1 |
-| `POTION_INVISIBILITY` | Trank der Unsichtbarkeit (8:00) | regular | 0.0 | 80.0 | -1 | sell: -1 |
-| `POTION_LEAPING` | Trank der Sprungkraft II | regular | 0.0 | 70.0 | -1 | sell: -1 |
-| `POTION_FIRE_RESISTANCE` | Trank der Feuerresistenz (8:00) | regular | 0.0 | 70.0 | -1 | sell: -1 |
-| `POTION_SWIFTNESS` | Trank der Schnelligkeit II | regular | 0.0 | 60.0 | -1 | sell: -1 |
-| `POTION_SLOWNESS` | Trank der Verlangsamung | regular | 0.0 | 50.0 | -1 | sell: -1 |
-| `POTION_WATER_BREATHING` | Trank der Unterwasseratmung (8:00) | regular | 0.0 | 60.0 | -1 | sell: -1 |
-| `POTION_HEALING` | Trank der Heilung II | regular | 0.0 | 70.0 | -1 | sell: -1 |
-| `POTION_HARMING` | Trank des Schadens II | regular | 0.0 | 70.0 | -1 | sell: -1 |
-| `POTION_POISON` | Trank des Giftes | regular | 0.0 | 60.0 | -1 | sell: -1 |
-| `POTION_REGENERATION` | Trank der Regeneration II | regular | 0.0 | 100.0 | -1 | sell: -1 |
-| `POTION_STRENGTH` | Trank der Stärke II | regular | 0.0 | 100.0 | -1 | sell: -1 |
-| `POTION_WEAKNESS` | Trank der Schwäche (4:00) | regular | 0.0 | 50.0 | -1 | Zombie-Villager Heilung |
-| `POTION_SLOW_FALLING` | Trank des Sanften Falls (4:00) | regular | 0.0 | 80.0 | -1 | sell: -1 |
-| `POTION_TURTLE_MASTER` | Trank des Schildkrötenmeisters | regular | 0.0 | 120.0 | -1 | sell: -1 |
-| `POTION_WIND_CHARGED` | Windgeladener Trank | regular | 0.0 | 120.0 | -1 | 1.21+ Effekt |
-| `POTION_WEAVING` | Webender Trank | regular | 0.0 | 120.0 | -1 | 1.21+ Effekt |
-| `POTION_OOZING` | Schleimender Trank | regular | 0.0 | 120.0 | -1 | 1.21+ Effekt |
-| `POTION_INFESTED` | Befallener Trank | regular | 0.0 | 120.0 | -1 | 1.21+ Effekt |
-| `SPLASH_POTION_HEALING` | Wurftrank der Heilung II | splash | 0.0 | 90.0 | -1 | Schnelle Heilung im Kampf |
-| `SPLASH_POTION_HARMING` | Wurftrank des Schadens II | splash | 0.0 | 90.0 | -1 | PvP / Mobkampf |
-| `SPLASH_POTION_REGENERATION` | Wurftrank der Regeneration II | splash | 0.0 | 120.0 | -1 | Team-Heilung |
-| `SPLASH_POTION_FIRE_RESISTANCE` | Wurftrank der Feuerresistenz | splash | 0.0 | 90.0 | -1 | Schnelle Rettung in Lava |
-| `SPLASH_POTION_WEAKNESS` | Wurftrank der Schwäche | splash | 0.0 | 70.0 | -1 | Zombiedorfbewohner-Heilung |
-| `SPLASH_POTION_STRENGTH` | Wurftrank der Stärke II | splash | 0.0 | 120.0 | -1 | Kampf-Buff |
-| `LINGERING_POTION_HEALING` | Verweiltrank der Heilung II | lingering | 0.0 | 140.0 | -1 | Verweilende Heilzone |
-| `LINGERING_POTION_HARMING` | Verweiltrank des Schadens II | lingering | 0.0 | 140.0 | -1 | Verweilende Schadenszone |
-| `LINGERING_POTION_POISON` | Verweiltrank des Giftes | lingering | 0.0 | 120.0 | -1 | Verweilendes Gift |
-| `EXPERIENCE_BOTTLE` | Erfahrungsfläschchen | custom | 0.4 | 50.0 | -1 | Schnelle XP-Quelle |
+| `POTION_NIGHT_VISION` | Trank der Nachtsicht (8:00) | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION_INVISIBILITY` | Trank der Unsichtbarkeit (8:00) | regular | 0.0 | 80.0 | false | sell: false |
+| `POTION_LEAPING` | Trank der Sprungkraft II | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION_FIRE_RESISTANCE` | Trank der Feuerresistenz (8:00) | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION_SWIFTNESS` | Trank der Schnelligkeit II | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION_SLOWNESS` | Trank der Verlangsamung | regular | 0.0 | 50.0 | false | sell: false |
+| `POTION_WATER_BREATHING` | Trank der Unterwasseratmung (8:00) | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION_HEALING` | Trank der Heilung II | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION_HARMING` | Trank des Schadens II | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION_POISON` | Trank des Giftes | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION_REGENERATION` | Trank der Regeneration II | regular | 0.0 | 100.0 | false | sell: false |
+| `POTION_STRENGTH` | Trank der Stärke II | regular | 0.0 | 100.0 | false | sell: false |
+| `POTION_WEAKNESS` | Trank der Schwäche (4:00) | regular | 0.0 | 50.0 | false | Zombie-Villager Heilung |
+| `POTION_SLOW_FALLING` | Trank des Sanften Falls (4:00) | regular | 0.0 | 80.0 | false | sell: false |
+| `POTION_TURTLE_MASTER` | Trank des Schildkrötenmeisters | regular | 0.0 | 120.0 | false | sell: false |
+| `POTION_WIND_CHARGED` | Windgeladener Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `POTION_WEAVING` | Webender Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `POTION_OOZING` | Schleimender Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `POTION_INFESTED` | Befallener Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `SPLASH_POTION_HEALING` | Wurftrank der Heilung II | splash | 0.0 | 90.0 | false | Schnelle Heilung im Kampf |
+| `SPLASH_POTION_HARMING` | Wurftrank des Schadens II | splash | 0.0 | 90.0 | false | PvP / Mobkampf |
+| `SPLASH_POTION_REGENERATION` | Wurftrank der Regeneration II | splash | 0.0 | 120.0 | false | Team-Heilung |
+| `SPLASH_POTION_FIRE_RESISTANCE` | Wurftrank der Feuerresistenz | splash | 0.0 | 90.0 | false | Schnelle Rettung in Lava |
+| `SPLASH_POTION_WEAKNESS` | Wurftrank der Schwäche | splash | 0.0 | 70.0 | false | Zombiedorfbewohner-Heilung |
+| `SPLASH_POTION_STRENGTH` | Wurftrank der Stärke II | splash | 0.0 | 120.0 | false | Kampf-Buff |
+| `LINGERING_POTION_HEALING` | Verweiltrank der Heilung II | lingering | 0.0 | 140.0 | false | Verweilende Heilzone |
+| `LINGERING_POTION_HARMING` | Verweiltrank des Schadens II | lingering | 0.0 | 140.0 | false | Verweilende Schadenszone |
+| `LINGERING_POTION_POISON` | Verweiltrank des Giftes | lingering | 0.0 | 120.0 | false | Verweilendes Gift |
+| `EXPERIENCE_BOTTLE` | Erfahrungsfläschchen | custom | 0.4 | 50.0 | false | Schnelle XP-Quelle |
 
 ---
 
 ### 13. spawners.yml
 *Subgruppen: `mob_spawners`*
-*Regel: Alle Spawner besitzen `buy: -1` (können nicht gekauft werden, um unendliche AFK-Wirtschaft zu verhindern; nur Verkauf belohnt den Spieler).*
+*Regel: Alle Spawner besitzen `buy: false` (können nicht gekauft werden, um unendliche AFK-Wirtschaft zu verhindern; nur Verkauf belohnt den Spieler).*
 
 | Material / Typ | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `SPAWNER` | Standard Spawner | mob_spawners | 0.0 | -1 | 25000.0 | buy: -1 |
-| `ZOMBIE_SPAWNER` | Zombie-Spawner | mob_spawners | 0.0 | -1 | 25000.0 | Dungeon-Fund |
-| `SKELETON_SPAWNER` | Skelett-Spawner | mob_spawners | 0.0 | -1 | 30000.0 | Knochen-/Pfeilquelle |
-| `SPIDER_SPAWNER` | Spinnen-Spawner | mob_spawners | 0.0 | -1 | 25000.0 | Fadenquelle |
-| `CAVE_SPIDER_SPAWNER` | Höhlenspinnen-Spawner | mob_spawners | 0.0 | -1 | 28000.0 | Minenschacht-Fund |
-| `CREEPER_SPAWNER` | Creeper-Spawner | mob_spawners | 0.0 | -1 | 50000.0 | Sehr wertvoll |
-| `BLAZE_SPAWNER` | Lohen-Spawner | mob_spawners | 0.0 | -1 | 40000.0 | Netherfestung |
-| `SILVERFISH_SPAWNER` | Silberfisch-Spawner | mob_spawners | 0.0 | -1 | 15000.0 | Festung / Endportal |
-| `MAGMA_CUBE_SPAWNER` | Magmawürfel-Spawner | mob_spawners | 0.0 | -1 | 35000.0 | Bastions-Fund |
-| `PIG_SPAWNER` | Schweine-Spawner | mob_spawners | 0.0 | -1 | 20000.0 | Friedlicher Spawner |
-| `COW_SPAWNER` | Kuh-Spawner | mob_spawners | 0.0 | -1 | 25000.0 | Leder & Fleisch |
-| `SHEEP_SPAWNER` | Schaf-Spawner | mob_spawners | 0.0 | -1 | 20000.0 | Wollquelle |
-| `CHICKEN_SPAWNER` | Hühner-Spawner | mob_spawners | 0.0 | -1 | 18000.0 | Geflügelquelle |
-| `IRON_GOLEM_SPAWNER` | Eisengolem-Spawner | mob_spawners | 0.0 | -1 | 100000.0 | Höchste Stufe |
+| `SPAWNER` | Standard Spawner | mob_spawners | 0.0 | false | 25000.0 | buy: false |
+| `ZOMBIE_SPAWNER` | Zombie-Spawner | mob_spawners | 0.0 | false | 25000.0 | Dungeon-Fund |
+| `SKELETON_SPAWNER` | Skelett-Spawner | mob_spawners | 0.0 | false | 30000.0 | Knochen-/Pfeilquelle |
+| `SPIDER_SPAWNER` | Spinnen-Spawner | mob_spawners | 0.0 | false | 25000.0 | Fadenquelle |
+| `CAVE_SPIDER_SPAWNER` | Höhlenspinnen-Spawner | mob_spawners | 0.0 | false | 28000.0 | Minenschacht-Fund |
+| `CREEPER_SPAWNER` | Creeper-Spawner | mob_spawners | 0.0 | false | 50000.0 | Sehr wertvoll |
+| `BLAZE_SPAWNER` | Lohen-Spawner | mob_spawners | 0.0 | false | 40000.0 | Netherfestung |
+| `SILVERFISH_SPAWNER` | Silberfisch-Spawner | mob_spawners | 0.0 | false | 15000.0 | Festung / Endportal |
+| `MAGMA_CUBE_SPAWNER` | Magmawürfel-Spawner | mob_spawners | 0.0 | false | 35000.0 | Bastions-Fund |
+| `PIG_SPAWNER` | Schweine-Spawner | mob_spawners | 0.0 | false | 20000.0 | Friedlicher Spawner |
+| `COW_SPAWNER` | Kuh-Spawner | mob_spawners | 0.0 | false | 25000.0 | Leder & Fleisch |
+| `SHEEP_SPAWNER` | Schaf-Spawner | mob_spawners | 0.0 | false | 20000.0 | Wollquelle |
+| `CHICKEN_SPAWNER` | Hühner-Spawner | mob_spawners | 0.0 | false | 18000.0 | Geflügelquelle |
+| `IRON_GOLEM_SPAWNER` | Eisengolem-Spawner | mob_spawners | 0.0 | false | 100000.0 | Höchste Stufe |
 
 ---
 
@@ -692,7 +692,7 @@
 | Material / Kennung | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
 | `SERVER_TOKEN` | Server-Münze / Token | server_specific | 0.0 | 500.0 | 100.0 | Event-Währung / Questbelohnung |
-| `VOTE_CRATE_KEY` | Vote-Kisten-Schlüssel | server_specific | 0.0 | 250.0 | -1 | Nur Kaufen oder durch Voting |
+| `VOTE_CRATE_KEY` | Vote-Kisten-Schlüssel | server_specific | 0.0 | 250.0 | false | Nur Kaufen oder durch Voting |
 | `COMMUNITY_BADGE` | Community-Abzeichen | server_specific | 0.0 | 1000.0 | 200.0 | Kosmetisches Rang-Item |
 
 ---
@@ -737,7 +737,7 @@
   - Tränke: `POTION_WIND_CHARGED`, `POTION_WEAVING`, `POTION_OOZING`, `POTION_INFESTED`.
   - Schutz & Begleiter: `WOLF_ARMOR`, `ARMADILLO_SCUTE`.
 - **Regel-Harmonisierung:**
-  - Konsequente Anwendung von `sell: -1` bei allen verzauberbaren/nutzbaren Ausrüstungsgegenständen, Tränken und Zauberbüchern.
+  - Konsequente Anwendung von `sell: false` bei allen verzauberbaren/nutzbaren Ausrüstungsgegenständen, Tränken und Zauberbüchern.
   - Buy:Sell-Ratios strikt zwischen `3.0` und `5.0` kalibriert.
   - Extrem farmbare Güter (z. B. Kürbisse, Melonen, Bruchstein, Zombiefleisch) mit geringen Ankaufspreisen versehen, vorbereitet für tägliche Verkaufslimits in Phase 3.
 
@@ -749,7 +749,7 @@
 - [x] Keine Duplikate über die verschiedenen Shop-Kategorien hinweg.
 - [x] Eindeutige Zuweisung nach Hauptverwendungszweck gemäß `PROCESSES/ITEM_SELECTION.md`.
 - [x] Realistische Farmbarkeitswerte von `0.0` bis `1.0`.
-- [x] Alle Spezialregeln (`buy: -1` für Unikate/Spawner, `sell: -1` für Tools/Armor/Potions/Books) strikt eingehalten.
+- [x] Alle Spezialregeln (`buy: false` für Unikate/Spawner, `sell: false` für Tools/Armor/Potions/Books) strikt eingehalten.
 - [x] Ratios liegen durchgängig im erlaubten Fenster von 3:1 bis 5:1 (sofern beide Preise aktiv).
 
 ---
