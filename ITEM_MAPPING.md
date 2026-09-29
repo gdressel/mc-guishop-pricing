@@ -1,9 +1,6 @@
 # Item-Mapping für GUIShop
 
 **Minecraft-Version:** 1.26.2
-**Datum:** 2026-09-28
-**Erstellt von:** Antigravity AI
-**Status:** Abgeschlossen (Phase 1)
 
 ---
 
@@ -753,5 +750,3 @@
 - [x] Ratios liegen durchgängig im erlaubten Fenster von 3:1 bis 5:1 (sofern beide Preise aktiv).
 
 ---
-
-*Letzte Aktualisierung: 2026-09-28*

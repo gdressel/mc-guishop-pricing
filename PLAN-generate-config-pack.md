@@ -266,5 +266,3 @@ Erstelle eine kurze Anleitung für Server-Admins mit:
 5. **Deployment:** Lege die Dateien in `plugins/GUIShop/shops/` ab und teste.
 
 ---
-
-*Letzte Aktualisierung: 2026-09-27*

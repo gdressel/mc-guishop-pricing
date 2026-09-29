@@ -7,6 +7,9 @@ Das Format orientiert sich an [Keep a Changelog](https://keepachangelog.com/de/1
 ---
 
 ## [Unreleased]
+### Changed
+- Header-Metadaten (`Datum`, `Erstellt von`/`Durchgeführt von: Antigravity AI`, `Status`) sowie die Footer-Zeile `Letzte Aktualisierung` aus `ITEM_MAPPING.md`, `RESEARCH_SOURCES.md`, `RULES.md` und `PLAN-generate-config-pack.md` entfernt — Autoren- und Datumsangaben werden inzwischen durch git-Historie abgedeckt, die Sole-Attribution an Antigravity AI war nicht mehr akkurat. `PROGRESS.md` zusätzlich auf den tatsächlichen Stand aktualisiert (Phase 3, Doku und Deployment sind fertig bzw. live auf dem Server im Einsatz, nicht mehr "als nächstes dran"/"noch nicht begonnen").
+
 ### Fixed
 - `RULES.md`: Phantom-Items `DIRT`/`SAND`/`GRAVEL` (existieren nicht im Katalog) durch reale Beispiele ersetzt; Preis-Leitfaden-Tabelle auf reale Shop-Werte aktualisiert; Preisbänder der Farmbarkeit-Kategorien-Tabelle erweitert (0.7–0.8 und 0.3–0.6 waren zu eng für `BONE`/`STRING`/`EMERALD`), inkl. Fußnoten zu Kompaktblock-Preisaufschlag und Emerald-Handelswert-Ausnahme; Spawner-Sell-Obergrenze auf real `100000.0` korrigiert; Beispielwerte/-IDs für Rüstung, Zauberbücher und Tränke berichtigt; `custom_items.yml` und `buy-price: false`-Belohnungsauslöser als neue Abschnitte ergänzt.
 - `RESEARCH_SOURCES.md`: Phantom-Zeile `DIRT`/`SAND` in Abschnitt 6 durch reale Items ersetzt.

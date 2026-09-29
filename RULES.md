@@ -167,5 +167,3 @@ Jede Anpassung oder Entscheidung **muss** in einer der folgenden Dateien dokumen
 
 ---
 
-*Letzte Aktualisierung: 2026-09-29*
-

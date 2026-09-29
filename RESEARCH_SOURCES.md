@@ -1,9 +1,6 @@
 # Preis-Recherche & Ökonomie-Dokumentation für GUIShop
 
 **Minecraft-Version:** 1.26.2  
-**Datum:** 2026-09-28  
-**Durchgeführt von:** Antigravity AI  
-**Status:** Abgeschlossen (Phase 2)  
 **Zweck:** Mathematische und spieldesign-technische Fundierung aller Shop-Preise basierend auf `ITEM_MAPPING.md`, dem offiziellen `minecraft.wiki` und praxiserprobten Server-Benchmarks.
 
 ---
@@ -178,5 +175,3 @@ Bei einer Diskussion zur Behauptung "DIAMOND und ENDER_PEARL sind einfach zu far
 - [x] **Stack-Handling vorbereitet:** Massenbaublöcke und Barren auf Stacks (`64`) kalibriert.
 
 ---
-
-*Letzte Aktualisierung: 2026-09-29*

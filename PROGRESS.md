@@ -1,8 +1,6 @@
 # Projektfortschritt: GUIShop Config-Paket
 
-**Projektziel:** Vollständiges, ausbalanciertes Best-Practice GUIShop-Paket für Minecraft Survival (Version 1.26.2 / GUIShop 9.4.4+).  
-**Letzte Aktualisierung:** 2026-09-28  
-**Aktueller Status:** **Phase 1 & Phase 2 vollständig abgeschlossen | Bereit für Phase 3 (Shop-Generierung)**
+**Projektziel:** Vollständiges, ausbalanciertes Best-Practice GUIShop-Paket für Minecraft Survival (Version 1.26.2 / GUIShop 9.4.4+).
 
 ---
 
@@ -13,9 +11,9 @@
 | **Framework** | Regeln, Prozesse & Vorlagen | ✅ Abgeschlossen | [`PLAN-generate-config-pack.md`](./PLAN-generate-config-pack.md)<br>[`RULES.md`](./RULES.md)<br>[`PROCESSES/`](./PROCESSES/)<br>[`TEMPLATES/`](./TEMPLATES/) |
 | **Phase 1** | **Item-Bestimmung & Katalog** | ✅ **Abgeschlossen** | [`ITEM_MAPPING.md`](./ITEM_MAPPING.md) |
 | **Phase 2** | **Preis-Recherche & Quellendokumentation** | ✅ **Abgeschlossen** | [`RESEARCH_SOURCES.md`](./RESEARCH_SOURCES.md) |
-| **Phase 3** | **Shop-Generierung (YAML)** | ⏳ **Als nächstes dran** | Ziel: `menu.yml` & `shops/*.yml` (15 Dateien) |
-| **Phase 4** | **Deployment & Validierung** | ⏹ Noch nicht begonnen | `plugins/GUIShop/shops/`, Tests |
-| **Doku** | **Dokumentation & Changelog** | ⏹ Noch nicht begonnen | `README.md`, `CHANGELOG.md` |
+| **Phase 3** | **Shop-Generierung (YAML)** | ✅ **Abgeschlossen** | [`menu.yml`](./menu.yml) & [`shops/`](./shops/) (15 Dateien) |
+| **Phase 4** | **Deployment & Validierung** | ✅ Abgeschlossen | Live im Einsatz auf dem Minecraft-Server |
+| **Doku** | **Dokumentation & Changelog** | ✅ Abgeschlossen | [`README.md`](./README.md), [`CHANGELOG.md`](./CHANGELOG.md) |
 
 ---
 
@@ -49,30 +47,6 @@
 
 ---
 
-## 🚀 Anleitung für den Wiedereinstieg: Start von Phase 3
+## ✅ Deployment (Phase 4)
 
-Wenn die Arbeit fortgesetzt wird, genau an diesem Punkt anknüpfen:
-
-### Ziel von Phase 3: Shop-Generierung (YAML)
-Erzeugung aller produktiven Konfigurationsdateien im GUIShop-Schema:
-- **Hauptmenü:** `menu.yml` (Referenziert alle 15 Kategorien per `target-shop`, mit Icons und Slots).
-- **15 Shop-Dateien im Ordner `shops/`:**
-  1. `shops/blocks.yml`
-  2. `shops/minerals.yml`
-  3. `shops/farming.yml`
-  4. `shops/mobdrops.yml`
-  5. `shops/redstone.yml`
-  6. `shops/ocean.yml`
-  7. `shops/nether_end.yml`
-  8. `shops/decorations.yml`
-  9. `shops/tools.yml`
-  10. `shops/armor.yml`
-  11. `shops/enchantments.yml`
-  12. `shops/potions.yml`
-  13. `shops/spawners.yml`
-  14. `shops/custom_items.yml`
-  15. `shops/misc.yml`
-- **Regeln:**
-  - Exakte Syntax nach echtem GUIShop 9.4.4+ (`type: SHOP`, `id`, `buy-price`/`sell-price` mit `false` statt `-1`, `shop-name`/`shop-lore`). Es gibt **kein** `fill-item`, `buy-stack`/`sell-stack` oder `daily-limit-sell` im echten Plugin — Tageslimits werden nur als Hinweistext in `shop-lore` dokumentiert.
-  - Slot-Sortierung nach Subgruppen.
-  - YAML-Syntax-Validierung.
+Das Config-Paket (`menu.yml` + `shops/*.yml`, 15 Dateien) ist deployed und läuft produktiv auf dem Minecraft-Server.
