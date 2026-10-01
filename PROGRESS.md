@@ -27,7 +27,7 @@
    - Waffen & Tools: `MACE`, `WIND_BURST_3`, `DENSITY_5`, `BREACH_4`, `BRUSH`.
    - Blöcke & Automatisierung: `CRAFTER`, `COPPER_BULB`, Tuff-Varianten.
    - Trial Chambers: `TRIAL_KEY`, `OMINOUS_TRIAL_KEY`, `HEAVY_CORE`, `BREEZE_ROD`.
-   - Tränke: `POTION_WIND_CHARGED`, `POTION_WEAVING`, `POTION_OOZING`, `POTION_INFESTED`.
+   - Tränke: neue 1.21-Effekte `WIND_CHARGED`, `WEAVING`, `OOZING`, `INFESTED` (als `potion-info.type` auf Basis-ID `POTION`).
    - Wolfsrüstung & Hornschilde: `WOLF_ARMOR`, `ARMADILLO_SCUTE`.
 
 ---

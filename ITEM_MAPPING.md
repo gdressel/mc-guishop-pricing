@@ -577,48 +577,50 @@
 *Subgruppen: `weapons`, `armor`, `tools`, `fishing`, `misc`*
 *Regel: Alle Verzauberungsbücher besitzen `sell: false`.*
 
+*Hinweis: GUIShop kennt keine eigene Material-ID pro Verzauberung. Alle Bücher nutzen `id: ENCHANTED_BOOK` mit einem `enchantments: 'NAME:LEVEL'`-Feld; die Spalte unten zeigt dieses Feld in Klammern.*
+
 | Material / Buch-Kennung | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `SHARPNESS_5_BOOK` | Buch: Schärfe V | weapons | 0.0 | 1200.0 | false | Nahkampfschaden |
-| `SMITE_5_BOOK` | Buch: Bann V | weapons | 0.0 | 800.0 | false | Untotenschaden |
-| `BANE_OF_ARTHROPODS_5_BOOK` | Buch: Nemesis der Gliederfüßer V | weapons | 0.0 | 500.0 | false | Spinnenschaden |
-| `KNOCKBACK_2_BOOK` | Buch: Rückstoß II | weapons | 0.0 | 600.0 | false | Zurückstoßen |
-| `FIRE_ASPECT_2_BOOK` | Buch: Verbrennung II | weapons | 0.0 | 1000.0 | false | Feuerschaden |
-| `LOOTING_3_BOOK` | Buch: Plünderung III | weapons | 0.0 | 1800.0 | false | Mehr Mob-Drops |
-| `SWEEPING_EDGE_3_BOOK` | Buch: Schwungkraft III | weapons | 0.0 | 1000.0 | false | Flächenschaden |
-| `POWER_5_BOOK` | Buch: Stärke V | weapons | 0.0 | 1200.0 | false | Bogenschaden |
-| `PUNCH_2_BOOK` | Buch: Schlag II | weapons | 0.0 | 600.0 | false | Bogen-Rückstoß |
-| `FLAME_BOOK` | Buch: Flamme | weapons | 0.0 | 800.0 | false | Feuerpfeile |
-| `INFINITY_BOOK` | Buch: Unendlichkeit | weapons | 0.0 | 1500.0 | false | Unendliche Pfeile |
-| `MULTISHOT_BOOK` | Buch: Dreifachschuss | weapons | 0.0 | 800.0 | false | Armbrust |
-| `QUICK_CHARGE_3_BOOK` | Buch: Schnelles Laden III | weapons | 0.0 | 1000.0 | false | Armbrust |
-| `PIERCING_4_BOOK` | Buch: Durchschuss IV | weapons | 0.0 | 1000.0 | false | Armbrust |
-| `IMPALING_5_BOOK` | Buch: Harpune V | weapons | 0.0 | 1000.0 | false | Dreizack |
-| `RIPTIDE_3_BOOK` | Buch: Sog III | weapons | 0.0 | 1500.0 | false | Dreizack-Flug im Regen |
-| `LOYALTY_3_BOOK` | Buch: Treue III | weapons | 0.0 | 1200.0 | false | Rückkehrender Dreizack |
-| `CHANNELING_BOOK` | Buch: Entladung | weapons | 0.0 | 1000.0 | false | Blitzeinschlag bei Gewitter |
-| `DENSITY_5_BOOK` | Buch: Dichte V | weapons | 0.0 | 2000.0 | false | Mace-Verzauberung (1.21+) |
-| `BREACH_4_BOOK` | Buch: Rüstungsbruch IV | weapons | 0.0 | 2000.0 | false | Mace-Verzauberung (1.21+) |
-| `WIND_BURST_3_BOOK` | Buch: Windstoß III | weapons | 0.0 | 3500.0 | false | Mace-Ominous Belohnung |
-| `PROTECTION_4_BOOK` | Buch: Schutz IV | armor | 0.0 | 1500.0 | false | Universeller Rüstungsschutz |
-| `FIRE_PROTECTION_4_BOOK` | Buch: Feuerschutz IV | armor | 0.0 | 800.0 | false | Hitzeschutz |
-| `FEATHER_FALLING_4_BOOK` | Buch: Federfall IV | armor | 0.0 | 1200.0 | false | Fallschadensreduktion |
-| `BLAST_PROTECTION_4_BOOK` | Buch: Explosionsschutz IV | armor | 0.0 | 800.0 | false | Explosionsabwehr |
-| `PROJECTILE_PROTECTION_4_BOOK` | Buch: Schuss-Sicherheit IV | armor | 0.0 | 800.0 | false | Projektilschutz |
-| `RESPIRATION_3_BOOK` | Buch: Atmung III | armor | 0.0 | 1000.0 | false | Verlängerte Unterwasseratmung |
-| `AQUA_AFFINITY_BOOK` | Buch: Wasseraffinität | armor | 0.0 | 800.0 | false | Normales Abbauen im Wasser |
-| `THORNS_3_BOOK` | Buch: Dornen III | armor | 0.0 | 1200.0 | false | Gegenangriff auf Angreifer |
-| `DEPTH_STRIDER_3_BOOK` | Buch: Wasserläufer III | armor | 0.0 | 1200.0 | false | Schnelles Schwimmen |
-| `FROST_WALKER_2_BOOK` | Buch: Eisläufer II | armor | 0.0 | 1000.0 | false | Eisbildung auf Wasser |
-| `SOUL_SPEED_3_BOOK` | Buch: Seelentempo III | armor | 0.0 | 1500.0 | false | Schnelligkeit auf Seelensand |
-| `SWIFT_SNEAK_3_BOOK` | Buch: Huschen III | armor | 0.0 | 2500.0 | false | Ancient City Exklusiv |
-| `EFFICIENCY_5_BOOK` | Buch: Effizienz V | tools | 0.0 | 1500.0 | false | Schnelleres Abbauen |
-| `SILK_TOUCH_BOOK` | Buch: Behutsamkeit | tools | 0.0 | 2000.0 | false | Erhält Originalblock |
-| `FORTUNE_3_BOOK` | Buch: Glück III | tools | 0.0 | 2000.0 | false | Höhere Dropmengen |
-| `LUCK_OF_THE_SEA_3_BOOK` | Buch: Glück des Meeres III | fishing | 0.0 | 800.0 | false | Bessere Angelbeute |
-| `LURE_3_BOOK` | Buch: Köder III | fishing | 0.0 | 800.0 | false | Schnellere Bisse |
-| `UNBREAKING_3_BOOK` | Buch: Haltbarkeit III | misc | 0.0 | 1500.0 | false | Längere Lebensdauer |
-| `MENDING_BOOK` | Buch: Reparatur | misc | 0.0 | 3000.0 | false | Beliebteste Verzauberung |
+| `ENCHANTED_BOOK` (`SHARPNESS:5`) | Buch: Schärfe V | weapons | 0.0 | 1200.0 | false | Nahkampfschaden |
+| `ENCHANTED_BOOK` (`SMITE:5`) | Buch: Bann V | weapons | 0.0 | 800.0 | false | Untotenschaden |
+| `ENCHANTED_BOOK` (`BANE_OF_ARTHROPODS:5`) | Buch: Nemesis der Gliederfüßer V | weapons | 0.0 | 500.0 | false | Spinnenschaden |
+| `ENCHANTED_BOOK` (`KNOCKBACK:2`) | Buch: Rückstoß II | weapons | 0.0 | 600.0 | false | Zurückstoßen |
+| `ENCHANTED_BOOK` (`FIRE_ASPECT:2`) | Buch: Verbrennung II | weapons | 0.0 | 1000.0 | false | Feuerschaden |
+| `ENCHANTED_BOOK` (`LOOTING:3`) | Buch: Plünderung III | weapons | 0.0 | 1800.0 | false | Mehr Mob-Drops |
+| `ENCHANTED_BOOK` (`SWEEPING_EDGE:3`) | Buch: Schwungkraft III | weapons | 0.0 | 1000.0 | false | Flächenschaden |
+| `ENCHANTED_BOOK` (`POWER:5`) | Buch: Stärke V | weapons | 0.0 | 1200.0 | false | Bogenschaden |
+| `ENCHANTED_BOOK` (`PUNCH:2`) | Buch: Schlag II | weapons | 0.0 | 600.0 | false | Bogen-Rückstoß |
+| `ENCHANTED_BOOK` (`FLAME:1`) | Buch: Flamme | weapons | 0.0 | 800.0 | false | Feuerpfeile |
+| `ENCHANTED_BOOK` (`INFINITY:1`) | Buch: Unendlichkeit | weapons | 0.0 | 1500.0 | false | Unendliche Pfeile |
+| `ENCHANTED_BOOK` (`MULTISHOT:1`) | Buch: Dreifachschuss | weapons | 0.0 | 800.0 | false | Armbrust |
+| `ENCHANTED_BOOK` (`QUICK_CHARGE:3`) | Buch: Schnelles Laden III | weapons | 0.0 | 1000.0 | false | Armbrust |
+| `ENCHANTED_BOOK` (`PIERCING:4`) | Buch: Durchschuss IV | weapons | 0.0 | 1000.0 | false | Armbrust |
+| `ENCHANTED_BOOK` (`IMPALING:5`) | Buch: Harpune V | weapons | 0.0 | 1000.0 | false | Dreizack |
+| `ENCHANTED_BOOK` (`RIPTIDE:3`) | Buch: Sog III | weapons | 0.0 | 1500.0 | false | Dreizack-Flug im Regen |
+| `ENCHANTED_BOOK` (`LOYALTY:3`) | Buch: Treue III | weapons | 0.0 | 1200.0 | false | Rückkehrender Dreizack |
+| `ENCHANTED_BOOK` (`CHANNELING:1`) | Buch: Entladung | weapons | 0.0 | 1000.0 | false | Blitzeinschlag bei Gewitter |
+| `ENCHANTED_BOOK` (`DENSITY:5`) | Buch: Dichte V | weapons | 0.0 | 2000.0 | false | Mace-Verzauberung (1.21+) |
+| `ENCHANTED_BOOK` (`BREACH:4`) | Buch: Rüstungsbruch IV | weapons | 0.0 | 2000.0 | false | Mace-Verzauberung (1.21+) |
+| `ENCHANTED_BOOK` (`WIND_BURST:3`) | Buch: Windstoß III | weapons | 0.0 | 3500.0 | false | Mace-Ominous Belohnung |
+| `ENCHANTED_BOOK` (`PROTECTION:4`) | Buch: Schutz IV | armor | 0.0 | 1500.0 | false | Universeller Rüstungsschutz |
+| `ENCHANTED_BOOK` (`FIRE_PROTECTION:4`) | Buch: Feuerschutz IV | armor | 0.0 | 800.0 | false | Hitzeschutz |
+| `ENCHANTED_BOOK` (`FEATHER_FALLING:4`) | Buch: Federfall IV | armor | 0.0 | 1200.0 | false | Fallschadensreduktion |
+| `ENCHANTED_BOOK` (`BLAST_PROTECTION:4`) | Buch: Explosionsschutz IV | armor | 0.0 | 800.0 | false | Explosionsabwehr |
+| `ENCHANTED_BOOK` (`PROJECTILE_PROTECTION:4`) | Buch: Schuss-Sicherheit IV | armor | 0.0 | 800.0 | false | Projektilschutz |
+| `ENCHANTED_BOOK` (`RESPIRATION:3`) | Buch: Atmung III | armor | 0.0 | 1000.0 | false | Verlängerte Unterwasseratmung |
+| `ENCHANTED_BOOK` (`AQUA_AFFINITY:1`) | Buch: Wasseraffinität | armor | 0.0 | 800.0 | false | Normales Abbauen im Wasser |
+| `ENCHANTED_BOOK` (`THORNS:3`) | Buch: Dornen III | armor | 0.0 | 1200.0 | false | Gegenangriff auf Angreifer |
+| `ENCHANTED_BOOK` (`DEPTH_STRIDER:3`) | Buch: Wasserläufer III | armor | 0.0 | 1200.0 | false | Schnelles Schwimmen |
+| `ENCHANTED_BOOK` (`FROST_WALKER:2`) | Buch: Eisläufer II | armor | 0.0 | 1000.0 | false | Eisbildung auf Wasser |
+| `ENCHANTED_BOOK` (`SOUL_SPEED:3`) | Buch: Seelentempo III | armor | 0.0 | 1500.0 | false | Schnelligkeit auf Seelensand |
+| `ENCHANTED_BOOK` (`SWIFT_SNEAK:3`) | Buch: Huschen III | armor | 0.0 | 2500.0 | false | Ancient City Exklusiv |
+| `ENCHANTED_BOOK` (`EFFICIENCY:5`) | Buch: Effizienz V | tools | 0.0 | 1500.0 | false | Schnelleres Abbauen |
+| `ENCHANTED_BOOK` (`SILK_TOUCH:1`) | Buch: Behutsamkeit | tools | 0.0 | 2000.0 | false | Erhält Originalblock |
+| `ENCHANTED_BOOK` (`FORTUNE:3`) | Buch: Glück III | tools | 0.0 | 2000.0 | false | Höhere Dropmengen |
+| `ENCHANTED_BOOK` (`LUCK_OF_THE_SEA:3`) | Buch: Glück des Meeres III | fishing | 0.0 | 800.0 | false | Bessere Angelbeute |
+| `ENCHANTED_BOOK` (`LURE:3`) | Buch: Köder III | fishing | 0.0 | 800.0 | false | Schnellere Bisse |
+| `ENCHANTED_BOOK` (`UNBREAKING:3`) | Buch: Haltbarkeit III | misc | 0.0 | 1500.0 | false | Längere Lebensdauer |
+| `ENCHANTED_BOOK` (`MENDING:1`) | Buch: Reparatur | misc | 0.0 | 3000.0 | false | Beliebteste Verzauberung |
 
 ---
 
@@ -626,36 +628,38 @@
 *Subgruppen: `regular`, `splash`, `lingering`, `custom`*
 *Regel: Alle Tränke besitzen `sell: false`.*
 
+*Hinweis: GUIShop kennt keine eigene Material-ID pro Effekt. Alle Tränke nutzen `id: POTION`/`SPLASH_POTION`/`LINGERING_POTION` mit einem `potion-info:`-Block (`type`, `splash`, `lingering`, `extended`, `upgraded`); die Spalte unten zeigt die relevanten `potion-info`-Felder in Klammern.*
+
 | Material / Kennung | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
-| `POTION_NIGHT_VISION` | Trank der Nachtsicht (8:00) | regular | 0.0 | 60.0 | false | sell: false |
-| `POTION_INVISIBILITY` | Trank der Unsichtbarkeit (8:00) | regular | 0.0 | 80.0 | false | sell: false |
-| `POTION_LEAPING` | Trank der Sprungkraft II | regular | 0.0 | 70.0 | false | sell: false |
-| `POTION_FIRE_RESISTANCE` | Trank der Feuerresistenz (8:00) | regular | 0.0 | 70.0 | false | sell: false |
-| `POTION_SWIFTNESS` | Trank der Schnelligkeit II | regular | 0.0 | 60.0 | false | sell: false |
-| `POTION_SLOWNESS` | Trank der Verlangsamung | regular | 0.0 | 50.0 | false | sell: false |
-| `POTION_WATER_BREATHING` | Trank der Unterwasseratmung (8:00) | regular | 0.0 | 60.0 | false | sell: false |
-| `POTION_HEALING` | Trank der Heilung II | regular | 0.0 | 70.0 | false | sell: false |
-| `POTION_HARMING` | Trank des Schadens II | regular | 0.0 | 70.0 | false | sell: false |
-| `POTION_POISON` | Trank des Giftes | regular | 0.0 | 60.0 | false | sell: false |
-| `POTION_REGENERATION` | Trank der Regeneration II | regular | 0.0 | 100.0 | false | sell: false |
-| `POTION_STRENGTH` | Trank der Stärke II | regular | 0.0 | 100.0 | false | sell: false |
-| `POTION_WEAKNESS` | Trank der Schwäche (4:00) | regular | 0.0 | 50.0 | false | Zombie-Villager Heilung |
-| `POTION_SLOW_FALLING` | Trank des Sanften Falls (4:00) | regular | 0.0 | 80.0 | false | sell: false |
-| `POTION_TURTLE_MASTER` | Trank des Schildkrötenmeisters | regular | 0.0 | 120.0 | false | sell: false |
-| `POTION_WIND_CHARGED` | Windgeladener Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
-| `POTION_WEAVING` | Webender Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
-| `POTION_OOZING` | Schleimender Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
-| `POTION_INFESTED` | Befallener Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
-| `SPLASH_POTION_HEALING` | Wurftrank der Heilung II | splash | 0.0 | 90.0 | false | Schnelle Heilung im Kampf |
-| `SPLASH_POTION_HARMING` | Wurftrank des Schadens II | splash | 0.0 | 90.0 | false | PvP / Mobkampf |
-| `SPLASH_POTION_REGENERATION` | Wurftrank der Regeneration II | splash | 0.0 | 120.0 | false | Team-Heilung |
-| `SPLASH_POTION_FIRE_RESISTANCE` | Wurftrank der Feuerresistenz | splash | 0.0 | 90.0 | false | Schnelle Rettung in Lava |
-| `SPLASH_POTION_WEAKNESS` | Wurftrank der Schwäche | splash | 0.0 | 70.0 | false | Zombiedorfbewohner-Heilung |
-| `SPLASH_POTION_STRENGTH` | Wurftrank der Stärke II | splash | 0.0 | 120.0 | false | Kampf-Buff |
-| `LINGERING_POTION_HEALING` | Verweiltrank der Heilung II | lingering | 0.0 | 140.0 | false | Verweilende Heilzone |
-| `LINGERING_POTION_HARMING` | Verweiltrank des Schadens II | lingering | 0.0 | 140.0 | false | Verweilende Schadenszone |
-| `LINGERING_POTION_POISON` | Verweiltrank des Giftes | lingering | 0.0 | 120.0 | false | Verweilendes Gift |
+| `POTION` (`type: NIGHT_VISION, extended: true`) | Trank der Nachtsicht (8:00) | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION` (`type: INVISIBILITY, extended: true`) | Trank der Unsichtbarkeit (8:00) | regular | 0.0 | 80.0 | false | sell: false |
+| `POTION` (`type: LEAPING, upgraded: true`) | Trank der Sprungkraft II | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION` (`type: FIRE_RESISTANCE, extended: true`) | Trank der Feuerresistenz (8:00) | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION` (`type: SWIFTNESS, upgraded: true`) | Trank der Schnelligkeit II | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION` (`type: SLOWNESS`) | Trank der Verlangsamung | regular | 0.0 | 50.0 | false | sell: false |
+| `POTION` (`type: WATER_BREATHING, extended: true`) | Trank der Unterwasseratmung (8:00) | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION` (`type: HEALING, upgraded: true`) | Trank der Heilung II | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION` (`type: HARMING, upgraded: true`) | Trank des Schadens II | regular | 0.0 | 70.0 | false | sell: false |
+| `POTION` (`type: POISON`) | Trank des Giftes | regular | 0.0 | 60.0 | false | sell: false |
+| `POTION` (`type: REGENERATION, upgraded: true`) | Trank der Regeneration II | regular | 0.0 | 100.0 | false | sell: false |
+| `POTION` (`type: STRENGTH, upgraded: true`) | Trank der Stärke II | regular | 0.0 | 100.0 | false | sell: false |
+| `POTION` (`type: WEAKNESS, extended: true`) | Trank der Schwäche (4:00) | regular | 0.0 | 50.0 | false | Zombie-Villager Heilung |
+| `POTION` (`type: SLOW_FALLING, extended: true`) | Trank des Sanften Falls (4:00) | regular | 0.0 | 80.0 | false | sell: false |
+| `POTION` (`type: TURTLE_MASTER`) | Trank des Schildkrötenmeisters | regular | 0.0 | 120.0 | false | sell: false |
+| `POTION` (`type: WIND_CHARGED`) | Windgeladener Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `POTION` (`type: WEAVING`) | Webender Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `POTION` (`type: OOZING`) | Schleimender Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `POTION` (`type: INFESTED`) | Befallener Trank | regular | 0.0 | 120.0 | false | 1.21+ Effekt |
+| `SPLASH_POTION` (`type: HEALING, upgraded: true`) | Wurftrank der Heilung II | splash | 0.0 | 90.0 | false | Schnelle Heilung im Kampf |
+| `SPLASH_POTION` (`type: HARMING, upgraded: true`) | Wurftrank des Schadens II | splash | 0.0 | 90.0 | false | PvP / Mobkampf |
+| `SPLASH_POTION` (`type: REGENERATION, upgraded: true`) | Wurftrank der Regeneration II | splash | 0.0 | 120.0 | false | Team-Heilung |
+| `SPLASH_POTION` (`type: FIRE_RESISTANCE`) | Wurftrank der Feuerresistenz | splash | 0.0 | 90.0 | false | Schnelle Rettung in Lava |
+| `SPLASH_POTION` (`type: WEAKNESS`) | Wurftrank der Schwäche | splash | 0.0 | 70.0 | false | Zombiedorfbewohner-Heilung |
+| `SPLASH_POTION` (`type: STRENGTH, upgraded: true`) | Wurftrank der Stärke II | splash | 0.0 | 120.0 | false | Kampf-Buff |
+| `LINGERING_POTION` (`type: HEALING, upgraded: true`) | Verweiltrank der Heilung II | lingering | 0.0 | 140.0 | false | Verweilende Heilzone |
+| `LINGERING_POTION` (`type: HARMING, upgraded: true`) | Verweiltrank des Schadens II | lingering | 0.0 | 140.0 | false | Verweilende Schadenszone |
+| `LINGERING_POTION` (`type: POISON`) | Verweiltrank des Giftes | lingering | 0.0 | 120.0 | false | Verweilendes Gift |
 | `EXPERIENCE_BOTTLE` | Erfahrungsfläschchen | custom | 0.4 | 50.0 | false | Schnelle XP-Quelle |
 
 ---
@@ -663,23 +667,24 @@
 ### 13. spawners.yml
 *Subgruppen: `mob_spawners`*
 *Regel: Alle Spawner besitzen `buy: false` (können nicht gekauft werden, um unendliche AFK-Wirtschaft zu verhindern; nur Verkauf belohnt den Spieler).*
+*Hinweis: GUIShop kennt keine eigene Material-ID pro Mob-Typ — alle Spawner nutzen `id: SPAWNER`, der Mob-Typ wird über `mob-type:` gesetzt.*
 
 | Material / Typ | Anzeigename | Subgruppe | Farmbarkeit | Buy | Sell | Notizen |
 |:---|:---|:---|:---:|:---:|:---:|:---|
 | `SPAWNER` | Standard Spawner | mob_spawners | 0.0 | false | 25000.0 | buy: false |
-| `ZOMBIE_SPAWNER` | Zombie-Spawner | mob_spawners | 0.0 | false | 25000.0 | Dungeon-Fund |
-| `SKELETON_SPAWNER` | Skelett-Spawner | mob_spawners | 0.0 | false | 30000.0 | Knochen-/Pfeilquelle |
-| `SPIDER_SPAWNER` | Spinnen-Spawner | mob_spawners | 0.0 | false | 25000.0 | Fadenquelle |
-| `CAVE_SPIDER_SPAWNER` | Höhlenspinnen-Spawner | mob_spawners | 0.0 | false | 28000.0 | Minenschacht-Fund |
-| `CREEPER_SPAWNER` | Creeper-Spawner | mob_spawners | 0.0 | false | 50000.0 | Sehr wertvoll |
-| `BLAZE_SPAWNER` | Lohen-Spawner | mob_spawners | 0.0 | false | 40000.0 | Netherfestung |
-| `SILVERFISH_SPAWNER` | Silberfisch-Spawner | mob_spawners | 0.0 | false | 15000.0 | Festung / Endportal |
-| `MAGMA_CUBE_SPAWNER` | Magmawürfel-Spawner | mob_spawners | 0.0 | false | 35000.0 | Bastions-Fund |
-| `PIG_SPAWNER` | Schweine-Spawner | mob_spawners | 0.0 | false | 20000.0 | Friedlicher Spawner |
-| `COW_SPAWNER` | Kuh-Spawner | mob_spawners | 0.0 | false | 25000.0 | Leder & Fleisch |
-| `SHEEP_SPAWNER` | Schaf-Spawner | mob_spawners | 0.0 | false | 20000.0 | Wollquelle |
-| `CHICKEN_SPAWNER` | Hühner-Spawner | mob_spawners | 0.0 | false | 18000.0 | Geflügelquelle |
-| `IRON_GOLEM_SPAWNER` | Eisengolem-Spawner | mob_spawners | 0.0 | false | 100000.0 | Höchste Stufe |
+| `SPAWNER` (`mob-type: ZOMBIE`) | Zombie-Spawner | mob_spawners | 0.0 | false | 25000.0 | Dungeon-Fund |
+| `SPAWNER` (`mob-type: SKELETON`) | Skelett-Spawner | mob_spawners | 0.0 | false | 30000.0 | Knochen-/Pfeilquelle |
+| `SPAWNER` (`mob-type: SPIDER`) | Spinnen-Spawner | mob_spawners | 0.0 | false | 25000.0 | Fadenquelle |
+| `SPAWNER` (`mob-type: CAVE_SPIDER`) | Höhlenspinnen-Spawner | mob_spawners | 0.0 | false | 28000.0 | Minenschacht-Fund |
+| `SPAWNER` (`mob-type: CREEPER`) | Creeper-Spawner | mob_spawners | 0.0 | false | 50000.0 | Sehr wertvoll |
+| `SPAWNER` (`mob-type: BLAZE`) | Lohen-Spawner | mob_spawners | 0.0 | false | 40000.0 | Netherfestung |
+| `SPAWNER` (`mob-type: SILVERFISH`) | Silberfisch-Spawner | mob_spawners | 0.0 | false | 15000.0 | Festung / Endportal |
+| `SPAWNER` (`mob-type: MAGMA_CUBE`) | Magmawürfel-Spawner | mob_spawners | 0.0 | false | 35000.0 | Bastions-Fund |
+| `SPAWNER` (`mob-type: PIG`) | Schweine-Spawner | mob_spawners | 0.0 | false | 20000.0 | Friedlicher Spawner |
+| `SPAWNER` (`mob-type: COW`) | Kuh-Spawner | mob_spawners | 0.0 | false | 25000.0 | Leder & Fleisch |
+| `SPAWNER` (`mob-type: SHEEP`) | Schaf-Spawner | mob_spawners | 0.0 | false | 20000.0 | Wollquelle |
+| `SPAWNER` (`mob-type: CHICKEN`) | Hühner-Spawner | mob_spawners | 0.0 | false | 18000.0 | Geflügelquelle |
+| `SPAWNER` (`mob-type: IRON_GOLEM`) | Eisengolem-Spawner | mob_spawners | 0.0 | false | 100000.0 | Höchste Stufe |
 
 ---
 
@@ -731,7 +736,7 @@
   - Waffen & Tools: `MACE`, `WIND_BURST_3`, `DENSITY_5`, `BREACH_4`, `BRUSH`.
   - Blöcke: `TUFF_BRICKS`, `CHISELED_TUFF_BRICKS`, `TUFF_TILES`, `POLISHED_TUFF`, `COPPER_BULB`, `CRAFTER`.
   - Trial Chambers & Ominous Loot: `TRIAL_KEY`, `OMINOUS_TRIAL_KEY`, `HEAVY_CORE`, `BREEZE_ROD`, `OMINOUS_BOTTLE`, neue Tonscherben (`FLOW`, `GUSTER`).
-  - Tränke: `POTION_WIND_CHARGED`, `POTION_WEAVING`, `POTION_OOZING`, `POTION_INFESTED`.
+  - Tränke: neue 1.21-Effekte `WIND_CHARGED`, `WEAVING`, `OOZING`, `INFESTED` (als `potion-info.type` auf Basis-ID `POTION`).
   - Schutz & Begleiter: `WOLF_ARMOR`, `ARMADILLO_SCUTE`.
 - **Regel-Harmonisierung:**
   - Konsequente Anwendung von `sell: false` bei allen verzauberbaren/nutzbaren Ausrüstungsgegenständen, Tränken und Zauberbüchern.

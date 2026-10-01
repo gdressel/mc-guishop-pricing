@@ -89,15 +89,15 @@ Die folgende Tabelle zeigt die tatsächlich in den `shops/*.yml`-Dateien konfigu
 
 ### Verzauberungsbücher (`enchantments.yml`)
 - **Sell:** **Immer `sell-price: false`** (kein Verkauf).
-- **Buy:** nach Seltenheit (z. B. `EFFICIENCY_5_BOOK: 1500.0`, `MENDING_BOOK: 3000.0`).
+- **Buy:** nach Seltenheit. GUIShop kennt keine eigene Material-ID pro Verzauberung — alle Bücher nutzen `id: ENCHANTED_BOOK` mit `enchantments: 'NAME:LEVEL'` (z. B. `enchantments: 'EFFICIENCY:5'` → 1500.0, `enchantments: 'MENDING:1'` → 3000.0).
 
 ### Tränke (`potions.yml`)
 - **Sell:** **Immer `sell-price: false`** (kein Verkauf, außer Admin-Shop).
-- **Buy:** nach Typ (z. B. `POTION_STRENGTH: 100.0`, `SPLASH_POTION_HARMING: 90.0`).
+- **Buy:** nach Typ. GUIShop kennt keine eigene Material-ID pro Effekt — alle Tränke nutzen `id: POTION`/`SPLASH_POTION`/`LINGERING_POTION` mit einem `potion-info:`-Block (z. B. `id: POTION` + `potion-info: {type: STRENGTH, upgraded: true}` → 100.0, `id: SPLASH_POTION` + `potion-info: {type: HARMING, splash: true, upgraded: true}` → 90.0).
 
 ### Mob-Spawner (`spawners.yml`)
 - **Buy:** **Immer `buy-price: false`** (kann nicht gekauft werden).
-- **Sell:** hoch (z. B. `SPAWNER: 25000.0`, `CREEPER_SPAWNER: 50000.0`, `IRON_GOLEM_SPAWNER: 100000.0`).
+- **Sell:** hoch (z. B. `SPAWNER: 25000.0`, `SPAWNER` mit `mob-type: CREEPER`: 50000.0, `IRON_GOLEM_SPAWNER: 100000.0`).
 
 ### Server-eigene Items (`custom_items.yml`)
 - **Farmbarkeit:** immer `0.0` (nicht aus der Spielwelt gewinnbar, sondern Events/Voting/Quests).

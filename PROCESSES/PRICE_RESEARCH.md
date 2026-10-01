@@ -125,7 +125,7 @@ Nutze die **Farmbarkeit-Werte** aus `ITEM_MAPPING.md` und passe die Preise an di
 | `buy: false`            | Item **kann nicht gekauft** werden (muss erspielt werden).               | DRAGON_EGG, HEAVY_CORE, SPAWNER |
 | `sell: false`           | Item **kann nicht verkauft** werden (Missbrauchsschutz).                 | DIAMOND_PICKAXE, NETHERITE_SWORD |
 | **Stack-Größen**        | `buy-stack: 64`, `sell-stack: 64` **nur für Blöcke/Erze**.                     | COBBLESTONE, IRON_INGOT          |
-| **Enchanted Items**     | **Immer `sell: false`** (unabhängig von Farmbarkeit).                          | EFFICIENCY_5_BOOK                |
+| **Enchanted Items**     | **Immer `sell: false`** (unabhängig von Farmbarkeit).                          | ENCHANTED_BOOK (`EFFICIENCY:5`)  |
 
 ---
 

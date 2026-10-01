@@ -121,20 +121,22 @@
 
 ### enchantments.yml
 *Subgruppen: weapons, armor, tools, fishing, misc*
+*Hinweis: GUIShop kennt keine eigene Material-ID pro Verzauberung — `id: ENCHANTED_BOOK` + `enchantments: 'NAME:LEVEL'`.*
 
 | Material            | Anzeigename          | Subgruppe | Farmbarkeit | Buy     | Sell | Notizen          |
 |---------------------|-----------------------|-----------|-------------|---------|------|------------------|
-| SHARPNESS_1_BOOK     | Schärfe I            | weapons   | 0.0         | 100.0   | false | sell: false (Missbrauchsschutz) |
-| PROTECTION_4_BOOK    | Schutz IV             | armor     | 0.0         | 2000.0  | false | sell: false (Missbrauchsschutz) |
-| EFFICIENCY_5_BOOK     | Effizienz V           | tools     | 0.0         | 1500.0  | false | sell: false (Missbrauchsschutz) |
+| ENCHANTED_BOOK (`SHARPNESS:1`)     | Schärfe I            | weapons   | 0.0         | 100.0   | false | sell: false (Missbrauchsschutz) |
+| ENCHANTED_BOOK (`PROTECTION:4`)    | Schutz IV             | armor     | 0.0         | 2000.0  | false | sell: false (Missbrauchsschutz) |
+| ENCHANTED_BOOK (`EFFICIENCY:5`)     | Effizienz V           | tools     | 0.0         | 1500.0  | false | sell: false (Missbrauchsschutz) |
 
 ### potions.yml
 *Subgruppen: regular, splash, lingering, custom*
+*Hinweis: GUIShop kennt keine eigene Material-ID pro Effekt — `id: POTION`/`SPLASH_POTION`/`LINGERING_POTION` + `potion-info:`-Block (`type`, `splash`, `lingering`, `extended`, `upgraded`).*
 
 | Material            | Anzeigename          | Subgruppe | Farmbarkeit | Buy   | Sell | Notizen          |
 |---------------------|-----------------------|-----------|-------------|-------|------|------------------|
-| POTION_OF_STRENGTH  | Trank der Stärke     | regular   | 0.0         | 50.0  | false | sell: false (Missbrauchsschutz) |
-| SPLASH_POTION      | Spritzflasche        | splash    | 0.0         | 100.0 | false | sell: false (Missbrauchsschutz) |
+| POTION (`type: STRENGTH`)  | Trank der Stärke     | regular   | 0.0         | 50.0  | false | sell: false (Missbrauchsschutz) |
+| SPLASH_POTION (`type: STRENGTH, splash: true`)      | Wurftrank der Stärke        | splash    | 0.0         | 100.0 | false | sell: false (Missbrauchsschutz) |
 
 ### spawners.yml
 *Subgruppen: mob_spawners*

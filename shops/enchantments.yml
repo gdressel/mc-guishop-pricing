@@ -5,7 +5,8 @@ pages:
     items:
       '10':
         type: SHOP
-        id: SHARPNESS_5_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'SHARPNESS:5'
         buy-price: 1200.0
         sell-price: false
         shop-name: '&cBuch: Schärfe V'
@@ -13,7 +14,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '11':
         type: SHOP
-        id: SMITE_5_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'SMITE:5'
         buy-price: 800.0
         sell-price: false
         shop-name: '&cBuch: Bann V'
@@ -21,7 +23,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '12':
         type: SHOP
-        id: BANE_OF_ARTHROPODS_5_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'BANE_OF_ARTHROPODS:5'
         buy-price: 500.0
         sell-price: false
         shop-name: '&cBuch: Nemesis der Gliederfüßer V'
@@ -29,7 +32,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '13':
         type: SHOP
-        id: KNOCKBACK_2_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'KNOCKBACK:2'
         buy-price: 600.0
         sell-price: false
         shop-name: '&cBuch: Rückstoß II'
@@ -37,7 +41,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '14':
         type: SHOP
-        id: FIRE_ASPECT_2_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'FIRE_ASPECT:2'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&cBuch: Verbrennung II'
@@ -45,7 +50,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '15':
         type: SHOP
-        id: LOOTING_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'LOOTING:3'
         buy-price: 1800.0
         sell-price: false
         shop-name: '&cBuch: Plünderung III'
@@ -53,7 +59,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '16':
         type: SHOP
-        id: SWEEPING_EDGE_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'SWEEPING_EDGE:3'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&cBuch: Schwungkraft III'
@@ -61,7 +68,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '19':
         type: SHOP
-        id: POWER_5_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'POWER:5'
         buy-price: 1200.0
         sell-price: false
         shop-name: '&cBuch: Stärke V'
@@ -69,7 +77,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '20':
         type: SHOP
-        id: PUNCH_2_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'PUNCH:2'
         buy-price: 600.0
         sell-price: false
         shop-name: '&cBuch: Schlag II'
@@ -77,7 +86,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '21':
         type: SHOP
-        id: FLAME_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'FLAME:1'
         buy-price: 800.0
         sell-price: false
         shop-name: '&cBuch: Flamme'
@@ -85,7 +95,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '22':
         type: SHOP
-        id: INFINITY_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'INFINITY:1'
         buy-price: 1500.0
         sell-price: false
         shop-name: '&cBuch: Unendlichkeit'
@@ -93,7 +104,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '23':
         type: SHOP
-        id: MULTISHOT_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'MULTISHOT:1'
         buy-price: 800.0
         sell-price: false
         shop-name: '&cBuch: Dreifachschuss'
@@ -101,7 +113,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '24':
         type: SHOP
-        id: QUICK_CHARGE_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'QUICK_CHARGE:3'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&cBuch: Schnelles Laden III'
@@ -109,7 +122,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '25':
         type: SHOP
-        id: PIERCING_4_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'PIERCING:4'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&cBuch: Durchschuss IV'
@@ -117,7 +131,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '28':
         type: SHOP
-        id: IMPALING_5_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'IMPALING:5'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&cBuch: Harpune V'
@@ -125,7 +140,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '29':
         type: SHOP
-        id: RIPTIDE_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'RIPTIDE:3'
         buy-price: 1500.0
         sell-price: false
         shop-name: '&cBuch: Sog III'
@@ -133,7 +149,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '30':
         type: SHOP
-        id: LOYALTY_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'LOYALTY:3'
         buy-price: 1200.0
         sell-price: false
         shop-name: '&cBuch: Treue III'
@@ -141,7 +158,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '31':
         type: SHOP
-        id: CHANNELING_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'CHANNELING:1'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&cBuch: Entladung'
@@ -149,7 +167,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '32':
         type: SHOP
-        id: DENSITY_5_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'DENSITY:5'
         buy-price: 2000.0
         sell-price: false
         shop-name: '&4Buch: Dichte V'
@@ -158,7 +177,8 @@ pages:
         - '&8Mace-Verzauberung (1.21+)'
       '33':
         type: SHOP
-        id: BREACH_4_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'BREACH:4'
         buy-price: 2000.0
         sell-price: false
         shop-name: '&4Buch: Rüstungsbruch IV'
@@ -167,7 +187,8 @@ pages:
         - '&8Mace-Verzauberung (1.21+)'
       '34':
         type: SHOP
-        id: WIND_BURST_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'WIND_BURST:3'
         buy-price: 3500.0
         sell-price: false
         shop-name: '&4Buch: Windstoß III'
@@ -176,7 +197,8 @@ pages:
         - '&8Mace-Ominous Belohnung'
       '37':
         type: SHOP
-        id: PROTECTION_4_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'PROTECTION:4'
         buy-price: 1500.0
         sell-price: false
         shop-name: '&9Buch: Schutz IV'
@@ -184,7 +206,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '38':
         type: SHOP
-        id: FIRE_PROTECTION_4_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'FIRE_PROTECTION:4'
         buy-price: 800.0
         sell-price: false
         shop-name: '&9Buch: Feuerschutz IV'
@@ -192,7 +215,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '39':
         type: SHOP
-        id: FEATHER_FALLING_4_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'FEATHER_FALLING:4'
         buy-price: 1200.0
         sell-price: false
         shop-name: '&9Buch: Federfall IV'
@@ -200,7 +224,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '40':
         type: SHOP
-        id: BLAST_PROTECTION_4_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'BLAST_PROTECTION:4'
         buy-price: 800.0
         sell-price: false
         shop-name: '&9Buch: Explosionsschutz IV'
@@ -208,7 +233,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '41':
         type: SHOP
-        id: PROJECTILE_PROTECTION_4_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'PROJECTILE_PROTECTION:4'
         buy-price: 800.0
         sell-price: false
         shop-name: '&9Buch: Schuss-Sicherheit IV'
@@ -216,7 +242,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '42':
         type: SHOP
-        id: RESPIRATION_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'RESPIRATION:3'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&9Buch: Atmung III'
@@ -224,7 +251,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '43':
         type: SHOP
-        id: AQUA_AFFINITY_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'AQUA_AFFINITY:1'
         buy-price: 800.0
         sell-price: false
         shop-name: '&9Buch: Wasseraffinität'
@@ -234,7 +262,8 @@ pages:
     items:
       '10':
         type: SHOP
-        id: THORNS_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'THORNS:3'
         buy-price: 1200.0
         sell-price: false
         shop-name: '&9Buch: Dornen III'
@@ -242,7 +271,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '11':
         type: SHOP
-        id: DEPTH_STRIDER_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'DEPTH_STRIDER:3'
         buy-price: 1200.0
         sell-price: false
         shop-name: '&9Buch: Wasserläufer III'
@@ -250,7 +280,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '12':
         type: SHOP
-        id: FROST_WALKER_2_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'FROST_WALKER:2'
         buy-price: 1000.0
         sell-price: false
         shop-name: '&9Buch: Eisläufer II'
@@ -258,7 +289,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '13':
         type: SHOP
-        id: SOUL_SPEED_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'SOUL_SPEED:3'
         buy-price: 1500.0
         sell-price: false
         shop-name: '&9Buch: Seelentempo III'
@@ -266,7 +298,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '14':
         type: SHOP
-        id: SWIFT_SNEAK_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'SWIFT_SNEAK:3'
         buy-price: 2500.0
         sell-price: false
         shop-name: '&8Buch: Huschen III'
@@ -275,7 +308,8 @@ pages:
         - '&8Ancient City Exklusiv'
       '15':
         type: SHOP
-        id: EFFICIENCY_5_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'EFFICIENCY:5'
         buy-price: 1500.0
         sell-price: false
         shop-name: '&6Buch: Effizienz V'
@@ -283,7 +317,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '16':
         type: SHOP
-        id: SILK_TOUCH_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'SILK_TOUCH:1'
         buy-price: 2000.0
         sell-price: false
         shop-name: '&6Buch: Behutsamkeit'
@@ -291,7 +326,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '19':
         type: SHOP
-        id: FORTUNE_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'FORTUNE:3'
         buy-price: 2000.0
         sell-price: false
         shop-name: '&6Buch: Glück III'
@@ -299,7 +335,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '20':
         type: SHOP
-        id: LUCK_OF_THE_SEA_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'LUCK_OF_THE_SEA:3'
         buy-price: 800.0
         sell-price: false
         shop-name: '&bBuch: Glück des Meeres III'
@@ -307,7 +344,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '21':
         type: SHOP
-        id: LURE_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'LURE:3'
         buy-price: 800.0
         sell-price: false
         shop-name: '&bBuch: Köder III'
@@ -315,7 +353,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '22':
         type: SHOP
-        id: UNBREAKING_3_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'UNBREAKING:3'
         buy-price: 1500.0
         sell-price: false
         shop-name: '&dBuch: Haltbarkeit III'
@@ -323,7 +362,8 @@ pages:
         - '&7Kann nicht verkauft werden!'
       '23':
         type: SHOP
-        id: MENDING_BOOK
+        id: ENCHANTED_BOOK
+        enchantments: 'MENDING:1'
         buy-price: 3000.0
         sell-price: false
         shop-name: '&dBuch: Reparatur'

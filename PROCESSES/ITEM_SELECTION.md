@@ -79,9 +79,9 @@
 | `decorations.yml`    | `dyes`, `flowers`, `banners`, `pottery`                                     | RED_DYE, ROSE_BUSH, WHITE_BANNER      |
 | `tools.yml`          | `pickaxes`, `axes`, `swords`, `shovels`, `hoe`                               | WOODEN_PICKAXE, DIAMOND_AXE           |
 | `armor.yml`          | `helmets`, `chestplates`, `leggings`, `boots`                               | LEATHER_HELMET, NETHERITE_BOOTS       |
-| `enchantments.yml`  | `weapons`, `armor`, `tools`, `fishing`, `misc`                              | SHARPNESS_1_BOOK, PROTECTION_4_BOOK   |
-| `potions.yml`        | `regular`, `splash`, `lingering`, `custom`                                  | POTION_OF_STRENGTH, SPLASH_POTION     |
-| `spawners.yml`       | `mob_spawners`                                                                 | SPAWNER, CREEPER_SPAWNER               |
+| `enchantments.yml`  | `weapons`, `armor`, `tools`, `fishing`, `misc`                              | ENCHANTED_BOOK (`SHARPNESS:1`), ENCHANTED_BOOK (`PROTECTION:4`) |
+| `potions.yml`        | `regular`, `splash`, `lingering`, `custom`                                  | POTION (`type: STRENGTH`), SPLASH_POTION |
+| `spawners.yml`       | `mob_spawners`                                                                 | SPAWNER, SPAWNER (`mob-type: CREEPER`) |
 | `custom_items.yml`   | `server_specific`                                                             | (Leer – für Plugins wie ItemsAdder)   |
 | `misc.yml`           | `utility`, `transport`, `miscellaneous`                                       | ENDER_PEARL, FLINT_AND_STEEL, NAME_TAG |
 
