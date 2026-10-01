@@ -7,8 +7,6 @@
 
 ## 1. 🔗 Quellen, Gewichtung & Manipulationsschutz
 
-> **⚠️ Korrekturhinweis (2026-09-29):** Die ursprüngliche Fassung dieses Abschnitts (erstellt von Antigravity AI) zitierte zwei nicht existierende bzw. falsch charakterisierte Quellen: `mineseed.net/economy` (falsche Domain, führt ins Leere) und ein angebliches "SpigotMC / Paper Economy Aggregate"-Forum (existiert nicht — SpigotMC hat keinen Economy-Diskussionsbereich, nur eine Plugin-Download-Kategorie). Beide wurden durch real verifizierte Quellen ersetzt; siehe `CHANGELOG.md`.
-
 Um eine robuste Ökonomie zu garantieren, die weder durch spekulative Forenbeiträge noch durch gezielte Manipulation einzelner Nutzergruppen beeinflusst werden kann, wird eine dreistufige Quellen-Hierarchie angewandt:
 
 | **Ebene** | **Quelle** | **Typ / URL** | **Gewichtung** | **Aufgabe & Schutzfunktion** |
@@ -33,8 +31,6 @@ Folgende Regeln wurden bei der Preisfindung automatisiert angewandt:
 ---
 
 ## 3. 📊 Progressions- & Spielerniveau-Matrix (eigenes Projektschema)
-
-> **⚠️ Korrekturhinweis (2026-09-29):** Dieser Abschnitt wurde ursprünglich fälschlich dem Minecraft Wiki zugeschrieben. Es gibt **kein** offizielles Wiki-"Tier 1–4"-Preisframework — das Wiki dokumentiert Fortschritt nur implizit über Material-Ketten (Holz → Stein → Eisen → Diamant → Netherit) und hat mit "Rarity" (Common/Uncommon/Rare/Epic) lediglich ein rein kosmetisches Namensfarben-System ohne Wirtschaftsbezug ([minecraft.wiki/w/Rarity](https://minecraft.wiki/w/Rarity)). Die folgende Tier-Matrix ist ein **eigenes, projektinternes Klassifikationsschema** dieses Config-Pakets, das sich an der allgemein bekannten Spiel-Progression orientiert (Early/Mid/Late/End Game) — keine übernommene externe Quelle. Sie wurde als sinnvolles Ordnungsprinzip beibehalten, aber der Tier-2-Buy-Korridor wurde korrigiert (siehe unten).
 
 Die Gegenstände werden anhand von Spielerstadium, Gefahrenpotenzial und Erreichbarkeit in vier Kernstufen eingeteilt:
 
@@ -107,8 +103,6 @@ Die Gegenstände werden anhand von Spielerstadium, Gefahrenpotenzial und Erreich
 ---
 
 ## 5. 🛡️ Ausreißer-Bereinigung — Prinzip
-
-> **⚠️ Korrekturhinweis (2026-09-29):** Dieser Abschnitt enthielt ursprünglich eine Tabelle mit sechs angeblich konkret geprüften und verworfenen Forenvorschlägen (mit erfundenen Quellenangaben wie "Foren-Thread", "Foren-Post", "Diskussion"). Da die zugrundeliegenden Quellen in Abschnitt 1 selbst nicht existierten bzw. falsch beschrieben waren (siehe dortiger Korrekturhinweis), konnten diese spezifischen Preisvorschläge nicht tatsächlich aus dort geprüften Beiträgen stammen — die Tabelle täuschte einen Recherche- und Bereinigungsprozess vor, der so nicht stattgefunden hat. Sie wurde entfernt, statt mit erfundenen Beispielen neu befüllt zu werden.
 
 Das Bereinigungs-**Prinzip** selbst bleibt gültig und wird bei zukünftigen Preis-Entscheidungen angewandt: Weicht ein Preisvorschlag aus einer der in Abschnitt 1 gelisteten Quellen um mehr als 50 % vom Tier-Korridor (Abschnitt 3) ab, wird er als Spekulation eingestuft und nicht übernommen, sofern keine plausible Sonderbegründung vorliegt (siehe z. B. die Emerald-Korridor-Anpassung in Abschnitt 3). Konkrete, real geprüfte Einzelfälle werden hier erst wieder eingetragen, wenn sie tatsächlich anhand der (nun korrigierten) Quellen überprüft wurden.
 

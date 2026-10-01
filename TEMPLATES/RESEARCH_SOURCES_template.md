@@ -1,8 +1,6 @@
 # Preis-Recherche für Minecraft [Version]
 
-**Datum:** [Hier Datum eintragen, z. B. 2026-09-27]
-**Durchgeführt von:** [Hier Name/Agent eintragen]
-**Minecraft-Version:** [Hier Version eintragen, z. B. 1.26.2]
+**Referenzierte Minecraft-Version:** [Hier Version eintragen, z. B. 1.26.2]
 
 ---
 
@@ -131,4 +129,3 @@
 
 ---
 
-*Letzte Aktualisierung: [Datum]*
