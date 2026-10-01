@@ -69,12 +69,12 @@
 
 ### 2.4 🚨 Spezielle Regeln
 
-*Dokumentiere die Anwendung der `-1`-Regeln und Stack-Größen.*
+*Dokumentiere die Anwendung der `false`-Regeln und Stack-Größen.*
 
 | **Item**            | **Regel**               | **Buy** | **Sell** | **Stack-Größe**       | **Begründung**                     |
-|---------------------|--------------------------|---------|----------|------------------------|---------------------------------|
-| DIAMOND_PICKAXE     | `sell: -1`              | 1000.0  | -1       | -                      | Missbrauchsschutz (Enchants)   |
-| SPAWNER             | `buy: -1`               | -1      | 25000.0  | -                      | Nicht kaufbar                   |
+|---------------------|-------------------------|---------|----------|------------------------|---------------------------------|
+| DIAMOND_PICKAXE     | `sell: false`           | 1000.0  | -1       | -                      | Missbrauchsschutz (Enchants)   |
+| SPAWNER             | `buy: false`            | -1      | 25000.0  | -                      | Nicht kaufbar                   |
 | COBBLESTONE         | Stack-Größe             | 2.0     | 0.4      | `buy-stack: 64, sell-stack: 64` | Block → Stacks erlaubt         |
 | IRON_INGOT          | Stack-Größe             | 25.0    | 5.0      | `buy-stack: 64, sell-stack: 64` | Erz → Stacks erlaubt           |
 
@@ -88,7 +88,7 @@
 |-------------------|--------------|--------------|--------------|----------------------------------|---------------------------------|
 | MANGROVE_LOG      | -            | -            | 8.0/1.0      | Median: 8.0/1.0 (Ratio: 8.0 → auf 4.0 angepasst) | Nur in Mineseed gefunden |
 | ARMADILLO_SCUTE   | -            | 5.0/0.5      | -            | Median: 5.0/0.5 (Ratio: 10.0 → auf 5.0 angepasst) | Nur in SpigotMC gefunden |
-| TRIAL_KEY         | -            | -            | -            | Manuell: -1/1000.0              | Neu in 1.26.2, keine Referenzen |
+| TRIAL_KEY         | -            | -            | -            | Manuell: false/1000.0              | Neu in 1.26.2, keine Referenzen |
 
 ---
 
@@ -98,8 +98,8 @@
 
 | **Item**          | **Grund**          | **Entscheidung**               | **Begründung**                     |
 |-------------------|--------------------|----------------------------------|---------------------------------|
-| HEAVY_CORE        | Neu in 1.26.2     | buy: -1, sell: 5000.0           | Extrem selten                   |
-| TRIAL_SPAWNER     | Neu in 1.26.2     | buy: -1, sell: 10000.0          | Extrem selten                   |
+| HEAVY_CORE        | Neu in 1.26.2     | buy: false, sell: 5000.0           | Extrem selten                   |
+| TRIAL_SPAWNER     | Neu in 1.26.2     | buy: false, sell: 10000.0          | Extrem selten                   |
 
 ---
 
@@ -120,10 +120,10 @@
 ## ✅ Validierung
 
 - [ ] Alle Items aus `ITEM_MAPPING.md` haben Preise.
-- [ ] Buy/Sell-Ratio liegt für alle Items zwischen **3:1 und 5:1** (außer `-1`-Regeln).
+- [ ] Buy/Sell-Ratio liegt für alle Items zwischen **3:1 und 5:1** (außer `false`-Regeln).
 - [ ] Farmbarkeit-Werte sind korrekt aus `ITEM_MAPPING.md` übernommen.
 - [ ] Tägliche Limits sind für alle **farmbaren Items** (Farmbarkeit ≥ 0.7) gesetzt.
-- [ ] `-1`-Regeln sind korrekt angewendet (z. B. `sell: -1` für Enchanted Items).
+- [ ] `false`-Regeln sind korrekt angewendet (z. B. `sell: false` für Enchanted Items).
 - [ ] Stack-Größen sind **nur für Blöcke/Erze** gesetzt.
 - [ ] Alle manuellen Anpassungen sind dokumentiert.
 
