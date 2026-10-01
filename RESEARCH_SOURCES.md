@@ -1,6 +1,6 @@
 # Preis-Recherche & Ökonomie-Dokumentation für GUIShop
 
-**Minecraft-Version:** 1.26.2  
+**Minecraft-Version:** 26.3  
 **Zweck:** Mathematische und spieldesign-technische Fundierung aller Shop-Preise basierend auf `ITEM_MAPPING.md`, dem offiziellen `minecraft.wiki` und praxiserprobten Server-Benchmarks.
 
 ---

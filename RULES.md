@@ -44,7 +44,7 @@ GUIShop kennt kein separates `buy-stack`/`sell-stack`-Feld. Käufe/Verkäufe lau
 
 ---
 
-## 💰 **Preis-Leitfaden (Richtwerte für Minecraft 1.26.2)**
+## 💰 **Preis-Leitfaden (Richtwerte für Minecraft 26.3)**
 
 Die folgende Tabelle zeigt die tatsächlich in den `shops/*.yml`-Dateien konfigurierten Werte für je einen typischen Vertreter jeder Kategorie (Stand: 2026-09-29). Sie dient als Referenz-Beispiel für neue Items derselben Kategorie — nicht als Liste offener Korrekturen.
 

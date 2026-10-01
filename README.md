@@ -1,6 +1,6 @@
 # mc-guishop-pricing
 
-A complete, balanced [GUIShop](https://github.com/pablo67340/GUIShop) configuration pack for Minecraft Survival servers (Minecraft 1.26.2, GUIShop 9.4.4+).
+A complete, balanced [GUIShop](https://github.com/pablo67340/GUIShop) configuration pack for Minecraft Survival servers (Minecraft 26.3, GUIShop 9.4.4+).
 
 ## What is this?
 
@@ -43,7 +43,7 @@ The pack is meant to be adapted to your own server's economy:
 
 ## Compatibility
 
-Built and validated against **Minecraft 1.26.2** and **GUIShop 9.4.4+**. Item IDs may need adjustment for other Minecraft or GUIShop versions.
+Built and validated against **Minecraft 26.3** and **GUIShop 9.4.4+**. Item IDs may need adjustment for other Minecraft or GUIShop versions.
 
 ## License
 

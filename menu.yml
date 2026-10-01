@@ -71,7 +71,7 @@ Menu:
           name: '&6Werkzeuge & Waffen'
           lore:
           - '&7Spitzhacken, Schwerter & Streitkolben'
-          - '&cVerkauf deaktiviert (sell: -1)'
+          - '&cVerkauf deaktiviert (sell: false)'
           - ' '
           - '&e▶ Klicke zum Öffnen'
           target-shop: tools
@@ -80,7 +80,7 @@ Menu:
           name: '&9Rüstungen'
           lore:
           - '&7Rüstungssets & Schilde'
-          - '&cVerkauf deaktiviert (sell: -1)'
+          - '&cVerkauf deaktiviert (sell: false)'
           - ' '
           - '&e▶ Klicke zum Öffnen'
           target-shop: armor
@@ -89,7 +89,7 @@ Menu:
           name: '&5Verzauberungen'
           lore:
           - '&7Verzauberte Zauberbücher'
-          - '&cVerkauf deaktiviert (sell: -1)'
+          - '&cVerkauf deaktiviert (sell: false)'
           - ' '
           - '&e▶ Klicke zum Öffnen'
           target-shop: enchantments
@@ -98,7 +98,7 @@ Menu:
           name: '&dTränke & Elixiere'
           lore:
           - '&7Normale & Wurftränke'
-          - '&cVerkauf deaktiviert (sell: -1)'
+          - '&cVerkauf deaktiviert (sell: false)'
           - ' '
           - '&e▶ Klicke zum Öffnen'
           target-shop: potions
@@ -107,7 +107,7 @@ Menu:
           name: '&eMob-Spawner'
           lore:
           - '&7Verkauf von Spawnern'
-          - '&cKauf deaktiviert (buy: -1)'
+          - '&cKauf deaktiviert (buy: false)'
           - ' '
           - '&e▶ Klicke zum Öffnen'
           target-shop: spawners

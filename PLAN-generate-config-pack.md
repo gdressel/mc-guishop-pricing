@@ -22,7 +22,7 @@ GUIShop-config/
 
 ## 0. Technische Vorgaben
 
-- **Zielversion:** Minecraft **1.26.2** + GUIShop **9.4.4+** ([pablo67340/GUIShop](https://github.com/pablo67340/GUIShop))
+- **Zielversion:** Minecraft **26.3** + GUIShop **9.4.4+** ([pablo67340/GUIShop](https://github.com/pablo67340/GUIShop))
 - **Hauptdatei:** Erstelle eine zentrale `menu.yml`, die per `target-shop` auf alle Untershops verweist.
 - **Slot-Sortierung:** Items in jedem Shop werden **nach Unterkategorien gruppiert** (z. B. in `blocks.yml`: Steine → Holz → Glas).
 - **Validierung:** Alle generierten YAML-Dateien müssen mit [YAML Lint](https://yamllint.com/) geprüft werden.
@@ -53,7 +53,7 @@ GUIShop-config/
 **Anleitung:** Siehe **[`PROCESSES/ITEM_SELECTION.md`](./PROCESSES/ITEM_SELECTION.md).
 
 **Schritte:**
-1. Minecraft-Version festlegen (z. B. `1.26.2`).
+1. Minecraft-Version festlegen (z. B. `26.3`).
 2. Vollständige Item-Liste aus offiziellen Quellen erstellen.
 3. Items den **15 Kategorien + Subgruppen** zuweisen (siehe `ITEM_SELECTION.md`).
 4. Farmbarkeit-Werte (0.0–1.0) für jedes Item festlegen.
@@ -198,7 +198,7 @@ pages:
 ## 6. ✅ **CHECKLISTE FÜR DIE UMSETZUNG**
 
 ### Phase 1: Item-Bestimmung
-- [x] Minecraft-Version festlegen (z. B. `1.26.2`).
+- [x] Minecraft-Version festlegen (z. B. `26.3`).
 - [x] **`PROCESSES/ITEM_SELECTION.md`** lesen und anwenden.
 - [x] Vollständige Item-Liste aus offiziellen Quellen erstellen.
 - [x] Items den **15 Kategorien + Subgruppen** zuweisen.
@@ -249,7 +249,7 @@ Erstelle eine kurze Anleitung für Server-Admins mit:
   ```markdown
   ## [1.0.0] - 2026-09-27
   ### Added
-  - Erstversion für Minecraft 1.26.2.
+  - Erstversion für Minecraft 26.3.
   - Alle 15 Shop-Kategorien.
   ### Changed
   - `IRON_INGOT`: sell-Preis von 6.0 auf 5.0 angepasst (Ratio-Optimierung).

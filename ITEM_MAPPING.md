@@ -1,6 +1,6 @@
 # Item-Mapping für GUIShop
 
-**Minecraft-Version:** 1.26.2
+**Minecraft-Version:** 26.3
 
 ---
 

@@ -1,6 +1,6 @@
 # Projektfortschritt: GUIShop Config-Paket
 
-**Projektziel:** Vollständiges, ausbalanciertes Best-Practice GUIShop-Paket für Minecraft Survival (Version 1.26.2 / GUIShop 9.4.4+).
+**Projektziel:** Vollständiges, ausbalanciertes Best-Practice GUIShop-Paket für Minecraft Survival (Version 26.3 / GUIShop 9.4.4+).
 
 ---
 
