@@ -1,6 +1,6 @@
 # Preis-Recherche für Minecraft [Version]
 
-**Referenzierte Minecraft-Version:** [Hier Version eintragen, z. B. 1.26.2]
+**Referenzierte Minecraft-Version:** [Hier Version eintragen, z. B. 26.3 — Minecraft nutzt seit 2026 das Jahres-Schema `JJ.N` statt `1.x.x`, siehe [Versionshistorie](https://minecraft.wiki/w/Java_Edition_version_history)]
 
 ---
 
@@ -18,9 +18,9 @@
 
 | **Ebene** | **Quelle** | **URL** | **Gewichtung** | **Validierung / Schutz gegen Manipulation** |
 |:---|:---|:---|:---:|:---|
-| **Ebene 1** | **Minecraft Wiki (Offiziell)** | [https://minecraft.wiki/](https://minecraft.wiki/) | **0.50** | Unmanipulierbar: Spielmechaniken, Seltenheit, Progression T1–T4 |
-| **Ebene 2** | **Mineseed Economy Guide** | [https://mineseed.net/economy](https://mineseed.net/economy) | **0.35** | Praxiserprobte Referenzwerte aus Langzeit-Survival-Servern |
-| **Ebene 3** | **SpigotMC Aggregierte Statistiken** | [https://spigotmc.org/forums/economy](https://www.spigotmc.org/forums/economy.53/) | **0.15** | Nur aggregierte Erhebungen (keine isolierten Einzelthreads) |
+| **Ebene 1** | **Minecraft Wiki (Offiziell)** | [https://minecraft.wiki/](https://minecraft.wiki/) | **0.50** | Unmanipulierbar: Spielmechaniken, Seltenheit, Progression T1–T4 (eigenes Projektschema, kein Wiki-Inhalt) |
+| **Ebene 2** | **Mineseed — Official Price Guide** | [docs.mineseed.org/mineseed/the-official-price-guide](https://docs.mineseed.org/mineseed/the-official-price-guide) | **0.35** | Mindestpreis-*Floor*-System eines Survival-Servers — nur als unterer Realitäts-Anker, kein Buy/Sell-Ratio-Vorbild |
+| **Ebene 3** | **verzion's Economy Price Guide** | [minecraft-economy-price-guide.net](https://minecraft-economy-price-guide.net/) | **0.15** | Community-gepflegte Preisdatenbank — nur grobe Plausibilitätsprüfung, keine belastbare Einzelwert-Quelle |
 
 ---
 
@@ -73,8 +73,8 @@
 
 | **Item**            | **Regel**               | **Buy** | **Sell** | **Stack-Größe**       | **Begründung**                     |
 |---------------------|-------------------------|---------|----------|------------------------|---------------------------------|
-| DIAMOND_PICKAXE     | `sell: false`           | 1000.0  | -1       | -                      | Missbrauchsschutz (Enchants)   |
-| SPAWNER             | `buy: false`            | -1      | 25000.0  | -                      | Nicht kaufbar                   |
+| DIAMOND_PICKAXE     | `sell: false`           | 1000.0  | false    | -                      | Missbrauchsschutz (Enchants)   |
+| SPAWNER             | `buy: false`            | false   | 25000.0  | -                      | Nicht kaufbar                   |
 | COBBLESTONE         | Stack-Größe             | 2.0     | 0.4      | `buy-stack: 64, sell-stack: 64` | Block → Stacks erlaubt         |
 | IRON_INGOT          | Stack-Größe             | 25.0    | 5.0      | `buy-stack: 64, sell-stack: 64` | Erz → Stacks erlaubt           |
 
@@ -88,7 +88,7 @@
 |-------------------|--------------|--------------|--------------|----------------------------------|---------------------------------|
 | MANGROVE_LOG      | -            | -            | 8.0/1.0      | Median: 8.0/1.0 (Ratio: 8.0 → auf 4.0 angepasst) | Nur in Mineseed gefunden |
 | ARMADILLO_SCUTE   | -            | 5.0/0.5      | -            | Median: 5.0/0.5 (Ratio: 10.0 → auf 5.0 angepasst) | Nur in SpigotMC gefunden |
-| TRIAL_KEY         | -            | -            | -            | Manuell: false/1000.0              | Neu in 1.26.2, keine Referenzen |
+| TRIAL_KEY         | -            | -            | -            | Manuell: false/1000.0              | Neu in 1.21 "Tricky Trials", keine Referenzen |
 
 ---
 
@@ -98,8 +98,8 @@
 
 | **Item**          | **Grund**          | **Entscheidung**               | **Begründung**                     |
 |-------------------|--------------------|----------------------------------|---------------------------------|
-| HEAVY_CORE        | Neu in 1.26.2     | buy: false, sell: 5000.0           | Extrem selten                   |
-| TRIAL_SPAWNER     | Neu in 1.26.2     | buy: false, sell: 10000.0          | Extrem selten                   |
+| HEAVY_CORE        | Neu in 1.21 "Tricky Trials" | buy: false, sell: 5000.0  | Extrem selten                   |
+| TRIAL_SPAWNER     | Neu in 1.21 "Tricky Trials" | buy: false, sell: 10000.0 | Extrem selten                   |
 
 ---
 
@@ -111,7 +111,7 @@
   - `IRON_INGOT`: Buy von 30.0 auf **25.0** reduziert (Ratio-Anpassung).
   - `DIAMOND`: Sell von 70.0 auf **75.0** erhöht (Inflation).
 - **Neue Items:**
-  - `TRIAL_KEY`, `HEAVY_CORE` (neu in 1.26.2).
+  - `TRIAL_KEY`, `HEAVY_CORE` (neu in 1.21 "Tricky Trials").
 - **Entfernte Items:**
   - Keine.
 

@@ -18,8 +18,8 @@ Um **Einflussnahme durch Meinungsmache, gezielte Forenbeiträge ("Astroturfing")
 | **Ebene** | **Quelle** | **Typ / URL** | **Gewichtung** | **Aufgabe & Manipulationsschutz** |
 |:---|:---|:---|:---:|:---|
 | **Ebene 1: Objektives Fundament** | **Minecraft Wiki (Offiziell)** | [minecraft.wiki](https://minecraft.wiki/) | **0.50** | **Unmanipulierbare Basis:** Bestimmt Seltenheit, Drop-Chancen, Spawn-Raten, Vorkommen, Crafting-Tiefe und die benötigte Progressionsstufe des Spielers. |
-| **Ebene 2: Etablierte Langzeit-Server** | **Mineseed & Etablierte Ökonomie-Modelle** | [mineseed.net/economy](https://mineseed.net/economy) | **0.35** | **Praxistests:** Daten aus langjährig betriebenen Survival-Servern ohne Hyperinflation. |
-| **Ebene 3: Aggregierte Community-Daten** | **SpigotMC & PaperMC Aggregate** | [spigotmc.org/forums/economy](https://www.spigotmc.org/forums/economy.53/) | **0.15** | **Nur aggregierte Daten:** Keine Einzelbeiträge! Nur statistische Durchschnitte aus Erhebungen mit mindestens 20+ Servern. |
+| **Ebene 2: Server-Preis-Floor** | **Mineseed — Official Price Guide** | [docs.mineseed.org/mineseed/the-official-price-guide](https://docs.mineseed.org/mineseed/the-official-price-guide) | **0.35** | **Realitäts-Anker:** Mindestpreis-*Floor*-System eines Survival-Servers, nur als unterer Anker, kein Buy/Sell-Ratio-Vorbild. |
+| **Ebene 3: Community-Preisdatenbank** | **verzion's Economy Price Guide** | [minecraft-economy-price-guide.net](https://minecraft-economy-price-guide.net/) | **0.15** | **Nur grobe Plausibilitätsprüfung:** Community-gepflegte Datenbank, keine belastbare Einzelwert-Quelle. |
 
 ---
 
@@ -48,7 +48,7 @@ Bevor externe Preise geprüft werden, bestimmt das **Minecraft Wiki** den Basis-
 | **Tier 1 (Early Game)** | Startphase, Erdoberfläche, Grundwerkzeuge (Holz/Stein), ohne Gefahr | Cobblestone, Eichenholz, Weizen, Wolle, Erde, Sand | `1.0` – `8.0` | `0.2` – `1.6` |
 | **Tier 2 (Mid Game)** | Bergbau, Höhlen, Werkzeuge Stufe Eisen/Diamant, Dorfbewohner-Handel | Eisen, Gold, Lapis, Diamanten, Schleim, Redstone | `10.0` – `350.0` | `2.0` – `75.0` |
 | **Tier 3 (Late Game)** | Nether-Festungen, Bastionen, Braustand, gefährliche Monsterfarmen | Lohenruten, Netherit, Ghast-Tränen, Wither-Schädel, Tränke | `40.0` – `6000.0` | `8.0` – `1250.0` |
-| **Tier 4 (End Game)** | Drachenkampf, End-Inseln, Ominous Trial Chambers, Unikate | Elytren, Drachenei, Schwerer Kern, Shulker-Schalen, Totems | `400.0` – `15000.0` (oder `buy: -1`) | `80.0` – `5000.0` |
+| **Tier 4 (End Game)** | Drachenkampf, End-Inseln, Ominous Trial Chambers, Unikate | Elytren, Drachenei, Schwerer Kern, Shulker-Schalen, Totems | `400.0` – `15000.0` (oder `buy: false`) | `80.0` – `5000.0` |
 
 ---
 
@@ -101,7 +101,7 @@ Nutze die **Farmbarkeit-Werte** aus `ITEM_MAPPING.md` und passe die Preise an di
 | 0.7–0.8         | 1.0–5.0        | 10.0–30.0     | 3:1–5:1   | 500–2000           | IRON_INGOT            |
 | 0.3–0.6         | 5.0–20.0       | 20.0–100.0    | 3:1–5:1   | 100–500            | GOLD_INGOT            |
 | 0.0–0.2         | 50.0–200.0     | 300.0–1000.0  | 3:1–5:1   | Kein Limit        | DIAMOND                |
-| 0.0             | 1000.0–25000.0 | -1            | -         | Kein Limit        | DRAGON_EGG            |
+| 0.0             | 1000.0–25000.0 | false         | -         | Kein Limit        | DRAGON_EGG            |
 
 **Anwendung:**
 1. Prüfe die **Farmbarkeit** des Items aus `ITEM_MAPPING.md`.
@@ -122,10 +122,10 @@ Nutze die **Farmbarkeit-Werte** aus `ITEM_MAPPING.md` und passe die Preise an di
 
 | **Regel**               | **Anwendung**                                                                 | **Beispiel**                     |
 |-------------------------|-------------------------------------------------------------------------------|----------------------------------|
-| `buy: -1`               | Item **kann nicht gekauft** werden (muss erspielt werden).               | DRAGON_EGG, HEAVY_CORE, SPAWNER |
-| `sell: -1`              | Item **kann nicht verkauft** werden (Missbrauchsschutz).                 | DIAMOND_PICKAXE, NETHERITE_SWORD |
+| `buy: false`            | Item **kann nicht gekauft** werden (muss erspielt werden).               | DRAGON_EGG, HEAVY_CORE, SPAWNER |
+| `sell: false`           | Item **kann nicht verkauft** werden (Missbrauchsschutz).                 | DIAMOND_PICKAXE, NETHERITE_SWORD |
 | **Stack-Größen**        | `buy-stack: 64`, `sell-stack: 64` **nur für Blöcke/Erze**.                     | COBBLESTONE, IRON_INGOT          |
-| **Enchanted Items**     | **Immer `sell: -1`** (unabhängig von Farmbarkeit).                             | EFFICIENCY_5_BOOK                |
+| **Enchanted Items**     | **Immer `sell: false`** (unabhängig von Farmbarkeit).                          | EFFICIENCY_5_BOOK                |
 
 ---
 
@@ -147,18 +147,18 @@ Nutze die **Farmbarkeit-Werte** aus `ITEM_MAPPING.md` und passe die Preise an di
 
 **Format:**
 ```markdown
-# Preis-Recherche für Minecraft 1.26.2
-**Datum:** 2026-09-27
-**Durchgeführt von:** [Name/Agent]
+# Preis-Recherche für Minecraft 26.3
+
+**Hinweis zum Versionsschema:** Seit 2026 verwendet Minecraft Java Edition kein `1.x.x`-Schema mehr; die letzte `1.x`-Version war `1.21`. Aktuelle Versionen folgen dem Jahres-Schema `JJ.N` (z. B. `26.1`, `26.2`, `26.3`).
 
 ---
 
 ## 1. Quellen
 | Quelle                          | URL                                                                 | Gewichtung | Notizen                     |
 |---------------------------------|---------------------------------------------------------------------|------------|-----------------------------|
-| SpigotMC Economy Threads        | [Link](https://www.spigotmc.org/threads/12345)                     | 0.4        | Median aus 50 Servern        |
-| Minecraft Wiki – Economy        | [Link](https://minecraft.wiki/w/Economy)                           | 0.3        | Theoretische Empfehlungen    |
-| Mineseed Economy Guide          | [Link](https://mineseed.net/economy)                              | 0.3        | Praxiserprobte Preise       |
+| Minecraft Wiki (Offiziell)      | [minecraft.wiki](https://minecraft.wiki/)                          | 0.50       | Seltenheit, Progression T1–T4 |
+| Mineseed — Official Price Guide | [Link](https://docs.mineseed.org/mineseed/the-official-price-guide) | 0.35       | Mindestpreis-Floor, nur Anker |
+| verzion's Economy Price Guide   | [Link](https://minecraft-economy-price-guide.net/)                 | 0.15       | Grobe Plausibilitätsprüfung |
 
 ---
 
@@ -187,16 +187,16 @@ Nutze die **Farmbarkeit-Werte** aus `ITEM_MAPPING.md` und passe die Preise an di
 ### 2.4 Nicht abgedeckte Items
 | Item          | Grund          | Vorgehen                     |
 |---------------|----------------|------------------------------|
-| TRIAL_KEY     | Neu in 1.26.2  | Preis manuell auf 1000.0/200.0 gesetzt |
-| HEAVY_CORE    | Neu in 1.26.2  | buy: -1, sell: 5000.0        |
+| TRIAL_KEY     | Neu in 1.21 "Tricky Trials" | Preis manuell auf 1000.0/200.0 gesetzt |
+| HEAVY_CORE    | Neu in 1.21 "Tricky Trials" | buy: false, sell: 5000.0     |
 
 ---
 
 ## 3. Nicht gefundene Preise
 | Item          | Quelle 1 | Quelle 2 | Quelle 3 | Entscheidung               |
 |---------------|----------|----------|----------|-----------------------------|
-| MANGROVE_LOG  | -        | -        | 8.0/1.0  | Median aus Mineseed (8.0/1.0) |
-| ARMADILLO_SCUTE | -      | 5.0/0.5  | -        | Median aus SpigotMC (5.0/0.5) |
+| MANGROVE_LOG  | -        | -        | 8.0/1.0  | Median aus Mineseed Price Guide (8.0/1.0) |
+| ARMADILLO_SCUTE | -      | 5.0/0.5  | -        | Median aus verzion's Price Guide (5.0/0.5) |
 ```
 
 ---
@@ -218,7 +218,3 @@ Nutze die **Farmbarkeit-Werte** aus `ITEM_MAPPING.md` und passe die Preise an di
 4. **Farmbarkeit & Spezialregeln anwenden** (ggf. anpassen).
 5. **`RESEARCH_SOURCES.md` aktualisieren** mit neuen Daten.
 6. **Shops neu generieren** (manuell oder per Skript).
-
----
-
-*Letzte Aktualisierung: 2026-09-27*

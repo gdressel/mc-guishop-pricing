@@ -11,14 +11,14 @@
 
 ### **Schritt 1: Minecraft-Version festlegen**
 **Aktion:**
-- Lege die **Zielversion** fest (z. B. `1.26.2`).
+- Lege die **Zielversion** fest (z. B. `26.3`).
 - Dokumentiere die Version in **`ITEM_MAPPING.md`** (Header).
+- **Hinweis zum Versionsschema:** Seit 2026 verwendet Minecraft Java Edition kein `1.x.x`-Schema mehr; die letzte `1.x`-Version war `1.21`. Aktuelle Versionen folgen dem Jahres-Schema `JJ.N` (z. B. `26.1`, `26.2`, `26.3`). Prüfe vor der Dokumentation immer die [offizielle Versionshistorie](https://minecraft.wiki/w/Java_Edition_version_history), statt eine Version zu vermuten.
 
 **Beispiel:**
 ```markdown
 # Item-Mapping für GUIShop
-**Minecraft-Version:** 1.26.2
-**Datum:** 2026-09-27
+**Minecraft-Version:** 26.3
 ```
 
 ---
@@ -29,7 +29,7 @@
 **Quellen:**
 1. [Minecraft Wiki – Liste aller Blöcke](https://minecraft.wiki/w/Block)
 2. [Minecraft Wiki – Liste aller Items](https://minecraft.wiki/w/Item)
-3. [Minecraft Data Values](https://minecraft.wiki/w/Data_values) (für technische Namen)
+3. [Spigot/Paper `Material`-Enum (Javadocs)](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html) (für die technischen Bukkit-API-Namen, die `id:` in den Shop-Configs erwartet — **nicht** die Minecraft-Wiki-"Data Values"-Seiten, die vanilla Identifier/Legacy-Zahlen-IDs dokumentieren, keine Bukkit-Materialnamen)
 
 **Methode:**
 1. Gehe durch die **offiziellen Listen** und notiere **jeden relevanten Eintrag**.
@@ -41,7 +41,7 @@
 
 | **Feld**          | **Beispiel**       | **Beschreibung**                          | **Quelle**                     |
 |------------------|-------------------|------------------------------------------|--------------------------------|
-| Material-Name    | `COBBLESTONE`     | Offizieller Spigot/Paper-Materialname.   | Minecraft Data Values          |
+| Material-Name    | `COBBLESTONE`     | Offizieller Spigot/Paper-Materialname.   | Spigot/Paper `Material`-Enum   |
 | Anzeigename      | `Kopfstein`       | Deutsch/Englisch (je nach Server).        | Minecraft Wiki                 |
 | Typ              | `Block`           | Block/Item/Tool/Armor/Enchanted/Other.     | Eigenes Urteil                |
 | Farmbarkeit      | `0.9`             | 0.0 (nicht farmbar) – 1.0 (extrem farmbar). | Eigenes Urteil + Community-Diskussionen |
@@ -116,7 +116,7 @@
 | GUNPOWDER        | mobdrops        | hostile_mobs   | 0.7         | Creepers droppt es              |
 | DRAGON_EGG       | nether_end      | end_items     | 0.0         | End-Drop                        |
 | DIAMOND_PICKAXE  | tools           | pickaxes      | 0.0         | Werkzeug                       |
-| ENDER_PEARL      | misc            | utility       | 0.3         | Transport-Item                 |
+| ENDER_PEARL      | misc            | utility       | 0.6         | AFK-fähige Enderman-Farm (siehe `RESEARCH_SOURCES.md` Abschnitt 6b) |
 
 ---
 
@@ -126,9 +126,7 @@
 **Format:**
 ```markdown
 # Item-Mapping für GUIShop
-**Minecraft-Version:** 1.26.2
-**Datum:** 2026-09-27
-**Erstellt von:** [Name/Agent]
+**Minecraft-Version:** 26.3
 
 ---
 
@@ -152,10 +150,12 @@
 ---
 
 ## 📝 Änderungen gegenüber Vorversion
-- **Hinzugefügt:** TRIAL_KEY, HEAVY_CORE (neu in 1.26.2)
+- **Hinzugefügt:** [Neue Items der Zielversion, mit Quellenangabe statt Vermutung, z. B. "TRIAL_KEY, HEAVY_CORE (neu in 1.21 'Tricky Trials')"]
 - **Entfernt:** - 
 - **Anpassungen:** Farmbarkeit von IRON_INGOT von 0.7 auf 0.8 erhöht (neue Iron Farm-Methoden).
 ```
+
+**Hinweis:** Autor und Datum der Änderung werden **nicht** im Dokument selbst geführt, sondern über die Git-Commit-Historie abgedeckt (siehe `ec84c1f`).
 
 ---
 
@@ -164,8 +164,7 @@
 - [ ] Keine Duplikate in den Zuordnungen.
 - [ ] Jedes Item hat eine **klare Kategorie/Subgruppe**.
 - [ ] Farmbarkeit-Werte sind **realistisch**. 
-- [ ] Alle neuen Items aus Version 1.26.2 enthalten.
-```
+- [ ] Alle neuen Items der Zielversion enthalten.
 
 ---
 **Hinweis:** Diese Datei ist die **einzige Quelle der Wahrheit** für die Item-Zuordnung. Jede Änderung muss hier dokumentiert werden.
@@ -174,13 +173,9 @@
 
 ## 📌 **Wiederholung bei Minecraft-Updates**
 
-1. **Neue Version identifizieren** (z. B. 1.27.0).
+1. **Neue Version identifizieren** (gemäß aktuellem Schema, z. B. `26.4` — siehe Hinweis in Schritt 1).
 2. **Neue Items/Blöcke** aus den offiziellen Quellen extrahieren.
 3. **Farmbarkeit einschätzen** (Community-Diskussionen, Wiki-Recherche).
 4. **Items den bestehenden Kategorien/Subgruppen zuweisen** (oder neue Subgruppen erstellen).
 5. **`ITEM_MAPPING.md` aktualisieren** und Änderungen dokumentieren.
 6. **Validierung durchführen** (siehe Checkliste oben).
-
----
-
-*Letzte Aktualisierung: 2026-09-27*
